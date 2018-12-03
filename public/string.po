@@ -184,17 +184,17 @@ msgstr "Lebih banyak bahan limbah diperlukan untuk memulai proses pengomposan"
 #. STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.NAME"
 msgid "Batteries Sufficiently Full"
-msgstr ""
+msgstr "Baterai Cukup Penuh"
 
 #. STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.TOOLTIP"
 msgid "All batteries are above the refill threshold"
-msgstr ""
+msgstr "Semua baterai berada di atas ambang isi ulang"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.NAME"
 msgid "Auto-Bottle: On"
-msgstr ""
+msgstr "Boto-Auto: Hidup"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.TOOLTIP"
@@ -202,11 +202,13 @@ msgid ""
 "Duplicants may specifically fetch liquid from Pitcher Pumps to bring to this "
 "location"
 msgstr ""
+"Duplikat secara khusus dapat mengambil cairan dari Pompa Tangan untuk dibawa "
+"ke lokasi ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.NAME"
 msgid "Auto-Bottle: Off"
-msgstr ""
+msgstr "Botol-Auto: Mati"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.TOOLTIP"
@@ -214,11 +216,13 @@ msgid ""
 "Duplicants may not specifically fetch liquid from Pitcher Pumps to bring to "
 "this location"
 msgstr ""
+"Duplikat mungkin tidak secara khusus mengambil cairan dari Pompa Tangan "
+"untuk dibawa ke lokasi ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.BROKEN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BROKEN.NAME"
 msgid "Broken"
-msgstr ""
+msgstr "Rusak"
 
 #. STRINGS.BUILDING.STATUSITEMS.BROKEN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BROKEN.TOOLTIP"
@@ -229,41 +233,43 @@ msgid ""
 "\n"
 "It will not function until it receives repairs"
 msgstr ""
+"Patah---Bangunan ini menerima kerusakan dari {DamageInfo} dan tidak akan "
+"berfungsi sampai menerima perbaikan"
 
 #. STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.NAME"
 msgid "Building Disabled"
-msgstr ""
+msgstr "Bangunan Dinonaktifkan"
 
 #. STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.TOOLTIP"
 msgid "Press <color=#F44A47>[ENTER]</color> to resume use"
-msgstr ""
+msgstr "Tekan <color=#F44A47>[ENTER]</color> untuk melanjutkan penggunaan"
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.NAME"
 msgid "Consuming Fuel: {0}"
-msgstr ""
+msgstr "Memakai Bahan Bakar: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.TOOLTIP"
 msgid "{0} fuel remaining"
-msgstr ""
+msgstr "{0} bahan bakar yang tersisa"
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.NAME"
 msgid "Fueled: {0}"
-msgstr ""
+msgstr "Bahan Bakar: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.TOOLTIP"
 msgid "{0} fuel remaining"
-msgstr ""
+msgstr "{0} bahan bakar yang tersisa"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.NAME"
 msgid "Auto-Canister: On"
-msgstr ""
+msgstr "Tabung-Auto: Hidup"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.TOOLTIP"
@@ -271,11 +277,13 @@ msgid ""
 "Duplicants may specifically fetch gas from Canister Fillers to bring to this "
 "location"
 msgstr ""
+"Duplicants mungkin secara khusus dapat mengambil gas dari tabung pengisi "
+"untuk dibawa ke lokasi ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.NAME"
 msgid "Auto-Canister: Off"
-msgstr ""
+msgstr "Tabung-Auto: Mati"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.TOOLTIP"
@@ -283,65 +291,68 @@ msgid ""
 "Duplicants may not specifically fetch gas from Canister Fillers to bring to "
 "this location"
 msgstr ""
+"Duplicants mungkin tidak secara khusus mengambil gas dari tabung pengisi "
+"untuk membawa ke lokasi ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.NAME"
 msgid "Minimum Temperature Reached"
-msgstr ""
+msgstr "Suhu Minimum Tercapai"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.TOOLTIP"
 msgid "This building cannot cool the surrounding environment below {0}"
 msgstr ""
+"Bangunan ini tidak bisa mendinginkan lingkungan di sekitarnya di bawah {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHANGEDOORCONTROLSTATE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHANGEDOORCONTROLSTATE.NAME"
 msgid "Pending Door State Change: {ControlState}"
-msgstr ""
+msgstr "Menunggu Perubahan Status Pintu: {ControlState}"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHANGEDOORCONTROLSTATE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHANGEDOORCONTROLSTATE.TOOLTIP"
 msgid "Waiting for a Duplicant to change control state"
-msgstr ""
+msgstr "Menunggu Duplikat untuk mengubah status kontrol"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_CLOSED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_CLOSED"
 msgid "Clearance: Not Permitted"
-msgstr ""
+msgstr "Ijin: Tidak diperbolehkan"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_DISCONNECTED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_DISCONNECTED"
 msgid "No Automation"
-msgstr ""
+msgstr "Tidak Ada Otomatisasi"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_OPEN
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_OPEN"
 msgid "Clearance: Permitted"
-msgstr ""
+msgstr "Ijin: Diperbolehkan"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_CLOSED
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_CLOSED"
 msgid "Automated Checkpoint is Active, allowing Duplicants to pass"
-msgstr ""
+msgstr "Cekpoin Otomatis adalah aktif, mnegijikan Duplikat untuk lewat"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_DISCONNECTED
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS."
 "LOGIC_CONTROLLED_DISCONNECTED"
 msgid "This Checkpoint has not been connected to an automation grid"
-msgstr ""
+msgstr "Pemeriksaan ini tidak terhubung ke grid otomatis"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_OPEN
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_OPEN"
 msgid "Automated Checkpoint is on Standby, preventing Duplicants from passing"
-msgstr ""
+msgstr "Cekpoin Otomatis adalah siaga, mencegah Duplikat untuk lewat"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.NAME"
 msgid "Medical building outside Med Bay"
-msgstr ""
+msgstr "Bangunan medis diluar Med Bay"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.TOOLTIP"
@@ -349,11 +360,13 @@ msgid ""
 "Rebuild this medical equipment in a Med Bay to more effectively quarantine "
 "sick Duplicants"
 msgstr ""
+"Bangun kembali peralatan medis di Med Bay untuk lebih efektif dalam "
+"mengkarantina Duplikat yang sakir"
 
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDROLEPERK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDROLEPERK.NAME"
 msgid "Colony Lacks {Roles}s"
-msgstr ""
+msgstr "Koloni kekurangan {Roles} s"
 
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDROLEPERK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDROLEPERK.TOOLTIP"
@@ -361,21 +374,23 @@ msgid ""
 "Open the Jobs Panel <color=#F44A47><b>(L)</b></color> and assign a Duplicant "
 "to the {Roles} position to use this building"
 msgstr ""
+"Buka Panel Kerja <color=#F44A47><b>(L)</b></color> dan tugaskan Duplikat di "
+"posisi {Roles} untuk menggunakan bangunan ini  "
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME"
 msgid "Pipe Blocked"
-msgstr ""
+msgstr "PIpa Terblokir!"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.TOOLTIP"
 msgid "This pipe system is not serviceable"
-msgstr ""
+msgstr "Sistem pipa tidak dapar berfungsi"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.NAME"
 msgid "Unreachable Dig"
-msgstr ""
+msgstr "Penggalian Tidak Dapat Dicapai"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.TOOLTIP"
