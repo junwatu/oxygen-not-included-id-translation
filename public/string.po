@@ -395,42 +395,42 @@ msgstr "Penggalian Tidak Dapat Dicapai"
 #. STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.TOOLTIP"
 msgid "This construction site contains cells that cannot be dug out"
-msgstr ""
+msgstr "Situs konstruksi ini berisi sel-sel yang tidak dapat digali"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONSTRUCTIONUNREACHABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONSTRUCTIONUNREACHABLE.NAME"
 msgid "Unreachable Build"
-msgstr ""
+msgstr "Penggalian Tidak Dapat Dicapai"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONSTRUCTIONUNREACHABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONSTRUCTIONUNREACHABLE.TOOLTIP"
 msgid "Duplicants cannot reach this construction site"
-msgstr ""
+msgstr "Duplicants tidak dapat mencapai situs konstruksi ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONSUMINGFROMSTORAGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONSUMINGFROMSTORAGE.NAME"
 msgid "Consuming {ElementTypes}: {FlowRate}"
-msgstr ""
+msgstr "Mengkonsumsi {ElementTypes}: {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONSUMINGFROMSTORAGE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONSUMINGFROMSTORAGE.TOOLTIP"
 msgid "This building is consuming {ElementTypes} from storage"
-msgstr ""
+msgstr "Bangunan ini memakan {ElementTypes} dari penyimpanan"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONVEYOR.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONVEYOR.NAME"
 msgid "Contents: {Contents}"
-msgstr ""
+msgstr "Isi: {Contents}"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONVEYOR.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONVEYOR.TOOLTIP"
 msgid "This conveyor is delivering {Contents}"
-msgstr ""
+msgstr "Ban ini mengirimkan {Contents}"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONVEYOR_CONTENTS.CONTENTS
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONVEYOR_CONTENTS.CONTENTS"
 msgid "{0} of {1} at {2}"
-msgstr ""
+msgstr "{0} {1} di (2)"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONVEYOR_CONTENTS.CONTENTS_WITH_DISEASE
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONVEYOR_CONTENTS.CONTENTS_WITH_DISEASE"
@@ -438,26 +438,28 @@ msgid ""
 "\n"
 "  {0}"
 msgstr ""
+"\n"
+"  {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONVEYOR_CONTENTS.EMPTY
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONVEYOR_CONTENTS.EMPTY"
 msgid "Empty"
-msgstr ""
+msgstr "Kosong"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLING.NAME"
 msgid "Cooling"
-msgstr ""
+msgstr "Pendinginan"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLING.TOOLTIP"
 msgid "This building is cooling the surrounding area"
-msgstr ""
+msgstr "Bangunan ini adalah pendingin bagi sekitarnya"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDGAS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDGAS.NAME"
 msgid "Gas Too Cold"
-msgstr ""
+msgstr "Gas Terlalu Dingin"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDGAS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDGAS.TOOLTIP"
@@ -466,11 +468,13 @@ msgid ""
 "\n"
 "Current Pipe Contents: {0}"
 msgstr ""
+"Bangunan ini tidak dapat mendinginkan  isi pipa di bawah {0} Isi Pipa Saat "
+"Ini: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDLIQUID.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDLIQUID.NAME"
 msgid "Liquid Too Cold"
-msgstr ""
+msgstr "Cairan Terlalu Dingin"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDLIQUID.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDLIQUID.TOOLTIP"
@@ -479,11 +483,13 @@ msgid ""
 "\n"
 "Current Pipe Contents: {0}"
 msgstr ""
+"Bangunan ini tidak dapat mendinginkan isi pipa di bawah {0} Isi Pipa Saat "
+"Ini: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTENV.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTENV.NAME"
 msgid "Gas Too Hot"
-msgstr ""
+msgstr "Gas Terlalu Panas"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTENV.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTENV.TOOLTIP"
@@ -494,11 +500,13 @@ msgid ""
 "Environment: {0}\n"
 "Current Pipe Contents: {1}"
 msgstr ""
+"Isi pipa yang masuk  tidak dapat didinginkan lebih dari (2) di bawah "
+"lingkungan sekitarnya Lingkungan: {0} Isi Pipa Saat Ini: {1}"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTLIQUID.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTLIQUID.NAME"
 msgid "Liquid Too Hot"
-msgstr ""
+msgstr "Cairan Terlalu Panas"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTLIQUID.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTLIQUID.TOOLTIP"
@@ -509,56 +517,58 @@ msgid ""
 "Environment: {0}\n"
 "Current Pipe Contents: {1}"
 msgstr ""
+"Isi pipa yang masuk  tidak dapat didinginkan lebih dari (2) di bawah "
+"lingkungan sekitarnya Lingkungan: {0} Isi Pipa Saat Ini: {1}"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.NEEDSBAIT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.NEEDSBAIT.NAME"
 msgid "Needs Bait"
-msgstr ""
+msgstr "Membutuhkan umpan"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.NEEDSBAIT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.NEEDSBAIT.TOOLTIP"
 msgid "This trap needs to be baited before it can be set"
-msgstr ""
+msgstr "Perangkap ini perlu diberi umpan sebelum dapat diatur"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.READY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.READY.NAME"
 msgid "Set"
-msgstr ""
+msgstr "Set"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.READY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.READY.TOOLTIP"
 msgid "This trap has been set and is ready to catch a critter"
-msgstr ""
+msgstr "Perangkap ini telah ditetapkan dan siap untuk menangkap makhluk"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.SPRUNG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.SPRUNG.NAME"
 msgid "Sprung"
-msgstr ""
+msgstr "Bermunculan"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.SPRUNG.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.SPRUNG.TOOLTIP"
 msgid "This trap has caught a {0}!"
-msgstr ""
+msgstr "Perangkap ini telah menangkap {0}!"
 
 #. STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.AUTO
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.AUTO"
 msgid "Auto"
-msgstr ""
+msgstr "Otomatis"
 
 #. STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.CLOSED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.CLOSED"
 msgid "Locked"
-msgstr ""
+msgstr "Terkunci"
 
 #. STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.NAME"
 msgid "Current State: {ControlState}"
-msgstr ""
+msgstr "Status saar ini: {ControlState}"
 
 #. STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.OPENED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.OPENED"
 msgid "Opened"
-msgstr ""
+msgstr "Terbuka"
 
 #. STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.TOOLTIP"
@@ -573,7 +583,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
 msgid "Scan Quality: {Quality}"
-msgstr ""
+msgstr "Kualitas Pindai: {Quality} "
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.TOOLTIP"
@@ -584,21 +594,24 @@ msgid ""
 "    • Interference from nearby heavy machinery\n"
 "    • Rock or tile obstructing the dish's line of sight on space"
 msgstr ""
+"Piringan scan saat ini memindai pada efektivitas {Quality} Pengurangan "
+"kualitas scan mungkin karena: • Gangguan dari mesin-mesin berat terdekat • "
+"Batu atau ubin yang menghalangi garis pandang piring di dalam ruang"
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.NAME"
 msgid "Scanning"
-msgstr ""
+msgstr "Proses Pemindaian"
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.TOOLTIP"
 msgid "This scanner is currently scouring space for anything of interest"
-msgstr ""
+msgstr "Scanner ini saat ini sedang menjelajahi ruang untuk hal-hal menarik"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME"
 msgid "Miner-Only Dig"
-msgstr ""
+msgstr "Penggalian Hanya Untuk Penambang"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.TOOLTIP"
@@ -607,36 +620,38 @@ msgid ""
 "material:\n"
 "{Roles}"
 msgstr ""
+"Hanya Duplikat terlatih dalam salah satu pekerjaan berikut dapat menambang "
+"bahan ini: {Roles}"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGUNREACHABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGUNREACHABLE.NAME"
 msgid "Unreachable Dig"
-msgstr ""
+msgstr "Penggalian Tidak Dapat Dicapai"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGUNREACHABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGUNREACHABLE.TOOLTIP"
 msgid "Duplicants cannot reach this area"
-msgstr ""
+msgstr "Duplikat tidak dapat mencapai daerah ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.DIRECTIONS.BOTH
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.DIRECTIONS.BOTH"
 msgid "Both"
-msgstr ""
+msgstr "Keduanya"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.DIRECTIONS.LEFT
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.DIRECTIONS.LEFT"
 msgid "Left"
-msgstr ""
+msgstr "Kiri"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.DIRECTIONS.RIGHT
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.DIRECTIONS.RIGHT"
 msgid "Right"
-msgstr ""
+msgstr "Kanan"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.NAME"
 msgid "Use Direction: {Direction}"
-msgstr ""
+msgstr "Pakai Arah: {Direction}"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP"
