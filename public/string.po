@@ -579,6 +579,11 @@ msgid ""
 "Locked: Nothing may pass through\n"
 "Open: This door will remain open"
 msgstr ""
+"Status Saat Ini: {ControlState}\n"
+"-------------------\n"
+"Auto: Duplikat membuka dan menutup pintu ini seperlunya\n"
+"Terkunci: Tidak boleh ada yang dapat melewati\n"
+"Terbuka: Pintu ini akan tetap terbuka"
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
@@ -659,82 +664,85 @@ msgid ""
 "Duplicants will only use this building when walking by it. Currently allowed "
 "direction: {Direction}"
 msgstr ""
+"Duplikat hanya akan menggunakan bangunan ini ketika berjalan melewatinya. "
+"Saat ini arah yang diperbolehkan: {Direction}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.NAME"
 msgid "Consuming {ElementTypes}: {FlowRate}"
-msgstr ""
+msgstr "Mengkonsumsi {ElementTypes}: {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.TOOLTIP"
 msgid "This building is utilizing ambient {ElementTypes} from the environment"
-msgstr ""
+msgstr "Bangunan ini memanfaatkan ambient {ElementTypes} dari lingkungan"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTERINPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTERINPUT.NAME"
 msgid "Using {ElementTypes}: {FlowRate}"
-msgstr ""
+msgstr "Menggunakan {ElementTypes}: {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTERINPUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTERINPUT.TOOLTIP"
 msgid ""
 "This building is using {ElementTypes} from storage at a rate of {FlowRate}"
 msgstr ""
+"Bangunan ini menggunakan {ElementTypes} dari penyimpanan sebanyak {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.NAME"
 msgid "Emitting {ElementTypes}: {FlowRate}"
-msgstr ""
+msgstr "Memancarkan {Element Types}: {Flow Rate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.TOOLTIP"
 msgid "This building is releasing {ElementTypes} at a rate of {FlowRate}"
-msgstr ""
+msgstr "Bangunan ini melepaskan {ElementTypes} sebanyak {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.NAME"
 msgid "Emitting {ElementTypes}: {FlowRate}"
-msgstr ""
+msgstr "Memancarkan {Element Types}: {Flow Rate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.TOOLTIP"
 msgid "This object is releasing {ElementTypes} at a rate of {FlowRate}"
-msgstr ""
+msgstr "Objek ini melepaskan {ElementTypes} sebanyak {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGCO2.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGCO2.NAME"
 msgid "Emitting CO<sub>2</sub>: {FlowRate}"
-msgstr ""
+msgstr "Memancarkan CO<sub>2</sub>: {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGCO2.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGCO2.TOOLTIP"
 msgid "Producing CO<sub>2</sub> at {FlowRate}"
-msgstr ""
+msgstr "Memproduksi CO<sub>2</sub> di {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.NAME"
 msgid "Emitting {ElementType}: {FlowRate}"
-msgstr ""
+msgstr "Memancarkan {Element Types}: {Flow Rate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.TOOLTIP"
 msgid "Producing {ElementType} at {FlowRate}"
-msgstr ""
+msgstr "Memproduksi {ElementType} di {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.NAME"
 msgid "Emitting {Element}: {FlowRate}"
-msgstr ""
+msgstr "Memancarkan {Element Types}: {Flow Rate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.TOOLTIP"
 msgid "Producing {Element} at a rate of {FlowRate}"
-msgstr ""
+msgstr "Memproduksi {ElementType} di {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.NAME"
 msgid "Emitting Light"
-msgstr ""
+msgstr "Memancarkan Cahaya"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.TOOLTIP"
@@ -742,231 +750,234 @@ msgid ""
 "Open the Light Overlay [{LightGridOverlay}] to view this light's visibility "
 "radius"
 msgstr ""
+"Membuka cahaya Overlay [{LightGridOverlay}] untuk melihat radius visibilitas "
+"dari cahaya ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGOXYGENAVG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGOXYGENAVG.NAME"
 msgid "Emitting <link=\"OXYGEN\">Oxygen</link>: {FlowRate}"
-msgstr ""
+msgstr "Memancarkan <link=\"OXYGEN\">Oxygen</link>: {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGOXYGENAVG.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGOXYGENAVG.TOOLTIP"
 msgid "Producing oxygen at a rate of {FlowRate}"
-msgstr ""
+msgstr "Menghasilkan Oksigen sebanyak {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMPTYPUMPINGSTATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMPTYPUMPINGSTATION.NAME"
 msgid "Empty"
-msgstr ""
+msgstr "Kosong"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMPTYPUMPINGSTATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMPTYPUMPINGSTATION.TOOLTIP"
 msgid "This pumping station cannot access any liquid"
-msgstr ""
+msgstr "Stasiun pompa ini tidak dapat mengakses cairan apa pun"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.NAME"
 msgid "Awaiting Coolant"
-msgstr ""
+msgstr "Menunggu Pendingin"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.TOOLTIP"
 msgid "{1} of {0} must be present in storage to begin production"
-msgstr ""
+msgstr "{1} dari {0} harus ada dalam penyimpanan untuk memulai produksi"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME"
 msgid "Entombed"
-msgstr ""
+msgstr "Terkubur"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NOTIFICATION_NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NOTIFICATION_NAME"
 msgid "Building entombment"
-msgstr ""
+msgstr "Bangunan terkubur"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NOTIFICATION_TOOLTIP"
 msgid "These buildings are entombed and need to be dug out:"
-msgstr ""
+msgstr "Bangunan ini terkubur dan perlu digali:"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENTOMBED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.TOOLTIP"
 msgid "Must be dug out by a Duplicant"
-msgstr ""
+msgstr "Harus digali oleh Duplikat"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.ARMED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.ARMED.NAME"
 msgid "Armed"
-msgstr ""
+msgstr "Dipersenjatai"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.ARMED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.ARMED.TOOLTIP"
 msgid "Stand back, this baby's ready to blow!"
-msgstr ""
+msgstr "Mundur, benda ini siap meledak!"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.COUNTDOWN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.COUNTDOWN.NAME"
 msgid "Countdown: {0}"
-msgstr ""
+msgstr "Hitung mundur: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.COUNTDOWN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.COUNTDOWN.TOOLTIP"
 msgid "{0} seconds until detonation"
-msgstr ""
+msgstr "{0} detik sebelum detonasi"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.DUPE_DANGER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.DUPE_DANGER.NAME"
 msgid "Duplicant Preservation Override"
-msgstr ""
+msgstr "Penimpaan Pelestarian Duplikat"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.DUPE_DANGER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.DUPE_DANGER.TOOLTIP"
 msgid "Explosive disabled due to close Duplicant proximity"
-msgstr ""
+msgstr "Peledakan dinonaktifkan karena terlalu dekat dengan Duplikat"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.EXPLODING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.EXPLODING.NAME"
 msgid "Exploding"
-msgstr ""
+msgstr "Meledak"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.EXPLODING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.EXPLODING.TOOLTIP"
 msgid "Kaboom!"
-msgstr ""
+msgstr "Kaboom!"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.UNARMED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.UNARMED.NAME"
 msgid "Unarmed"
-msgstr ""
+msgstr "Tak bersenjata"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.UNARMED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.UNARMED.TOOLTIP"
 msgid "This explosive is currently inactive"
-msgstr ""
+msgstr "Peledak ini saat ini tidak aktif"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXPIRED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXPIRED.NAME"
 msgid "Depleted"
-msgstr ""
+msgstr "Habis"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXPIRED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXPIRED.TOOLTIP"
 msgid "This building has no more use"
-msgstr ""
+msgstr "Bangunan ini tidak digunakan lagi"
 
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.NAME"
 msgid "No Fabrications Queued"
-msgstr ""
+msgstr "Tidak ada antrian produksi"
 
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.TOOLTIP"
 msgid "Select a recipe to begin fabrication"
-msgstr ""
+msgstr "Pilih resep untuk memulai produksi"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLOODED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.NAME"
 msgid "Building Flooded"
-msgstr ""
+msgstr "Bangunan Kebanjiran"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLOODED.NOTIFICATION_NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.NOTIFICATION_NAME"
 msgid "Flooding"
-msgstr ""
+msgstr "Kebanjiran"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLOODED.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.NOTIFICATION_TOOLTIP"
 msgid "These buildings are flooded:"
-msgstr ""
+msgstr "Bangunan bangunan ini kebanjiran:"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLOODED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.TOOLTIP"
 msgid "Building cannot function at current saturation"
-msgstr ""
+msgstr "Bangunan tidak berfungsi pada saturasi saat ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.NAME"
 msgid "Lavatory Ready"
-msgstr ""
+msgstr "Kamar Kecil Telah Siap"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.TOOLTIP"
 msgid "This bathroom is ready to receive visitors"
-msgstr ""
+msgstr "Kamar mandi ini siap untuk menerima pengunjung"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.NAME"
 msgid "Lavatory In Use"
-msgstr ""
+msgstr "Kamar Kecil Sedang Digunakan"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.TOOLTIP"
 msgid "This bathroom is occupied"
-msgstr ""
+msgstr "Kamar mandi sedang dipakai"
 
 #. STRINGS.BUILDING.STATUSITEMS.FOOD_CONTAINERS_OUTSIDE_RANGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FOOD_CONTAINERS_OUTSIDE_RANGE.NAME"
 msgid "Unreachable food"
-msgstr ""
+msgstr "Makanan tidak dapat dicapai"
 
 #. STRINGS.BUILDING.STATUSITEMS.FOOD_CONTAINERS_OUTSIDE_RANGE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FOOD_CONTAINERS_OUTSIDE_RANGE.TOOLTIP"
 msgid "Recuperating Duplicants must have food available within {0} cells"
-msgstr ""
+msgstr "Pemulihan Duplikat harus memiliki makanan yang tersedia dalam {0} sel"
 
 #. STRINGS.BUILDING.STATUSITEMS.GANTRY.AUTOMATION_CONTROL
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GANTRY.AUTOMATION_CONTROL"
 msgid "Automation Control: {0}"
-msgstr ""
+msgstr "Kontrol Otomatis: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.GANTRY.EXTENDED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GANTRY.EXTENDED"
 msgid "Extended"
-msgstr ""
+msgstr "Diperpanjang"
 
 #. STRINGS.BUILDING.STATUSITEMS.GANTRY.MANUAL_CONTROL
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GANTRY.MANUAL_CONTROL"
 msgid "Manual Control: {0}"
-msgstr ""
+msgstr "Kontrol Manual: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.GANTRY.RETRACTED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GANTRY.RETRACTED"
 msgid "Retracted"
-msgstr ""
+msgstr "Ditarik kembali"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.NAME"
 msgid "Empty Pipe"
-msgstr ""
+msgstr "Pipa Kosong"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.TOOLTIP"
 msgid "There is no gas in this pipe"
-msgstr ""
+msgstr "Tidak ada gas didalam pipa"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASPIPEOBSTRUCTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEOBSTRUCTED.NAME"
 msgid "Not Pumping"
-msgstr ""
+msgstr "Tidak Memompa"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASPIPEOBSTRUCTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEOBSTRUCTED.TOOLTIP"
 msgid "This pump is not active"
-msgstr ""
+msgstr "Pompa tidak aktif"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASVENTOBSTRUCTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASVENTOBSTRUCTED.NAME"
 msgid "Gas Vent Obstructed"
-msgstr ""
+msgstr "Ventilasi Gas Tersumbat"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASVENTOBSTRUCTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASVENTOBSTRUCTED.TOOLTIP"
 msgid "A pipe has been obstructed and is preventing gas flow to this vent"
 msgstr ""
+"Sebuah pipa telah tersumbat dan menghalangi gas keluar dari ventilasi ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASVENTOVERPRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASVENTOVERPRESSURE.NAME"
 msgid "Gas Vent Overpressure"
-msgstr ""
+msgstr "Ventilasi Gas Berlebih"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASVENTOVERPRESSURE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASVENTOVERPRESSURE.TOOLTIP"
@@ -975,21 +986,24 @@ msgid ""
 "emission\n"
 "Reduce pressure by pumping gas away or clearing more space"
 msgstr ""
+"Tekanan udara atau cair yang tinggi di area ini mencegah emisi cairan lebih "
+"lanjut\n"
+"Kurangi tekanan dengan memompa gas keluar atau buat lebih banyak ruang"
 
 #. STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.NAME"
 msgid "Generator Idle"
-msgstr ""
+msgstr "Generator Mengangur"
 
 #. STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.TOOLTIP"
 msgid "This power source is idle"
-msgstr ""
+msgstr "Sumber listrik ini tidak digunakan"
 
 #. STRINGS.BUILDING.STATUSITEMS.GENESHUFFLECOMPLETED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GENESHUFFLECOMPLETED.NAME"
 msgid "Neural vacillation complete"
-msgstr ""
+msgstr "Vaksinasi saraf telah selesai"
 
 #. STRINGS.BUILDING.STATUSITEMS.GENESHUFFLECOMPLETED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GENESHUFFLECOMPLETED.TOOLTIP"
@@ -997,31 +1011,32 @@ msgid ""
 "The Duplicant has completed the neural vacillation process and is ready to "
 "be released"
 msgstr ""
+"Duplikat telah menyelesaikan proses vaksinasi saraf dan siap untuk dilepaskan"
 
 #. STRINGS.BUILDING.STATUSITEMS.GRAVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GRAVE.NAME"
 msgid "RIP {DeadDupe}"
-msgstr ""
+msgstr "RIP {DeadDupe}"
 
 #. STRINGS.BUILDING.STATUSITEMS.GRAVE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GRAVE.TOOLTIP"
 msgid "{Epitaph}"
-msgstr ""
+msgstr "{Epitaph}"
 
 #. STRINGS.BUILDING.STATUSITEMS.GRAVEEMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GRAVEEMPTY.NAME"
 msgid "Empty"
-msgstr ""
+msgstr "Kosong"
 
 #. STRINGS.BUILDING.STATUSITEMS.GRAVEEMPTY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GRAVEEMPTY.TOOLTIP"
 msgid "This memorial honors no one."
-msgstr ""
+msgstr "Peringatan ini tidak menghormati siapa pun."
 
 #. STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.NAME"
 msgid "Requires Emptying"
-msgstr ""
+msgstr "Memerlukan Pengosongan"
 
 #. STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP"
@@ -1048,12 +1063,12 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME"
 msgid "Max Temperature Reached"
-msgstr ""
+msgstr "Suhu Maksimum Tercapai "
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.TOOLTIP"
 msgid "This building cannot heat the surrounding environment beyond {0}"
-msgstr ""
+msgstr "Bangunan ini tidak dapat memanaskan lingkungan sekitarnya melebihi {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_GAS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_GAS.NAME"
@@ -1066,21 +1081,23 @@ msgid ""
 "A minimum atmospheric pressure of {TargetPressure} is needed for this "
 "building to heat up"
 msgstr ""
+"Tekanan atmosfer minimal {TargetPressure} diperlukan untuk memanaskan gedung "
+"ini "
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_LIQUID.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_LIQUID.NAME"
 msgid "Not Submerged In Liquid"
-msgstr ""
+msgstr "Tida Terendam Di Dalam Cairan"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_LIQUID.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_LIQUID.TOOLTIP"
 msgid "This building must be submerged in liquid to function"
-msgstr ""
+msgstr "Bangunan ini harus terendam dalam cairan agar berfungsi"
 
 #. STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.NAME"
 msgid "Incoming Object Detected"
-msgstr ""
+msgstr "Objek Mendekat Terdeteksi"
 
 #. STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.TOOLTIP"
@@ -1089,6 +1106,9 @@ msgid ""
 "\n"
 "High velocity objects on approach!"
 msgstr ""
+"Peringatan!\n"
+"\n"
+"Objek berkecepatan tinggi mendekat!"
 
 #. STRINGS.BUILDING.STATUSITEMS.INCUBATORPROGRESS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INCUBATORPROGRESS.NAME"
@@ -1106,57 +1126,58 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME"
 msgid "Invalid Building Location"
-msgstr ""
+msgstr "Lokasi Bangunan Yang Salah"
 
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.TOOLTIP"
 msgid "Cannot construct building in this location"
-msgstr ""
+msgstr "Tidak dapat membangun bangunan di lokasi ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.NAME"
 msgid "<link=\"POWER\">Power</link> Available: {JoulesAvailable}"
-msgstr ""
+msgstr "<link=\"POWER\">Daya</link> Tersedia: {JoulesAvailable}"
 
 #. STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.TOOLTIP"
 msgid "{JoulesAvailable} of stored power available for use"
-msgstr ""
+msgstr "{JoulesAvailable} daya tersimpan dapat digunakan"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.NAME"
 msgid "Empty Pipe"
-msgstr ""
+msgstr "Pipa Kosong"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.TOOLTIP"
 msgid "There is no liquid in this pipe"
-msgstr ""
+msgstr "Tidak ada cairan di pipa ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEOBSTRUCTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEOBSTRUCTED.NAME"
 msgid "Not Pumping"
-msgstr ""
+msgstr "Tidak Memompa"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEOBSTRUCTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEOBSTRUCTED.TOOLTIP"
 msgid "This pump is not active"
-msgstr ""
+msgstr "Pompa ini tidak aktif"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.NAME"
 msgid "Liquid Vent Obstructed"
-msgstr ""
+msgstr "Ventilasi Cairan Tersumbat"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.TOOLTIP"
 msgid "A pipe has been obstructed and is preventing liquid flow to this vent"
 msgstr ""
+"Sebuah pipa telah tersumbat dan menghalangi gas keluar dari ventilasi ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOVERPRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOVERPRESSURE.NAME"
 msgid "Liquid Vent Overpressure"
-msgstr ""
+msgstr "Ventilasi Gas Berlebih"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOVERPRESSURE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOVERPRESSURE.TOOLTIP"
@@ -1165,6 +1186,9 @@ msgid ""
 "emission\n"
 "Reduce pressure by pumping liquid away or clearing more space"
 msgstr ""
+"Tekanan udara atau cair yang tinggi di area ini mencegah emisi cairan lebih "
+"lanjut\n"
+"Kurangi tekanan dengan memompa gas keluar atau buat lebih banyak ruang"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGIC.LOGIC_CONTROLLED_DISABLED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGIC.LOGIC_CONTROLLED_DISABLED"
@@ -1243,7 +1267,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.MANUALLYCONTROLLED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MANUALLYCONTROLLED.NAME"
 msgid "Manually Controlled"
-msgstr ""
+msgstr "Dikontrol Secara Manual"
 
 #. STRINGS.BUILDING.STATUSITEMS.MANUALLYCONTROLLED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MANUALLYCONTROLLED.TOOLTIP"
@@ -1253,12 +1277,12 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLE.LINE_ITEM_MASS
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLE.LINE_ITEM_MASS"
 msgid "• {0}: {1}"
-msgstr ""
+msgstr "• {0}: {1}"
 
 #. STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLE.LINE_ITEM_UNITS
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLE.LINE_ITEM_UNITS"
 msgid "• {0}"
-msgstr ""
+msgstr "• {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLE.NAME"
@@ -1266,6 +1290,8 @@ msgid ""
 "Insufficient Resources\n"
 "{ItemsRemaining}"
 msgstr ""
+"Sumber Daya Tidak Mencukupi\n"
+"{ItemsRemaining}"
 
 #. STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLE.NOTIFICATION_NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLE.NOTIFICATION_NAME"
