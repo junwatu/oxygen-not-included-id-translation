@@ -1421,6 +1421,9 @@ msgid ""
 "Multitools can be made at Crafting Stations in the <color=#833A5FFF>Stations "
 "Tab</color> <color=#F44A47>[0]</color> of the Build Menu"
 msgstr ""
+"Alat serbaguna diperlukan untuk menambang bahan ini---Alat serbaguna dapat "
+"dibuat di Stasiun Kerajinan di <color=#833A5FFF>Tab Stasiun</color> "
+"<color=#F44A47> [0]</color> dari  menu Bangun"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDEGG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDEGG.NAME"
@@ -1430,7 +1433,7 @@ msgstr "Telur Tidak Ada Yang Dipilih"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDEGG.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDEGG.TOOLTIP"
 msgid "Collect eggs from critters to incubate"
-msgstr ""
+msgstr "Kumpulkan telur dari makhluk untuk diinkubasi"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDGASIN.LINE_ITEM
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDGASIN.LINE_ITEM"
@@ -1443,11 +1446,13 @@ msgid ""
 "No Gas Intake\n"
 "{GasRequired}"
 msgstr ""
+"Tidak ada Asupan Gas\n"
+"{GasRequired}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDGASIN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDGASIN.TOOLTIP"
 msgid "This building has nowhere to receive gas from"
-msgstr ""
+msgstr "Bangunan ini tidak menerima gas dari manapun"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDGASOUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDGASOUT.NAME"
@@ -1457,7 +1462,7 @@ msgstr "Tidak Ada Keluaran Gas"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDGASOUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDGASOUT.TOOLTIP"
 msgid "This building has nowhere to send gas"
-msgstr ""
+msgstr "Bangunan ini tidak memiliki tempat untuk mengirim gas"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.LINE_ITEM
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.LINE_ITEM"
@@ -1470,21 +1475,23 @@ msgid ""
 "No Liquid Intake\n"
 "{LiquidRequired}"
 msgstr ""
+"Tidak ada Cairan Masuk\n"
+"{LiquidRequired}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.TOOLTIP"
 msgid "This building has nowhere to receive liquid from"
-msgstr ""
+msgstr "Bangunan ini tidak menerima cairan dari manapun"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.NAME"
 msgid "No Liquid Output"
-msgstr ""
+msgstr "Tidak ada keluaran cairan"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.TOOLTIP"
 msgid "This building has nowhere to send liquid"
-msgstr ""
+msgstr "Bangunan ini tidak memiliki tempat untuk mengirim cairan"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDPLANT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDPLANT.NAME"
@@ -1494,7 +1501,7 @@ msgstr "Tidak Ada Benih"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDPLANT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDPLANT.TOOLTIP"
 msgid "Uproot wild plants to obtain seeds"
-msgstr ""
+msgstr "Cabut tanaman liar untuk mendapatkan Bibit"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDPOWER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDPOWER.NAME"
@@ -1504,7 +1511,7 @@ msgstr "Tidak Ada Listrik"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDPOWER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDPOWER.TOOLTIP"
 msgid "All connected power sources have lost charge"
-msgstr ""
+msgstr "Semua sumber daya yang terhubung telah kehilangan muatan"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCE.NAME"
@@ -1514,12 +1521,12 @@ msgstr "Sumber Daya Diperlukan"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCE.TOOLTIP"
 msgid "This building is missing required materials"
-msgstr ""
+msgstr "Bangunan ini kekurangan material yang dibutuhkan"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.LINE_ITEM
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.LINE_ITEM"
 msgid "• {0}"
-msgstr ""
+msgstr "• {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.NAME"
@@ -1527,6 +1534,8 @@ msgid ""
 "Insufficient Resources\n"
 "{ResourcesRequired}"
 msgstr ""
+"Sumber Daya Kurang\n"
+"{ResourcesRequired}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.TOOLTIP"
@@ -1535,21 +1544,24 @@ msgid ""
 "\n"
 "Deliver more material to run this building"
 msgstr ""
+"Pasokan material yang dikirim ke gedung ini terlalu sedikit\n"
+"\n"
+"Kirim lebih banyak material untuk menjalankan gedung ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSEED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSEED.NAME"
 msgid "No Seed Selected"
-msgstr ""
+msgstr "Tidak Ada Biji Yang Dipilih"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSEED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSEED.TOOLTIP"
 msgid "Uproot wild plants to obtain seeds"
-msgstr ""
+msgstr "Cabut tanaman liar untuk mendapatkan Bibit"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.NAME"
 msgid "No Conveyor Loader"
-msgstr ""
+msgstr "Tidak ada Pemuat Konveyor"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP"
@@ -1559,11 +1571,16 @@ msgid ""
 "Enter the Shipping Tab <color=#F44A47>[7]</color> of the Build Menu to build "
 "and connect a Conveyor Loader"
 msgstr ""
+"Material tidak dapat dimasukkan ke jalur sistem konveyor ini untuk "
+"transportasi\n"
+"------------------\n"
+"Masukkan Tab Pengiriman <color=#F44A47>[7]</color> di Menu Bangun untuk "
+"membangun dan menghubungkan Konveyor Pemuat"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.NAME"
 msgid "No Conveyor Receptacle"
-msgstr ""
+msgstr "Tidak Ada Wadah Konveyor"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP"
@@ -1574,11 +1591,16 @@ msgid ""
 "Enter the Shipping Tab <color=#F44A47>[7]</color> of the Build Menu to build "
 "and connect a Conveyor Receptacle"
 msgstr ""
+"Bahan tidak dapat dikeluarkan dari Sistem Konveyor ini dan akan menjadi "
+"cadangan dari rel\n"
+"---\n"
+"Masuk ke Tab Pengiriman <color=#F44A47> [7]</color>dari Menu Bangun untuk "
+"membangun dan menghubungkan sebuah Wadah Konveyor"
 
 #. STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.NAME"
 msgid "Scan Network Quality: {TotalQuality}"
-msgstr ""
+msgstr "Pindai Kualitas Jaringan: {TotalQuality}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.TOOLTIP"
@@ -1591,26 +1613,33 @@ msgid ""
 "Build multiple detectors and ensure they're each scanning effectively for "
 "the best detection results"
 msgstr ""
+"Jaringan pemindai Anda memindai dengan efektivitas {TotalQuality}\n"
+"\n"
+"Dan akan mendeteksi objek yang mendekat {WorstTime} hingga {BestTime} "
+"sebelum mereka tiba\n"
+"\n"
+"Buat beberapa detektor dan pastikan bahwa setiap pemindainya efektif untuk "
+"hasil deteksi terbaik"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME"
 msgid "Cannot Mine"
-msgstr ""
+msgstr "Tidak dapat menambang"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.TOOLTIP"
 msgid "This resource cannot be mined by Duplicant tools"
-msgstr ""
+msgstr "Sumber daya ini tidak dapat ditambang oleh alat Duplikat"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NAME"
 msgid "New Duplicants Available"
-msgstr ""
+msgstr "Tidak Ada Dupikat Yang Baru"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NOTIFICATION_NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NOTIFICATION_NAME"
 msgid "New Duplicants are available"
-msgstr ""
+msgstr "Duplikat Baru telah tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NOTIFICATION_TOOLTIP
 msgctxt ""
@@ -1620,45 +1649,47 @@ msgid ""
 "Duplicant.\n"
 "I'll need to select a DNA blueprint:"
 msgstr ""
+"Kapsul Pencetak <color=#F44A47>[H]</color> siap mencetak Duplikat baru.\n"
+"Saya harus memilih cetak biru DNA-nya:"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.TOOLTIP"
 msgid "I am ready to print a new colony member"
-msgstr ""
+msgstr "Saya sudah siap untuk mencetak anggota koloni yang baru"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.NAME"
 msgid "No studyable starmap destination selected"
-msgstr ""
+msgstr "Tidak ada peta bintang yang dipilih untuk dipelajari"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.NOTIFICATION_NAME
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.NOTIFICATION_NAME"
 msgid "<link=\"TELESCOPE\">Telescope</link> idle"
-msgstr ""
+msgstr "<link=\"TELESCOPE\">Teleskop</link> Idle"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.NOTIFICATION_TOOLTIP
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED."
 "NOTIFICATION_TOOLTIP"
 msgid "These buildings need a space destination to study"
-msgstr ""
+msgstr "Bangunan ini membutuhkan ruang tujuan untuk dipelajari"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.TOOLTIP"
 msgid "Select an unknown destination in the starmap to study"
-msgstr ""
+msgstr "Pilih tujuan yang belum diketahui di peta bintang untuk dipelajari"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NAME"
 msgid "Inapplicable Research"
-msgstr ""
+msgstr "Penelitian yang tidak dapat diterapkan"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_NAME
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_NAME"
 msgid "<link=\"SUPER COMPUTER\">Research Center</link> idle"
-msgstr ""
+msgstr "< link = \"SUPER KOMPUTER\" >Pusat Penelitian</link> siaga"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_TOOLTIP
 msgctxt ""
@@ -1668,6 +1699,8 @@ msgid ""
 "These buildings cannot produce the correct <b>Research Type</b> for the "
 "selected <link=\"TECH\">Research Focus</link>:"
 msgstr ""
+"Bangunan ini tidak dapat menghasilkan <b>Jenis penelitian</b> yang benar "
+"untuk <link=\"TECH\">Fokus Penelitian</link> yang dipilih:"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.TOOLTIP"
@@ -1675,31 +1708,33 @@ msgid ""
 "This building cannot produce the correct research type for the current "
 "research focus"
 msgstr ""
+"Bangunan ini tidak dapat menghasilkan jenis penelitian yang benar untuk "
+"fokus penelitian saat ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAVAILABLEEGG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAVAILABLEEGG.NAME"
 msgid "No Egg Available"
-msgstr ""
+msgstr "Tidak ada Telur yang Tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAVAILABLEEGG.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAVAILABLEEGG.TOOLTIP"
 msgid "The selected egg is not currently available"
-msgstr ""
+msgstr "Telur yang dipilih saat ini tidak tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAVAILABLESEED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAVAILABLESEED.NAME"
 msgid "No Seed Available"
-msgstr ""
+msgstr "Bibit Tidak Tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAVAILABLESEED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAVAILABLESEED.TOOLTIP"
 msgid "The selected seed is not available"
-msgstr ""
+msgstr "Bibit yang dipilih tidak tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.NAME"
 msgid "No Filter Selected"
-msgstr ""
+msgstr "Tida Ada Saringan Yang Dipilih"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.TOOLTIP"
