@@ -1739,72 +1739,72 @@ msgstr "Tida Ada Saringan Yang Dipilih"
 #. STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.TOOLTIP"
 msgid "Select a resource to filter"
-msgstr ""
+msgstr "Pilih sumber daya untuk di saring"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOFISHABLEWATERBELOW.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOFISHABLEWATERBELOW.NAME"
 msgid "No Fishable Water"
-msgstr ""
+msgstr "Tidak ada ikan di air"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOFISHABLEWATERBELOW.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOFISHABLEWATERBELOW.TOOLTIP"
 msgid "There are no edible fish beneath this structure"
-msgstr ""
+msgstr "Tidak ada ikan yang dapat dimakan di bawah struktur ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.NAME"
 msgid "Pump Not In Gas"
-msgstr ""
+msgstr "Pompa Tidak berada di dalam Gas"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.TOOLTIP"
 msgid "This pump must be submerged in gas to work"
-msgstr ""
+msgstr "Pompa ini harus tenggelam dalam gas untuk bekerja"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLIQUIDELEMENTTOPUMP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLIQUIDELEMENTTOPUMP.NAME"
 msgid "Pump Not In Liquid"
-msgstr ""
+msgstr "Pompa tidak dalam cairan"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLIQUIDELEMENTTOPUMP.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLIQUIDELEMENTTOPUMP.TOOLTIP"
 msgid "This pump must be submerged in liquid to work"
-msgstr ""
+msgstr "Pompa ini harus terendam dalam cairan untuk bekerja"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.NAME"
 msgid "No Automation Wire Connected"
-msgstr ""
+msgstr "Tidak ada kawat otomatis yang terhubung"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.TOOLTIP"
 msgid "This building has not been connected to an automation grid"
-msgstr ""
+msgstr "Bangunan ini belum terhubung ke jaringan otomatisasi"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLUREELEMENTSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLUREELEMENTSELECTED.NAME"
 msgid "No Bait Selected"
-msgstr ""
+msgstr "Tida Ada Umpan Yang Dipilih"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLUREELEMENTSELECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLUREELEMENTSELECTED.TOOLTIP"
 msgid "Select a resource to use as bait"
-msgstr ""
+msgstr "Pilih sumber daya untuk digunakan sebagai umpan"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOPOWERCONSUMERS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOPOWERCONSUMERS.NAME"
 msgid "No Power Consumers"
-msgstr ""
+msgstr "Daya Tidak Ada Yang Mengkonsumsi"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOPOWERCONSUMERS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOPOWERCONSUMERS.TOOLTIP"
 msgid "No buildings are connected to this power source"
-msgstr ""
+msgstr "Tidak ada bangunan yang terhubung ke sumber listrik ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.NAME"
 msgid "No Research Focus or Starmap Destination Selected"
-msgstr ""
+msgstr "Tida Ada Fokus Ke Penelitian Atau Peta Bintang Tujuan Yang Dipilih"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.NOTIFICATION_NAME
 msgctxt ""
@@ -1812,6 +1812,8 @@ msgctxt ""
 "NOTIFICATION_NAME"
 msgid "No <link=\"TECH\">Research Focus</link> or Starmap destination selected"
 msgstr ""
+"Tidak Ada <link=\"TECH\">Fokus Penelitian</link> atau Peta bintang yang "
+"dipilih"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.NOTIFICATION_TOOLTIP
 msgctxt ""
@@ -1822,6 +1824,9 @@ msgid ""
 "{RESEARCH_MENU_KEY} or a Destination in the <color=#833A5FFF>Starmap</color> "
 "{STARMAP_MENU_KEY}"
 msgstr ""
+"Pilih projek di <color=#833A5FFF>Susunan Penelitian</color> "
+"{RESEARCH_MENU_KEY} atau Tujuan di <color=#833A5FFF>Peta bintang</color> "
+"{STARMAP_MENU_KEY}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.TOOLTIP"
@@ -1830,16 +1835,19 @@ msgid ""
 "{RESEARCH_MENU_KEY} or a Destination in the <color=#833A5FFF>Starmap</color> "
 "{STARMAP_MENU_KEY}"
 msgstr ""
+"Pilih projek di <color=#833A5FFF>Susunan Penelitian</color> "
+"{RESEARCH_MENU_KEY} atau Tujuan di <color=#833A5FFF>Peta bintang</color> "
+"{STARMAP_MENU_KEY}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NAME"
 msgid "No Research Focus Selected"
-msgstr ""
+msgstr "Tidak Ada Fokus Penelitian Yang Dipilih"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NOTIFICATION_NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NOTIFICATION_NAME"
 msgid "No <link=\"TECH\">Research Focus</link> selected"
-msgstr ""
+msgstr "Tidak Ada <link=\"TECH\">Fokus Penelitian</link> dipilih"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NOTIFICATION_TOOLTIP"
@@ -1847,6 +1855,8 @@ msgid ""
 "Open the <color=#833A5FFF>Research Tree</color> to select a new <link=\"TECH"
 "\">Research</link> project"
 msgstr ""
+"Buka <color=#833A5FFF>Susunan Penelitian</color> untuk memilih proyek <link="
+"\"TECH\">Penelitian</link> baru"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.TOOLTIP"
@@ -1854,16 +1864,18 @@ msgid ""
 "Open the <color=#833A5FFF>Research Tree</color> {RESEARCH_MENU_KEY} to "
 "select a new <link=\"TECH\">Research</link> project"
 msgstr ""
+"Buka <color=#833A5FFF>Susunan Penelitian</color> untuk memilih proyek <link="
+"\"TECH\">Penelitian</link> baru"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORMAL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORMAL.NAME"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORMAL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORMAL.TOOLTIP"
 msgid "Nothing out of the ordinary here"
-msgstr ""
+msgstr "Tidak ada yang diluar kebiasaan disini"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOSTORAGEFILTERSET.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSTORAGEFILTERSET.NAME"
