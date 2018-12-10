@@ -2097,6 +2097,8 @@ msgid ""
 "Building will be repaired once a Duplicant is available\n"
 "Received damage from {DamageInfo}"
 msgstr ""
+"Bangunan akan diperbaiki sekali Duplikat tersedia\n"
+"Kerusakan diterima dari {DamageInfo}"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.NAME"
@@ -2106,7 +2108,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.TOOLTIP"
 msgid "Settings will be changed once a Duplicant is available"
-msgstr ""
+msgstr "Pengaturan akan berubah seketika  Duplikat tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.NAME"
@@ -2116,7 +2118,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.TOOLTIP"
 msgid "Plant will be uprooted once a Duplicant is available"
-msgstr ""
+msgstr "Tanaman akan dicabut sekali Duplikat tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.NAME"
@@ -2126,7 +2128,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.TOOLTIP"
 msgid "Building will be operated once a Duplicant is available"
-msgstr ""
+msgstr "Bangunan akan dioperasikan sekali Duplicant tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPE.NAME"
@@ -2136,7 +2138,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.PIPE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPE.TOOLTIP"
 msgid "This pipe is delivering {Contents}"
-msgstr ""
+msgstr "Pipa ini memberikan {Contents}"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPECONTENTS.CONTENTS
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPECONTENTS.CONTENTS"
@@ -2158,12 +2160,12 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.NAME"
 msgid "High Melt Risk"
-msgstr ""
+msgstr "Risiko Tinggi Meleleh"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.TOOLTIP"
 msgid "This pipe is in danger of melting at the current temperature"
-msgstr ""
+msgstr "Pipa ini berada dalam bahaya mencair pada suhu sekarang"
 
 #. STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.NAME"
@@ -2171,11 +2173,14 @@ msgid "Function Suspended"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.TOOLTIP
+#, fuzzy
 msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.TOOLTIP"
 msgid ""
 "This building has been toggled off\n"
 "Press Enable Building to resume its use"
 msgstr ""
+"Bangunan ini telah dimatikan\n"
+"Tekan Enable Building untuk melanjutkan penggunaannya"
 
 #. STRINGS.BUILDING.STATUSITEMS.PRESSUREOK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PRESSUREOK.NAME"
@@ -45917,37 +45922,37 @@ msgstr ""
 #. STRINGS.UI.USERMENUACTIONS.ATTACK.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.ATTACK.NAME"
 msgid "Attack"
-msgstr ""
+msgstr "Serang"
 
 #. STRINGS.UI.USERMENUACTIONS.ATTACK.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.ATTACK.TOOLTIP"
 msgid "Attack this critter"
-msgstr ""
+msgstr "Serang makhluk ini"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCEL_HARVEST_WHEN_READY.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCEL_HARVEST_WHEN_READY.NAME"
 msgid "Disable Autoharvest"
-msgstr ""
+msgstr "Menonaktifkan Panen Otomatis"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCEL_HARVEST_WHEN_READY.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCEL_HARVEST_WHEN_READY.TOOLTIP"
 msgid "Do not automatically harvest this plant"
-msgstr ""
+msgstr "Jangan panen tanaman ini secara otomatis"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELATTACK.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELATTACK.NAME"
 msgid "Cancel Attack"
-msgstr ""
+msgstr "Batalkan Serangan"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELATTACK.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELATTACK.TOOLTIP"
 msgid "Cancel this attack order"
-msgstr ""
+msgstr "Batalkan pesanan serangan ini"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.NAME"
 msgid "Cancel Wrangle"
-msgstr ""
+msgstr "Batalkan Pertengkaran"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.TOOLTIP"
@@ -45957,52 +45962,52 @@ msgstr ""
 #. STRINGS.UI.USERMENUACTIONS.CANCELCLEANTOILET.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCLEANTOILET.NAME"
 msgid "Cancel Clean"
-msgstr ""
+msgstr "Batalkan Pembersihan"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELCLEANTOILET.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCLEANTOILET.TOOLTIP"
 msgid "Cancel this cleaning order"
-msgstr ""
+msgstr "Batalkan Perintah Pembersihan"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELCONSTRUCTION.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCONSTRUCTION.NAME"
 msgid "Cancel Build"
-msgstr ""
+msgstr "Batalkan Pembangunan"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELCONSTRUCTION.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCONSTRUCTION.TOOLTIP"
 msgid "Cancel this build order"
-msgstr ""
+msgstr "Batalkan Perintah Pembangunan"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELDIG.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELDIG.NAME"
 msgid "Cancel Dig"
-msgstr ""
+msgstr "Batalkan Penggalian"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELDIG.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELDIG.TOOLTIP"
 msgid "Cancel this dig order"
-msgstr ""
+msgstr "Batalkan Perintah Penggalian"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELHARVEST.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELHARVEST.NAME"
 msgid "Cancel Harvest"
-msgstr ""
+msgstr "Batalkan Panen"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELHARVEST.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELHARVEST.TOOLTIP"
 msgid "Cancel this harvest order"
-msgstr ""
+msgstr "Batalkan perintah pemanenan"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELMOP.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELMOP.NAME"
 msgid "Cancel Mop"
-msgstr ""
+msgstr "Batalkan Pengepelan"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELMOP.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELMOP.TOOLTIP"
 msgid "Cancel this mop order"
-msgstr ""
+msgstr "Batalkan perintah pengepelan ini"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELUPROOT.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELUPROOT.NAME"
@@ -47015,32 +47020,32 @@ msgstr ""
 #. STRINGS.UI.WORLDGEN.BORDERS5
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS5"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr ""
+msgstr "Menghindari kontak mata yang canggung dengan kekosongan..."
 
 #. STRINGS.UI.WORLDGEN.BORDERS6
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS6"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr ""
+msgstr "Menghindari kontak mata yang canggung dengan kekosongan..."
 
 #. STRINGS.UI.WORLDGEN.BORDERS7
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS7"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr ""
+msgstr "Menghindari kontak mata yang canggung dengan kekosongan..."
 
 #. STRINGS.UI.WORLDGEN.BORDERS8
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS8"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr ""
+msgstr "Menghindari kontak mata yang canggung dengan kekosongan..."
 
 #. STRINGS.UI.WORLDGEN.BORDERS9
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS9"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr ""
+msgstr "Menghindari kontak mata yang canggung dengan kekosongan..."
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE"
 msgid "Sorting quadrillions of atoms..."
-msgstr ""
+msgstr "Penyortiran quadrilion atom..."
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE1
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE1"
