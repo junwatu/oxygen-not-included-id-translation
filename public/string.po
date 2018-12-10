@@ -1880,12 +1880,14 @@ msgstr "Tidak ada yang diluar kebiasaan disini"
 #. STRINGS.BUILDING.STATUSITEMS.NOSTORAGEFILTERSET.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSTORAGEFILTERSET.NAME"
 msgid "Filters Not Designated"
-msgstr ""
+msgstr "Filter tidak diarahkan"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOSTORAGEFILTERSET.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSTORAGEFILTERSET.TOOLTIP"
 msgid "No resources types are marked for storage in this building"
 msgstr ""
+"Tidak ada jenis sumber daya yang ditandai untuk penyimpanan dalam bangunan "
+"ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOSUITMARKER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSUITMARKER.NAME"
@@ -1898,21 +1900,23 @@ msgid ""
 "Docks must be placed beside an Exosuit Checkpoint, opposite the side its "
 "checkpoint faces"
 msgstr ""
+"Dermaga harus ditempatkan di samping Cekpoin Exosuit , sisi berlawanan "
+"adalah wajah dari cekpoin"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME"
 msgid "Insufficient Power"
-msgstr ""
+msgstr "Daya Tidak Cukup"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.TOOLTIP"
 msgid "This building does not have enough stored charge to run"
-msgstr ""
+msgstr "Bangunan ini tidak memiliki cukup daya tersimpan untuk beroperasi"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.NAME"
 msgid "Outside of {0}"
-msgstr ""
+msgstr "Di luar dari {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.TOOLTIP"
@@ -1921,11 +1925,15 @@ msgid ""
 "\n"
 "Open the Room Overlay <color=#F44A47>[F11]</color> to view full room status"
 msgstr ""
+"Dianjurkan untuk membangun bangunan dari dalam {0}\n"
+"\n"
+"Buka Ruang Overlay <color=#F44A47> [F11]</color> untuk melihat status penuh "
+"dari kamar"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.NAME"
 msgid "Outside of {0}"
-msgstr ""
+msgstr "Di luar dari {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.TOOLTIP"
@@ -1934,11 +1942,15 @@ msgid ""
 "\n"
 "Open the Room Overlay <color=#F44A47>[F11]</color> to view full room status"
 msgstr ""
+"Bangunan ini harus dibangun di dalam {0} untuk fungsionalitas penuh\n"
+"\n"
+"Buka Ruang Overlay <color=#F44A47> [F11]</color> untuk melihat status penuh "
+"dari kamar"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME"
 msgid "No Tube Connected"
-msgstr ""
+msgstr "Tabung tidak terhubung"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.TOOLTIP"
@@ -1946,11 +1958,13 @@ msgid ""
 "The first section of tube extending from an Access must connect directly "
 "upward"
 msgstr ""
+"Bagian pertama dari tabung yang membentang dariAakses harus terhubung "
+"langsung ke atas"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.NAME"
 msgid "No Landing Available"
-msgstr ""
+msgstr "Tidak ada pendaratan yang tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.TOOLTIP"
@@ -1958,16 +1972,18 @@ msgid ""
 "Duplicants can only exit a tube when there is somewhere for them to land "
 "within two tiles"
 msgstr ""
+"Duplikat hanya dapat keluar dari tabung ketika ada tempat bagi mereka untuk "
+"mendarat dalam kisaran dua ubin"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME"
 msgid "No Wire Connected"
-msgstr ""
+msgstr "Tidak ada kabel yang terhubung"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.TOOLTIP"
 msgid "This building has not been connected to a power grid"
-msgstr ""
+msgstr "Bangunan ini tidak terhubung ke jaringan listrik"
 
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.EXHAUSTING
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.EXHAUSTING"
@@ -1987,12 +2003,12 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.OPERATING
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.OPERATING"
 msgid "Normal operation"
-msgstr ""
+msgstr "Operasi Normal"
 
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.PIPECONTENTS_TRANSFER
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.PIPECONTENTS_TRANSFER"
 msgid "Transferred from pipes"
-msgstr ""
+msgstr "Ditransfer dari pipa"
 
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.TOOLTIP"
@@ -2002,21 +2018,25 @@ msgid ""
 "Sources:\n"
 "{1}"
 msgstr ""
+"Bangunan ini memproduksi {0} DTU per detik\n"
+"\n"
+"Sumber: {1}"
 
 #. STRINGS.BUILDING.STATUSITEMS.OVERHEATED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OVERHEATED.NAME"
 msgid "Damage: Overheating"
-msgstr ""
+msgstr "Kerusakan: Panas Berlebih"
 
 #. STRINGS.BUILDING.STATUSITEMS.OVERHEATED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OVERHEATED.TOOLTIP"
 msgid "This building is taking damage and will meltdown if not cooled"
 msgstr ""
+"Bangunan ini mengalami kerusakan dan akan meleleh jika tidak didinginkan"
 
 #. STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.NAME"
 msgid "Launch Path Blocked"
-msgstr ""
+msgstr "Jalur Peluncuran DiBlokir"
 
 #. STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.TILE_FORMAT
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.TILE_FORMAT"
@@ -2031,16 +2051,20 @@ msgid ""
 "\n"
 "This rocket requires a clear flight path for launch"
 msgstr ""
+"Ada halangan pada di trajektori peluncuran roket ini:\n"
+"• {0}\n"
+"\n"
+"Roket ini memerlukan jalur penerbangan yang bersih untuk peluncuran"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGDECONSTRUCTION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGDECONSTRUCTION.NAME"
 msgid "Deconstruction Errand"
-msgstr ""
+msgstr "Dekonstruksi Tugas"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGDECONSTRUCTION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGDECONSTRUCTION.TOOLTIP"
 msgid "Building will be deconstructed once a Duplicant is available"
-msgstr ""
+msgstr "Bangunan akan didekonstruksi seketika jika tersedia Duplikat"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.NAME"
@@ -2050,17 +2074,17 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.TOOLTIP"
 msgid "Spot will be fished once a Duplicant is available"
-msgstr ""
+msgstr "Tempat akan dipancing seketika Duplikat tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGHARVEST.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGHARVEST.NAME"
 msgid "Harvest Errand"
-msgstr ""
+msgstr "Tugas Memanen"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGHARVEST.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGHARVEST.TOOLTIP"
 msgid "Plant will be harvested once a Duplicant is available"
-msgstr ""
+msgstr "Tanaman akan dipanen seketika Duplikat tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGREPAIR.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGREPAIR.NAME"
