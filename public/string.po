@@ -2244,7 +2244,7 @@ msgstr "Tekanan yang menaik dengan aman dilepaskan"
 #. STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.NAME"
 msgid "Specialist-Operated Building"
-msgstr ""
+msgstr "Bangunan dioperasikan spesialis"
 
 #. STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.TOOLTIP"
@@ -2253,41 +2253,44 @@ msgid ""
 "building:\n"
 "{Roles}"
 msgstr ""
+"Hanya Duplikat terlatih dalam salah satu pekerjaan berikut dapat menambang "
+"bahan ini: {Roles}"
 
 #. STRINGS.BUILDING.STATUSITEMS.RESEARCHING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RESEARCHING.NAME"
 msgid "Current <link=\"TECH\">Research</link>: {Tech}"
-msgstr ""
+msgstr " <link=\"TECH\">Penelitian</link> Saat Ini: {Tech}"
 
 #. STRINGS.BUILDING.STATUSITEMS.RESEARCHING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RESEARCHING.TOOLTIP"
 msgid "Research produced at this station will be invested in {Tech}"
 msgstr ""
+"Penelitian yang dihasilkan di Stasiun ini akan diinvestasikan dalam {Tech}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETNAME.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETNAME.NAME"
 msgid "Parent Rocket: {0}"
-msgstr ""
+msgstr "Rocket Induk: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETNAME.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETNAME.TOOLTIP"
 msgid "This module belongs to the rocket: {0}"
-msgstr ""
+msgstr "Modul ini milik roket: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.SOLARPANELWATTAGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLARPANELWATTAGE.NAME"
 msgid "Current Wattage: {Wattage}"
-msgstr ""
+msgstr "Watt Saat Ini: {Wattage}"
 
 #. STRINGS.BUILDING.STATUSITEMS.SOLARPANELWATTAGE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLARPANELWATTAGE.TOOLTIP"
 msgid "This panel is generating {Wattage} of power"
-msgstr ""
+msgstr "Panel ini menghasilkan daya sebesar {Wattage} "
 
 #. STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.NAME"
 msgid "Conveyor Rail Backup"
-msgstr ""
+msgstr "Rel Konfeyor Cadangan"
 
 #. STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.TOOLTIP"
@@ -2296,11 +2299,15 @@ msgid ""
 "------------------\n"
 "Remove material from the Conveyor Receptacle to free space for more objects"
 msgstr ""
+"Rel Komveyor tidak dapat membawa muatan lebih\n"
+"------------------\n"
+"Pindahkan material dari Konveyor Penerimaan untuk memperoleh luang lebih "
+"untuk objek tambahan"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.NAME"
 msgid "No Line of Sight"
-msgstr ""
+msgstr "Tidak Ada Jarak Pandang"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.TOOLTIP"
@@ -2311,11 +2318,17 @@ msgid ""
 "Visibility: {VISIBILITY}\n"
 "Scan Radius: {RADIUS} cells"
 msgstr ""
+"Bangunan ini tidak mempunyai ruang untuk melihat\n"
+"\n"
+"Pastikan pandangan ke angit yang tidak terblok tersedia untuk mengumpulkan "
+"lebih banyak dat\n"
+"Visibilitas: {VISIBILITY}\n"
+"Diameter Pindai: {RADIUS} sel"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_REDUCED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_REDUCED.NAME"
 msgid "Reduced Visibility"
-msgstr ""
+msgstr "Mengurangi Visibilitas"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_REDUCED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_REDUCED.TOOLTIP"
@@ -2326,43 +2339,48 @@ msgid ""
 "Visibility: {VISIBILITY}\n"
 "Scan Radius: {RADIUS} cells"
 msgstr ""
+"Bangunan ini memiliki ruang pandang yang tidak memadai\n"
+"Pastikan pandangan ke langit tidak terblokir tersedia untuk pengumpulan data "
+"penelitian \n"
+"Visibilitas: {VISIBILITAS} \n"
+"Diameter Pindai: {RADIUS} sel"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NAME"
 msgid "Spacecraft ready to land"
-msgstr ""
+msgstr "Pesawat ruang angkasa yang siap untuk mendarat"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION"
 msgid "Ready to land"
-msgstr ""
+msgstr "Siap mendarat"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION_TOOLTIP
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION_TOOLTIP"
 msgid "A spacecraft is ready to land"
-msgstr ""
+msgstr "Pesawat ruang angkasa siap mendarat"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.TOOLTIP"
 msgid "A spacecraft is ready to land"
-msgstr ""
+msgstr "Pesawat ruang angkasa siap mendarat"
 
 #. STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME"
 msgid "Storing: {Stored} / {Capacity} {Units}"
-msgstr ""
+msgstr "Menyimpan: {Stored}/{Capacity} {Units}"
 
 #. STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.TOOLTIP"
 msgid ""
 "This container is storing {Stored} {Units} of a maximum {Capacity} {Units}."
-msgstr ""
+msgstr "Wadah ini menyimpan {Stored} {Units} dari maksimal {Capacity} {Units}."
 
 #. STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.NAME"
 msgid "Charge Available: {0}/{1}"
-msgstr ""
+msgstr "Pengisian Tersedia: (0)/{1}"
 
 #. STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.TOOLTIP"
@@ -2371,101 +2389,104 @@ msgid ""
 "\n"
 "It consumes {2} per use"
 msgstr ""
+"Bangunan ini mempunyai energi tersimpan {0}\n"
+"\n"
+"dan mengkonsumsi {2} untuk sekali penggunaan"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.NAME"
 msgid "Current Status: Charging Suit"
-msgstr ""
+msgstr "Status saat ini: Pengisian Pakaian"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.TOOLTIP"
 msgid "This Exosuit is docked and charging"
-msgstr ""
+msgstr "Pakaian Luar "
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.NAME"
 msgid "Current Status: Full Charge"
-msgstr ""
+msgstr "Status Saat Ini: Pengisian Penuh"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.TOOLTIP"
 msgid "This Exosuit is fully charged and ready for use"
-msgstr ""
+msgstr "Exosuit  telah terisi penuh dan siap digunakan"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.NAME"
 msgid "Current Status: Needs Configuration"
-msgstr ""
+msgstr "Status Saat Ini: Membutuhkan Konfigurasi"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.TOOLTIP"
 msgid "Set this Dock to store an Exosuit or remain on Standby"
-msgstr ""
+msgstr "Atur dok ini untuk menyimpan Exosuit atau tetap dalam kondisi Siaga"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_FUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_FUEL.NAME"
 msgid "Current Status: No Fuel"
-msgstr ""
+msgstr "Status Saat Ini: Tidak Ada Bahan Bakar"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_FUEL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_FUEL.TOOLTIP"
 msgid "This Dock does not contain enough fuel to refill a suit"
-msgstr ""
+msgstr "Dok ini tidak mempunyai cukup bahan bakar untuk mengisi ulang pakaian"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.NAME"
 msgid "Current Status: No Oxygen"
-msgstr ""
+msgstr "Status Saat Ini; Tidak Ada Oksigen"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.TOOLTIP"
 msgid "This Dock does not contain enough oxygen to refill a suit"
-msgstr ""
+msgstr "Dok ini tidak mempunyai cukup bahan bakar untuk mengisi ulang pakaian"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NOT_OPERATIONAL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NOT_OPERATIONAL.NAME"
 msgid "Current Status: Offline"
-msgstr ""
+msgstr "Status Saat Ini: Offline"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NOT_OPERATIONAL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NOT_OPERATIONAL.TOOLTIP"
 msgid "This Exosuit Dock requires power"
-msgstr ""
+msgstr "Dok Exosuit membutuhkan listrik"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.READY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.READY.NAME"
 msgid "Current Status: On Standby"
-msgstr ""
+msgstr "Status Saat Ini: Kondisi Siaga"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.READY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.READY.TOOLTIP"
 msgid "This Dock is functional and ready to receive an Exosuit"
-msgstr ""
+msgstr "Dok berfungsi dan siap untuk menerima Exosuit"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.SUIT_REQUESTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.SUIT_REQUESTED.NAME"
 msgid "Current Status: Awaiting Delivery"
-msgstr ""
+msgstr "Status Saat Ini: Menunggu Pengiriman"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.SUIT_REQUESTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.SUIT_REQUESTED.TOOLTIP"
 msgid "Waiting for a Duplicant to deliver an Exosuit"
-msgstr ""
+msgstr "Menunggu Duplikat untuk mengirim Exosuit"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER_NEEDS_CONFIGURATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER_NEEDS_CONFIGURATION.NAME"
 msgid "Not Configured"
-msgstr ""
+msgstr "Tida Terkonfigurasi"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER_NEEDS_CONFIGURATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER_NEEDS_CONFIGURATION.TOOLTIP"
 msgid "Exosuit Dock settings not configured"
-msgstr ""
+msgstr "Pengaturan Dok Exosuit tidak terkonfigurasi"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALANYTIME.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALANYTIME.NAME"
 msgid "Clearance: Always Permitted"
-msgstr ""
+msgstr "Ijin: Selalu Diperbolehkan"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALANYTIME.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALANYTIME.TOOLTIP"
@@ -2475,12 +2496,17 @@ msgid ""
 "When Exosuit Docks are all full, Duplicants will unequip their suits and "
 "drop them on the floor"
 msgstr ""
+"Duplikat yang bersetelan boleh lewat meskipun tidak ada ruang untuk "
+"menyimpan pakaian mereka\n"
+"-------------------\n"
+"Ketika Dok Exosuit telah penu, Duplikat akan melepas setelan dan "
+"menjatuhkannya di lantai"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.NAME
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.NAME"
 msgid "Clearance: Vacancy Only"
-msgstr ""
+msgstr "Ijin: Pekerjaan Saja"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.TOOLTIP
 msgctxt ""
@@ -4832,6 +4858,8 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROGENENGINE.DESC"
 msgid ""
 "Hydrogen engines can propel rockets further than steam or petroleum engines."
 msgstr ""
+"Mesin hidrogen dapat mendorong roket lebih jauh dari mesin uap atau mesin "
+"minyak."
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROGENENGINE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROGENENGINE.EFFECT"
