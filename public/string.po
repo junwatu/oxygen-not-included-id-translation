@@ -1988,17 +1988,17 @@ msgstr "Bangunan ini tidak terhubung ke jaringan listrik"
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.EXHAUSTING
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.EXHAUSTING"
 msgid "Excess produced"
-msgstr ""
+msgstr "Kotoran diproduksi"
 
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.LINEITEM
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.LINEITEM"
 msgid "    • {0}: {1}\n"
-msgstr ""
+msgstr "    • {0}: {1}\n"
 
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.NAME"
 msgid "Heat Production: {0}/s"
-msgstr ""
+msgstr "Produksi Panas: {0}/s"
 
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.OPERATING
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.OPERATING"
@@ -2041,7 +2041,7 @@ msgstr "Jalur Peluncuran DiBlokir"
 #. STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.TILE_FORMAT
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.TILE_FORMAT"
 msgid "Solid {0}"
-msgstr ""
+msgstr "Padat {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.TOOLTIP"
@@ -2069,7 +2069,7 @@ msgstr "Bangunan akan didekonstruksi seketika jika tersedia Duplikat"
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.NAME"
 msgid "Fishing Errand"
-msgstr ""
+msgstr "Misi Memancing"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.TOOLTIP"
@@ -2079,7 +2079,7 @@ msgstr "Tempat akan dipancing seketika Duplikat tersedia"
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGHARVEST.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGHARVEST.NAME"
 msgid "Harvest Errand"
-msgstr "Tugas Memanen"
+msgstr "Misi Memanen"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGHARVEST.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGHARVEST.TOOLTIP"
@@ -2089,7 +2089,7 @@ msgstr "Tanaman akan dipanen seketika Duplikat tersedia"
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGREPAIR.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGREPAIR.NAME"
 msgid "Repair Errand"
-msgstr ""
+msgstr "Misi Memperbaiki"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGREPAIR.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGREPAIR.TOOLTIP"
@@ -2103,7 +2103,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.NAME"
 msgid "Setting Change Errand"
-msgstr ""
+msgstr "Misi Mengubah Pengaturan"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.TOOLTIP"
@@ -2113,7 +2113,7 @@ msgstr "Pengaturan akan berubah seketika  Duplikat tersedia"
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.NAME"
 msgid "Uproot Errand"
-msgstr ""
+msgstr "Misi Mencabut "
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.TOOLTIP"
@@ -2123,7 +2123,7 @@ msgstr "Tanaman akan dicabut sekali Duplikat tersedia"
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.NAME"
 msgid "Work Errand"
-msgstr ""
+msgstr "Misi Bekerja"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.TOOLTIP"
@@ -2133,7 +2133,7 @@ msgstr "Bangunan akan dioperasikan sekali Duplicant tersedia"
 #. STRINGS.BUILDING.STATUSITEMS.PIPE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPE.NAME"
 msgid "Contents: {Contents}"
-msgstr ""
+msgstr "Isi: {Contents}"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPE.TOOLTIP"
@@ -2143,7 +2143,7 @@ msgstr "Pipa ini memberikan {Contents}"
 #. STRINGS.BUILDING.STATUSITEMS.PIPECONTENTS.CONTENTS
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPECONTENTS.CONTENTS"
 msgid "{0} of {1} at {2}"
-msgstr ""
+msgstr "{0} dari {1} di {2}"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPECONTENTS.CONTENTS_WITH_DISEASE
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPECONTENTS.CONTENTS_WITH_DISEASE"
@@ -2151,11 +2151,13 @@ msgid ""
 "\n"
 "  {0}"
 msgstr ""
+"\n"
+"  {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPECONTENTS.EMPTY
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPECONTENTS.EMPTY"
 msgid "Empty"
-msgstr ""
+msgstr "Kosong"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.NAME"
@@ -2170,7 +2172,7 @@ msgstr "Pipa ini berada dalam bahaya mencair pada suhu sekarang"
 #. STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.NAME"
 msgid "Function Suspended"
-msgstr ""
+msgstr "Fungsi Dihentikan Sementara"
 
 #. STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.TOOLTIP
 #, fuzzy
@@ -2185,7 +2187,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.PRESSUREOK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PRESSUREOK.NAME"
 msgid "Max Gas Pressure"
-msgstr ""
+msgstr "Tekanan Gas Maks"
 
 #. STRINGS.BUILDING.STATUSITEMS.PRESSUREOK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PRESSUREOK.TOOLTIP"
@@ -2194,46 +2196,50 @@ msgid ""
 "------------------\n"
 "Reduce pressure by pumping gas away or clearing more space"
 msgstr ""
+"Tekanan udara lingkungan yang tinggi mencegah bangunan ini untuk "
+"menngeluarkan gas\n"
+"------------------\n"
+"Kurangi tekanan dengan memompa keluar atau menyediaan ruang lebih"
 
 #. STRINGS.BUILDING.STATUSITEMS.PUMPINGLIQUIDORGAS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PUMPINGLIQUIDORGAS.NAME"
 msgid "Average Flow Rate: {FlowRate}"
-msgstr ""
+msgstr "Rata rata aliran: {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.PUMPINGLIQUIDORGAS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PUMPINGLIQUIDORGAS.TOOLTIP"
 msgid "This building is pumping an average volume of {FlowRate}"
-msgstr ""
+msgstr "Bangunan ini memompa dengan volume rata-rata {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.PUMPINGSTATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PUMPINGSTATION.NAME"
 msgid "Liquid Available: {Liquids}"
-msgstr ""
+msgstr "Cairan Tersedia: {Cairan}"
 
 #. STRINGS.BUILDING.STATUSITEMS.PUMPINGSTATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PUMPINGSTATION.TOOLTIP"
 msgid "This pumping station has access to: {Liquids}"
-msgstr ""
+msgstr "Stasiun pemompaan ini mempunyai akses ke: {Liquids}"
 
 #. STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.NAME"
 msgid "Storing: {Stored}"
-msgstr ""
+msgstr "Menyimpan: {Stored}"
 
 #. STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.TOOLTIP"
 msgid "This box contains {Stored} of food"
-msgstr ""
+msgstr "Kotak ini menyimpan makanan sebanyak {Stored}"
 
 #. STRINGS.BUILDING.STATUSITEMS.RELEASING_PRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RELEASING_PRESSURE.NAME"
 msgid "Releasing Pressure"
-msgstr ""
+msgstr "Melepkaskan Tekanan"
 
 #. STRINGS.BUILDING.STATUSITEMS.RELEASING_PRESSURE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RELEASING_PRESSURE.TOOLTIP"
 msgid "Pressure buildup is being safely released"
-msgstr ""
+msgstr "Tekanan yang menaik dengan aman dilepaskan"
 
 #. STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.NAME"
@@ -21770,22 +21776,22 @@ msgstr ""
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.NAME"
 msgid "Moving to safe area"
-msgstr ""
+msgstr "Pindah ke tempat aman"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.TOOLTIP"
 msgid "This Duplicant is finding a safer place"
-msgstr ""
+msgstr "Duplikat ini sedang mencari tempa lebih aman"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MUSHDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MUSHDELIVERSTATUS.NAME"
 msgid "Delivering resources to {Target}"
-msgstr ""
+msgstr "Mengirimkan sumber daya ke {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MUSHDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MUSHDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to {Target}"
-msgstr ""
+msgstr "Duplikat ini sedang mengantarkan material ke {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MUSHING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MUSHING.NAME"
@@ -21795,7 +21801,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.STATUSITEMS.MUSHING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MUSHING.TOOLTIP"
 msgid "This Duplicant is cooking a {Item}"
-msgstr ""
+msgstr "Duplikat ini sedang memasak {item}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NERVOUSBREAKDOWN.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NERVOUSBREAKDOWN.NAME"
@@ -21818,11 +21824,12 @@ msgstr ""
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NERVOUSBREAKDOWN.TOOLTIP"
 msgid "Stress has completely eroded this Duplicant's ability to function"
 msgstr ""
+"Stres benar-benar telah  mempengaruhi kemampuan Duplikat ini untuk berfungsi"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NIGHTTIME.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NIGHTTIME.NAME"
 msgid "Night Owl"
-msgstr ""
+msgstr "Burung Hantu Malam"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NIGHTTIME.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NIGHTTIME.TOOLTIP"
@@ -21830,6 +21837,8 @@ msgid ""
 "This Duplicant is impassioned by the night\n"
 "• +3 to all Attributes"
 msgstr ""
+"Duplikat ini sangat terkesan dengan suasana malam\n"
+"• +3 untuk semua atribut"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOISEMAJOR.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOISEMAJOR.NAME"
@@ -21839,53 +21848,53 @@ msgstr ""
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOISEMAJOR.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOISEMAJOR.TOOLTIP"
 msgid "It's very, very loud in here!"
-msgstr ""
+msgstr "Disini suaranya sangat sangat keras!"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOISEMINOR.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOISEMINOR.NAME"
 msgid "Loud Noises"
-msgstr ""
+msgstr "Suara Keras"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOISEMINOR.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOISEMINOR.TOOLTIP"
 msgid "This area is a bit too loud for comfort"
-msgstr ""
+msgstr "Daerah ini sedikit terlalu keras untuk kenyamanan"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOISEPEACEFUL.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOISEPEACEFUL.NAME"
 msgid "Peace and Quiet"
-msgstr ""
+msgstr "Damai & Tenang"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOISEPEACEFUL.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOISEPEACEFUL.TOOLTIP"
 msgid "This Duplicant has found a quiet place to concentrate"
-msgstr ""
+msgstr "Duplikat ini telah menemukan tempat yang tenang untuk berkonsentrasi"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NORATIONSAVAILABLE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NORATIONSAVAILABLE.NAME"
 msgid "No food available"
-msgstr ""
+msgstr "Makanan Tidak Tersedia"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NORATIONSAVAILABLE.NOTIFICATION_NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NORATIONSAVAILABLE.NOTIFICATION_NAME"
 msgid "No food available"
-msgstr ""
+msgstr "Tidak ada makanan yang tersedia"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NORATIONSAVAILABLE.NOTIFICATION_TOOLTIP
 msgctxt ""
 "STRINGS.DUPLICANTS.STATUSITEMS.NORATIONSAVAILABLE.NOTIFICATION_TOOLTIP"
 msgid "These Duplicants have nothing to eat:"
-msgstr ""
+msgstr "Para Duplikat ini tidak mempunyai makanan apapun:"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NORATIONSAVAILABLE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NORATIONSAVAILABLE.TOOLTIP"
 msgid "There's nothing in the colony for this Duplicant to eat"
-msgstr ""
+msgstr "Di dalam koloni  ini tidak ada makanan untuk para Duplikat"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOROLE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOROLE.NAME"
 msgid "No Job"
-msgstr ""
+msgstr "Tidak ada pekerjaan"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOROLE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOROLE.TOOLTIP"
@@ -21898,12 +21907,12 @@ msgstr ""
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NAME"
 msgid "No restrooms"
-msgstr ""
+msgstr "Tidak ada ruang istirahat"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NOTIFICATION_NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NOTIFICATION_NAME"
 msgid "No restrooms built"
-msgstr ""
+msgstr "Tidak ada ruang istirahat yang dibangun"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NOTIFICATION_TOOLTIP"
@@ -21922,7 +21931,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOUSABLETOILETS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOUSABLETOILETS.NAME"
 msgid "Restroom out of order"
-msgstr ""
+msgstr "Tempat istirahat tidak dapat dipakai"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOUSABLETOILETS.NOTIFICATION_NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOUSABLETOILETS.NOTIFICATION_NAME"
