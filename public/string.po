@@ -2663,7 +2663,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.NAME"
 msgid "Cold {ELEMENT}"
-msgstr ""
+msgstr "Suhu dingin {ELEMENT}"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.TOOLTIP"
@@ -2778,11 +2778,13 @@ msgid ""
 "Awaiting Delivery\n"
 "{ItemsRemaining}"
 msgstr ""
+"Menunggu pengiriman\n"
+"{ItemsRemaining}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORMATERIALS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORMATERIALS.TOOLTIP"
 msgid "These materials will be delivered once a Duplicant is available"
-msgstr ""
+msgstr "Material ini akan di kirimkan jika ada Duplicant yang tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.LINE_ITEM
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.LINE_ITEM"
@@ -2795,11 +2797,13 @@ msgid ""
 "Awaiting Repair Delivery\n"
 "{ItemsRemaining}\n"
 msgstr ""
+"Menunggu pengiriman untuk perbaikan\n"
+"{ItemsRemaining}\n"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.TOOLTIP"
 msgid "These materials must be delivered before this building can be repaired"
-msgstr ""
+msgstr "Material ini harus di kirimkan agar perbaikan dapat dilaksanakan"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTAGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTAGE.NAME"
@@ -2807,14 +2811,15 @@ msgid "Wattage: {Wattage}"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTAGE.TOOLTIP
+#, fuzzy
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTAGE.TOOLTIP"
 msgid "This building is generating {Wattage} of power"
-msgstr ""
+msgstr "Bangunan ini sedang membuat power"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTSON.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTSON.NAME"
 msgid "Next Duplicant: {TimeRemaining}"
-msgstr ""
+msgstr "Duplicant Selanjutnya: {TimeRemaining}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTSON.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTSON.TOOLTIP"
@@ -2822,6 +2827,8 @@ msgid ""
 "The Printing Pod can print out new Duplicants over time.\n"
 "The next one will be ready in {TimeRemaining}"
 msgstr ""
+"Printing Pod akan mengeluarkan Duplicant baru dalam waktu tertentu.\n"
+"Duplicant selanjutnya akan dikeluarkan dalam {TimeRemaining}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTSON.UNAVAILABLE
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTSON.UNAVAILABLE"
@@ -2836,7 +2843,7 @@ msgstr "Kerugian Koloni"
 #. STRINGS.BUILDING.STATUSITEMS.WATTSONGAMEOVER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTSONGAMEOVER.TOOLTIP"
 msgid "All Duplicants are dead or incapacitated"
-msgstr ""
+msgstr "Semua duplicant sudah mati..."
 
 #. STRINGS.BUILDING.STATUSITEMS.WELL_OVERPRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WELL_OVERPRESSURE.NAME"
@@ -2846,7 +2853,7 @@ msgstr "Tekanan Berlebih"
 #. STRINGS.BUILDING.STATUSITEMS.WELL_OVERPRESSURE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WELL_OVERPRESSURE.TOOLTIP"
 msgid "This well can no longer function due to excessive backpressure"
-msgstr ""
+msgstr "Ini tidak bisa digunakan kembali karena tekanan yang perlebihan"
 
 #. STRINGS.BUILDING.STATUSITEMS.WELL_PRESSURIZING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WELL_PRESSURIZING.NAME"
