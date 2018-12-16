@@ -2808,7 +2808,7 @@ msgstr "Material ini harus di kirimkan agar perbaikan dapat dilaksanakan"
 #. STRINGS.BUILDING.STATUSITEMS.WATTAGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTAGE.NAME"
 msgid "Wattage: {Wattage}"
-msgstr ""
+msgstr "Watt: {Watt}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTAGE.TOOLTIP
 #, fuzzy
@@ -2866,6 +2866,8 @@ msgid ""
 "Well pressure increases with each use and must be periodically relieved to "
 "prevent shutdown"
 msgstr ""
+" Tekanan sumur meningkat pada masing-masing penggunaan dan harus secara "
+"berkala dikurangi untuk mencegah shutdown"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.NAME"
@@ -2875,7 +2877,7 @@ msgstr "Status Sirkuit: {CurrentLoad} / {MaxLoad}"
 #. STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.TOOLTIP"
 msgid "The current load on this circuit"
-msgstr ""
+msgstr "Arus yang mengalir di sirkuit ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRECONNECTED.NAME"
@@ -2885,7 +2887,7 @@ msgstr "Kabel Terhubung"
 #. STRINGS.BUILDING.STATUSITEMS.WIRECONNECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRECONNECTED.TOOLTIP"
 msgid "This wire is connected to a network"
-msgstr ""
+msgstr "Kabel ini terhubung ke jaringan"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIREDISCONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIREDISCONNECTED.NAME"
@@ -2996,7 +2998,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.DAMAGESOURCES.COMET
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.COMET"
 msgid "falling space rocks"
-msgstr ""
+msgstr "Batu ruang angkasa berjatuhan"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.CONDUIT_CONTENTS_BOILED
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.CONDUIT_CONTENTS_BOILED"
@@ -3026,7 +3028,7 @@ msgstr "Duplikat yand marah. Kasar!"
 #. STRINGS.BUILDINGS.DAMAGESOURCES.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.NOTIFICATION_TOOLTIP"
 msgid "A {0} sustained damage from {1}"
-msgstr ""
+msgstr "Kerusakan berlanjut {0} dari {1}"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.ROCKET
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.ROCKET"
@@ -3036,7 +3038,7 @@ msgstr "Mesin Roket"
 #. STRINGS.BUILDINGS.DISINFECTABLE.DISABLE_DISINFECT.NAME
 msgctxt "STRINGS.BUILDINGS.DISINFECTABLE.DISABLE_DISINFECT.NAME"
 msgid "Cancel Disinfect"
-msgstr ""
+msgstr "Batalkan Disinfeksi"
 
 #. STRINGS.BUILDINGS.DISINFECTABLE.DISABLE_DISINFECT.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.DISINFECTABLE.DISABLE_DISINFECT.TOOLTIP"
@@ -3051,7 +3053,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.DISINFECTABLE.ENABLE_DISINFECT.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.DISINFECTABLE.ENABLE_DISINFECT.TOOLTIP"
 msgid "Mark this building for disinfection"
-msgstr ""
+msgstr "Tandai bangunan ini untuk disinfeksi"
 
 #. STRINGS.BUILDINGS.DISINFECTABLE.NO_DISEASE.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.DISINFECTABLE.NO_DISEASE.TOOLTIP"
