@@ -2811,10 +2811,9 @@ msgid "Wattage: {Wattage}"
 msgstr "Watt: {Watt}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTAGE.TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTAGE.TOOLTIP"
 msgid "This building is generating {Wattage} of power"
-msgstr "Bangunan ini sedang membuat power"
+msgstr "Bangunan ini memproduksi listrik sebesar {Wattage}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTSON.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTSON.NAME"
@@ -2897,12 +2896,12 @@ msgstr "Kabel Terputus"
 #. STRINGS.BUILDING.STATUSITEMS.WIREDISCONNECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIREDISCONNECTED.TOOLTIP"
 msgid "This wire is not connecting a power consumer to a generator"
-msgstr ""
+msgstr "Kabel ini tidak menghubungkan pemakai listrik ke generator"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.NAME"
 msgid "Max Wattage: {WireMaxWattage}"
-msgstr ""
+msgstr "Watt Maksimum: {WireMaxWattage}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.TOOLTIP"
@@ -2912,7 +2911,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.WIRENOMINAL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRENOMINAL.NAME"
 msgid "Wire Nominal"
-msgstr ""
+msgstr "Jumlah Kabel"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIRENOMINAL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRENOMINAL.TOOLTIP"
@@ -2922,7 +2921,7 @@ msgstr "Kabel ini dalam kondisi yang bagus"
 #. STRINGS.BUILDING.STATUSITEMS.WORKING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WORKING.NAME"
 msgid "Nominal"
-msgstr ""
+msgstr "Jumlah"
 
 #. STRINGS.BUILDING.STATUSITEMS.WORKING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WORKING.TOOLTIP"
@@ -2932,22 +2931,22 @@ msgstr "Bangunan ini berfungsi sebagaimana semestinya"
 #. STRINGS.BUILDINGS.AUTODISINFECTABLE.DISABLE_AUTODISINFECT.NAME
 msgctxt "STRINGS.BUILDINGS.AUTODISINFECTABLE.DISABLE_AUTODISINFECT.NAME"
 msgid "Disable Disinfect"
-msgstr ""
+msgstr "Batalkan Disinfeksi"
 
 #. STRINGS.BUILDINGS.AUTODISINFECTABLE.DISABLE_AUTODISINFECT.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.AUTODISINFECTABLE.DISABLE_AUTODISINFECT.TOOLTIP"
 msgid "Do not automatically disinfect this building"
-msgstr ""
+msgstr "Jangan disinfeksi gedung secara otomatis"
 
 #. STRINGS.BUILDINGS.AUTODISINFECTABLE.ENABLE_AUTODISINFECT.NAME
 msgctxt "STRINGS.BUILDINGS.AUTODISINFECTABLE.ENABLE_AUTODISINFECT.NAME"
 msgid "Enable Disinfect"
-msgstr ""
+msgstr "Lakukan Disinfeksi"
 
 #. STRINGS.BUILDINGS.AUTODISINFECTABLE.ENABLE_AUTODISINFECT.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.AUTODISINFECTABLE.ENABLE_AUTODISINFECT.TOOLTIP"
 msgid "Automatically disinfect this building when it becomes contaminated"
-msgstr ""
+msgstr "Disinfeksi bangunan ini secara otomatis ketika terkontaminasi"
 
 #. STRINGS.BUILDINGS.AUTODISINFECTABLE.NO_DISEASE.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.AUTODISINFECTABLE.NO_DISEASE.TOOLTIP"
@@ -2965,6 +2964,8 @@ msgid ""
 "This building's storage may be accessed by both Duplicants and Auto-Sweeper "
 "buildings"
 msgstr ""
+"Ruang penyimpanan di gedung ini bisa dikases oleh Duplikat dan Penyapu "
+"Otomatis bangunan"
 
 #. STRINGS.BUILDINGS.AUTOMATABLE.ENABLE_AUTOMATIONONLY.NAME
 msgctxt "STRINGS.BUILDINGS.AUTOMATABLE.ENABLE_AUTOMATIONONLY.NAME"
@@ -2979,6 +2980,11 @@ msgid ""
 "Duplicants will not be permitted to add or remove materials from this "
 "building"
 msgstr ""
+"Ruang penyimpanan bangunan ini hanya bisa diakses oleh Penyapu Otomatis "
+"saja\n"
+"-------------------\n"
+"Dupikat tidak diijinkan untuk menambah ataupun mengurangi material dari "
+"gedung ini"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.BAD_INPUT_ELEMENT
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.BAD_INPUT_ELEMENT"
@@ -2993,7 +2999,7 @@ msgstr "Panas berlebih"
 #. STRINGS.BUILDINGS.DAMAGESOURCES.CIRCUIT_OVERLOADED
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.CIRCUIT_OVERLOADED"
 msgid "an overloaded circuit"
-msgstr ""
+msgstr "Sirkuit kelebihan beban"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.COMET
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.COMET"
@@ -3018,7 +3024,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.DAMAGESOURCES.MICROMETEORITE
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.MICROMETEORITE"
 msgid "micrometeorite"
-msgstr ""
+msgstr "Meteorit mikro"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.MINION_DESTRUCTION
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.MINION_DESTRUCTION"
@@ -3043,12 +3049,12 @@ msgstr "Batalkan Disinfeksi"
 #. STRINGS.BUILDINGS.DISINFECTABLE.DISABLE_DISINFECT.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.DISINFECTABLE.DISABLE_DISINFECT.TOOLTIP"
 msgid "Cancel this disinfect order"
-msgstr ""
+msgstr "Batalkan perintah disinfeksi"
 
 #. STRINGS.BUILDINGS.DISINFECTABLE.ENABLE_DISINFECT.NAME
 msgctxt "STRINGS.BUILDINGS.DISINFECTABLE.ENABLE_DISINFECT.NAME"
 msgid "Disinfect"
-msgstr ""
+msgstr "Disinfeksi"
 
 #. STRINGS.BUILDINGS.DISINFECTABLE.ENABLE_DISINFECT.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.DISINFECTABLE.ENABLE_DISINFECT.TOOLTIP"
@@ -3065,6 +3071,8 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.DESC"
 msgid ""
 "Super computers unlock higher technology tiers than research stations alone."
 msgstr ""
+"Super komputer membuka lapisan teknologi yang lebih tinggi dibandingkan "
+"stasiun penelitian saja. "
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
@@ -3243,22 +3251,25 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOMINER.DESC"
 msgid ""
 "A robo-miner's range can be viewed at any time by selecting the building."
 msgstr ""
+"Jangkauan robot penambang bisa dilihat kapan saja dengan memilih bangunan."
 
 #. STRINGS.BUILDINGS.PREFABS.AUTOMINER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOMINER.EFFECT"
 msgid ""
 "Automatically <link=\"CHORES\">digs</link> out all materials in a set range."
 msgstr ""
+"Secara otomatis <link=\"CHORES\">menggali</link> semua material didalam "
+"jangkuan tertentu."
 
 #. STRINGS.BUILDINGS.PREFABS.AUTOMINER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOMINER.NAME"
 msgid "<link=\"AUTOMINER\">Robo-Miner</link>"
-msgstr ""
+msgstr "<link=\"AUTOMINER\">Robo Penambang</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.CHARGE_LOSS
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.CHARGE_LOSS"
 msgid "{Battery} charge loss"
-msgstr ""
+msgstr "{Battery} Kehilangan daya"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.DESC"
@@ -3266,6 +3277,8 @@ msgid ""
 "Batteries allow extra power from generators to be stored for later, rather "
 "than lost."
 msgstr ""
+"Baterai berfungsi untuk menyimpan daya lebih dari generator daripada daya "
+"tersebut terbuang sia sia. "
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.EFFECT"
@@ -3277,7 +3290,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.NAME"
 msgid "<link=\"BATTERY\">Tiny Battery</link>"
-msgstr ""
+msgstr "<link=\"BATTERY\">Baterai Kecil</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.DESC"
@@ -3285,6 +3298,8 @@ msgid ""
 "Larger batteries hold more power and keep systems running longer before "
 "recharging."
 msgstr ""
+"Baterai lebih besar akan menyimpan listrik lebih banyak dan menjaga sistem "
+"untuk berjalan lebih lama sebelum pengisian kembali."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.EFFECT"
@@ -3296,7 +3311,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.NAME"
 msgid "<link=\"BATTERYMEDIUM\">Battery</link>"
-msgstr ""
+msgstr "<link=\"BATTERYMEDIUM\">Baterai</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP"
@@ -3304,6 +3319,8 @@ msgid ""
 "Logic input will become <link=\"LOGIC\">Active</link> when battery is less "
 "than {0}% charged"
 msgstr ""
+"Logika masukan akan menjadi <link=\"LOGIC\">Aktif</link> ketika pengisian "
+"baterai kurang dari {0}%"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP"
@@ -3311,6 +3328,8 @@ msgid ""
 "Logic input will go on <link=\"LOGIC\">Standby</link> when battery is more "
 "than {0}% charged"
 msgstr ""
+"Logika masukan akan menjadi <link=\"LOGIC\">Siaga</link> ketika pengisian "
+"baterai lebih dari {0}%"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC"
