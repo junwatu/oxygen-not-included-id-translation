@@ -3075,6 +3075,7 @@ msgstr ""
 "stasiun penelitian saja. "
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT
+#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
 msgid ""
 "Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new "
@@ -3083,17 +3084,24 @@ msgid ""
 "Assigned Duplicants must possess the <link=\"RESEARCHER\">Super Computer "
 "Researching</link> trait."
 msgstr ""
+"Lakukan <link=\"RESEARCH\"> Penelitian Lanjutan</link> untuk membuka "
+"teknologi baru.\n"
+"\n"
+"Duplikat yang ditetapkan harus memiliki <link=\"RESEARCHER\"> Penelitian "
+"Super Komputer </link>."
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME"
 msgid "<link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>"
-msgstr ""
+msgstr "<link=\"ADVANCEDRESEARCHCENTER\"> Super Komputer</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.DESC"
 msgid ""
 "Lures can relocate Pufts or Shine Bugs to specific locations in your base."
 msgstr ""
+"Umpan dapat memindahkan Pufts atau Serangga Mengkilat ke lokasi tertentu di "
+"tempat anda."
 
 #. STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.EFFECT"
@@ -3103,16 +3111,22 @@ msgid ""
 "Must be baited with <link=\"SLIMEMOLD\">Slime</link> or <link=\"PHOSPHORITE"
 "\">Phosphorite</link>."
 msgstr ""
+"Menarik salah satu jenis makhluk udara.\n"
+"\n"
+"Harus diumpan dengan <link=\"SLIMEMOLD\">Lendir</link> atau <link="
+"\"PHOSPHORITE\">Phosphorite</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.NAME"
 msgid "<link=\"AIRBORNECREATURELURE\">Critter Lure</link>"
-msgstr ""
+msgstr "<link=\"AIRBORNECREATURELURE\"Umpan Makhluk</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.DESC"
 msgid "A thermo regulator doesn't remove heat, but relocates it to a new area."
 msgstr ""
+"Regulator panas tidak menghilangkan panas, tapi memindahkannya ke daerah "
+"baru."
 
 #. STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.EFFECT"
@@ -3129,7 +3143,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.AIRFILTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRFILTER.DESC"
 msgid "Oh! Citrus scented!"
-msgstr ""
+msgstr "Oh! Beraroma Jeruk!"
 
 #. STRINGS.BUILDINGS.PREFABS.AIRFILTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRFILTER.EFFECT"
@@ -3138,6 +3152,9 @@ msgid ""
 "\">Polluted Oxygen</link> from the air, reducing <link=\"DISEASE\">Disease</"
 "link> spread."
 msgstr ""
+"Gunakan <link=\"SAND\">Pasir</link> untuk menyaring <link="
+"\"CONTAMINATEDOXYGEN\">Oksigen Terpolusi</link> dari udara, mengurangi "
+"penyebaran <link=\"DISEASE\">Penyakit</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.AIRFILTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRFILTER.NAME"
@@ -3150,23 +3167,27 @@ msgid ""
 "Algae distillers convert disease-causing slime into algae for oxygen "
 "production."
 msgstr ""
+"Alga penyuling mengkonversi lendir penyebab penyakit ke ganggang untuk "
+"produksi oksigen."
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.EFFECT"
 msgid ""
 "Refines <link=\"SLIMEMOLD\">Slime</link> into <link=\"ALGAE\">Algae</link>."
 msgstr ""
+"Memurnikan <link=\"SLIMEMOLD\">Lendir</link>ke <link=\"ALGAE\">Alga</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.NAME"
 msgid "<link=\"ALGAEDISTILLERY\">Algae Distiller</link>"
-msgstr ""
+msgstr "<link=\"ALGAEDISTILLERY\">Penyaring Alga</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.DESC"
 msgid ""
 "Algae colony, Duplicant colony... we're more alike than we are different."
 msgstr ""
+"Koloni Alga, Koloni Duplikat... kita jauh lebih mirip daripada berbeda."
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.EFFECT"
@@ -3176,16 +3197,22 @@ msgid ""
 "\n"
 "Gains a 10% efficiency boost in direct <link=\"LIGHT\">Light</link>."
 msgstr ""
+"Mengkonsumsi <link=\"ALGAE\">Alga</link> untuk memproduksi <link=\"OXYGEN"
+"\">Oksigen</link> dan mengurangi beberapa<link=\"CARBONDIOXIDE"
+"\">Karbondioksida</link>.\n"
+"\n"
+"Peningkatan efisiensi 10% dengan sinar <link=\"LIGHT\">Cahaya</link> "
+"langsung."
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.NAME"
 msgid "<link=\"ALGAEHABITAT\">Algae Terrarium</link>"
-msgstr ""
+msgstr "<link=\"ALGAEHABITAT\">Alga Terrarium</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.SIDESCREEN_TITLE
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.SIDESCREEN_TITLE"
 msgid "Empty <link=\"DIRTYWATER\">Polluted Water</link> Threshold"
-msgstr ""
+msgstr "Batas Pengosonagan <link=\"DIRTYWATER\">Ait Terpolusi</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.APOTHECARY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.DESC"
@@ -3200,6 +3227,10 @@ msgid ""
 "\n"
 "Duplicants will not fabricate items unless recipes are queued."
 msgstr ""
+"Memproduksi <link=\"MEDICINE\">Obat</link> menyembuhkan <link=\"DISEASE"
+"\">Penyakit</link> dasar kebanyakan.\n"
+"\n"
+"Duplikat tidak akan menciptakan item kecuali resep dalam antrian."
 
 #. STRINGS.BUILDINGS.PREFABS.APOTHECARY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.NAME"
@@ -3212,6 +3243,8 @@ msgid ""
 "Komet Kablam-O!\n"
 "For up to two players."
 msgstr ""
+"Komet Kablam-O!\n"
+"Untuk dua atau lebih pemain."
 
 #. STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.EFFECT"
@@ -3220,6 +3253,9 @@ msgid ""
 "\n"
 "Increases Duplicant Morale."
 msgstr ""
+"Mengijinkan Duplikat untuk bermain video game selama istirahat.\n"
+"\n"
+"Meningkatkan Mental Duplikat."
 
 #. STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.NAME"
@@ -3231,6 +3267,8 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC"
 msgid ""
 "Duplicants must complete astronaut training in order to pilot space rockets."
 msgstr ""
+"Dupkikat harus melengkapi pelatihan astronot agar bisa menjadi pilot roket "
+"angkasa."
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.EFFECT"
@@ -3240,11 +3278,16 @@ msgid ""
 "Duplicants must possess the <link=\"ASTRONAUTTRAINEE\">Astronaut-in-"
 "Training</link> trait to receive training."
 msgstr ""
+"Melatih Duplikat untuk menjadi <link=\"ASTRONAUT\">Astronot</link>.\n"
+"\n"
+"Duplikat harus mempunyai ciri <link=\"ASTRONAUTTRAINEE\">Astronot-Dalam-"
+"Pelatihan</link> agar bisa menerima pelatihan"
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME"
 msgid "<link=\"ASTRONAUTTRAININGCENTER\">Space Cadet Centrifuge</link>"
 msgstr ""
+"<link=\"ASTRONAUTTRAININGCENTER\">Mesin Pusingan Untuk Calon Astronot</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.AUTOMINER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOMINER.DESC"
@@ -3356,7 +3399,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.NAME"
 msgid "<link=\"BATTERYSMART\">Smart Battery</link>"
-msgstr ""
+msgstr "<link=\"BATTERYSMART\">Baterai Pintar</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_ACTIVATE
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_ACTIVATE"
@@ -3371,13 +3414,15 @@ msgstr "Siaga:"
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_TITLE
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_TITLE"
 msgid "Logic Activation Parameters"
-msgstr ""
+msgstr "Parameter Aktivasi Berlogika"
 
 #. STRINGS.BUILDINGS.PREFABS.BED.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BED.DESC"
 msgid ""
 "Duplicants without a bed will develop sore backs from sleeping on the floor."
 msgstr ""
+"Duplikat tanpa tempat tidur akan menyebabkan sakit pada punggung dikarenakan "
+"tidur di lantai."
 
 #. STRINGS.BUILDINGS.PREFABS.BED.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BED.EFFECT"
@@ -3386,11 +3431,15 @@ msgid ""
 "\n"
 "Duplicants will automatically return to their cots to sleep at night."
 msgstr ""
+"Berikan satu Duplikat tempat untuk tidur\n"
+"\n"
+"Duplikat secara otomatis akan kembali ke pondok mereka untuk tidur saat "
+"malam."
 
 #. STRINGS.BUILDINGS.PREFABS.BED.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BED.NAME"
 msgid "<link=\"BED\">Cot</link>"
-msgstr ""
+msgstr "<link=\"BED\">Pondok</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIER.DESC"
@@ -3690,7 +3739,7 @@ msgstr "Ditandai untuk Pengosongan"
 #. STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP"
 msgid "Awaiting a Plumber to clear this pipe"
-msgstr ""
+msgstr "Menunggu tukang ledeng untuk membersihkan pipa ini"
 
 #. STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.DESC"
@@ -3698,6 +3747,8 @@ msgid ""
 "Proper cooking eliminates foodborne disease and produces tasty, stress-"
 "relieving meals."
 msgstr ""
+"Memasak dengan tepat menghilangkan penyakit bawaan makanan dan menghasilkan "
+"makanan lezat, menghilangkan stres."
 
 #. STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.EFFECT"
@@ -3706,6 +3757,9 @@ msgid ""
 "\n"
 "Duplicants will not fabricate items unless recipes are queued."
 msgstr ""
+"Memasak berbagai macam <link=\"FOOD\">Makanan</link>.\n"
+"\n"
+"Duplikat tidak akan menciptakan item kecuali resep dalam antrian."
 
 #. STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.NAME"
@@ -3718,6 +3772,8 @@ msgid ""
 "Virtual planetariums allow the simulated exploration of locations discovered "
 "with telescopes."
 msgstr ""
+"Virtual Planetarium memungkinkan simulasi lokasi eksplorasi yang telah "
+"ditemukan dengan teleskop."
 
 #. STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.EFFECT"
@@ -3741,6 +3797,8 @@ msgid ""
 "Duplicants automatically bring captured critters to these relocation points "
 "for release."
 msgstr ""
+"Duplikat secara otomatis membawa makhluk tertangkap pada poin relokasi untuk "
+"pelepasan."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.EFFECT"
@@ -3749,6 +3807,9 @@ msgid ""
 "\n"
 "Can be used multiple times."
 msgstr ""
+"Pelepasan kembali makhluk terperangkap ke dunia\n"
+"\n"
+"Bisa digunakan berulang kali."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.NAME"
@@ -3761,11 +3822,13 @@ msgid ""
 "Critters tend to stay close to their food source and will wander less when "
 "given a Feeder."
 msgstr ""
+"Makhluk cenderung untuk tetap dekat dengan sumber makanan mereka dan akan "
+"kurang berkeliaran ketika diberikan Pengumpan."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.EFFECT"
 msgid "Automatically dispenses food for hungry critters."
-msgstr ""
+msgstr "Secara otomatis membagi-bagikan makanan untuk makhluk yang kelaparan."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.NAME"
@@ -3775,7 +3838,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC"
 msgid "Traps cannot catch flying critters."
-msgstr ""
+msgstr "Perangkap tidak bisa menangkap makhluk yang terbang."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.EFFECT"
