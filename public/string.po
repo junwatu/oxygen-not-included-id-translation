@@ -11831,7 +11831,7 @@ msgstr ""
 #. STRINGS.CREATURES.MODIFIERS.BABY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.BABY.NAME"
 msgid "Tiny Baby!"
-msgstr ""
+msgstr "Bayi yang mungil!"
 
 #. STRINGS.CREATURES.MODIFIERS.BABY.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.BABY.TOOLTIP"
@@ -11839,26 +11839,28 @@ msgid ""
 "This critter will grow into an adult as it ages and becomes wise to the ways "
 "of the world"
 msgstr ""
+"Makhluk ini akan tumbuh dewasa dan bijaksana akan cara-cara dunia seiring "
+"waktu"
 
 #. STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.NAME"
 msgid "Base Reproduction"
-msgstr ""
+msgstr "Kecepatan reproduksi dasar"
 
 #. STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.TOOLTIP"
 msgid "This is the base speed with which critters produce new eggs"
-msgstr ""
+msgstr "Kecepatan dasar untuk fauna memproduksi telur yang baru"
 
 #. STRINGS.CREATURES.MODIFIERS.BASE_INCUBATION_RATE.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.BASE_INCUBATION_RATE.NAME"
 msgid "Base Incubation Rate"
-msgstr ""
+msgstr "Tingkat inkubasi dasar"
 
 #. STRINGS.CREATURES.MODIFIERS.CONFINED.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.CONFINED.NAME"
 msgid "Confined"
-msgstr ""
+msgstr "Terbatas"
 
 #. STRINGS.CREATURES.MODIFIERS.CONFINED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.CONFINED.TOOLTIP"
@@ -11867,31 +11869,34 @@ msgid ""
 "\n"
 "Sounds uncomfortable!"
 msgstr ""
+"Makhluk ini terperangkap di dalam pintu, ubin atau ruangan tertutup\n"
+"\n"
+"Terdengan tidak nyaman!"
 
 #. STRINGS.CREATURES.MODIFIERS.DOMESTICATION_DECREASING.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.DOMESTICATION_DECREASING.NAME"
 msgid "Happiness Decreasing"
-msgstr ""
+msgstr "Kepuasan berkurang"
 
 #. STRINGS.CREATURES.MODIFIERS.DOMESTICATION_DECREASING.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.DOMESTICATION_DECREASING.TOOLTIP"
 msgid "Unfavorable conditions are making this critter unhappy"
-msgstr ""
+msgstr "Kondisi tidak baik sedangn membuat makhluk ini tidak puas"
 
 #. STRINGS.CREATURES.MODIFIERS.DOMESTICATION_INCREASING.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.DOMESTICATION_INCREASING.NAME"
 msgid "Happiness Increasing"
-msgstr ""
+msgstr "Kepuasan menaik"
 
 #. STRINGS.CREATURES.MODIFIERS.DOMESTICATION_INCREASING.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.DOMESTICATION_INCREASING.TOOLTIP"
 msgid "This critter is very happy its needs are being met"
-msgstr ""
+msgstr "Makhluk ini sangat puas karena kebutuhannya telah dipenuhi"
 
 #. STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.NAME"
 msgid "Cramped"
-msgstr ""
+msgstr "Sempit"
 
 #. STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.TOOLTIP"
@@ -11901,11 +11906,15 @@ msgid ""
 "The selected critter has slowed its egg production to prevent further "
 "overpopulation"
 msgstr ""
+"Ruangan ini akan menjadi penuh sesak ketika semua telur menetas\n"
+"\n"
+"Makhluk yang terpilih ini telah memperlambat reproduksinya untuk mencegah "
+"kelebihan penduduk."
 
 #. STRINGS.CREATURES.MODIFIERS.HAPPY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.HAPPY.NAME"
 msgid "Happy"
-msgstr ""
+msgstr "Senang"
 
 #. STRINGS.CREATURES.MODIFIERS.HAPPY.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.HAPPY.TOOLTIP"
@@ -11914,21 +11923,24 @@ msgid ""
 "------------------\n"
 "It will produce more materials as a result"
 msgstr ""
+"Makhluk ini sangat semangat karena kebutuhannya telah dipenuhi\n"
+"------------------\n"
+"Ia akan memproduksi lebih banyak materi."
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATING.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATING.NAME"
 msgid "Incubating"
-msgstr ""
+msgstr "Menginkubasi"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATING.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATING.TOOLTIP"
 msgid "This egg is happily incubating"
-msgstr ""
+msgstr "Telur ini sedang menginkubasi dengan senang"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATING_SUPPRESSED.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATING_SUPPRESSED.NAME"
 msgid "Growth Suppressed"
-msgstr ""
+msgstr "Pertumbuhan tertahan"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATING_SUPPRESSED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATING_SUPPRESSED.TOOLTIP"
@@ -11937,11 +11949,14 @@ msgid ""
 "\n"
 "It will not hatch if current conditions continue"
 msgstr ""
+"Kondisi lingkungan membuat telur ini untuk tidak bisa berkembang\n"
+"\n"
+"ia tidak akan menetas jika kondisi ini berlanjut"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.NAME"
 msgid "Lullabied"
-msgstr ""
+msgstr "Dinyanyikan lagu tidur"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.TOOLTIP"
@@ -11950,21 +11965,24 @@ msgid ""
 "------------------\n"
 "Increased incubation rate"
 msgstr ""
+"Telur yang tenang ini telah dinyanyikan lagu oleh Rancher\n"
+"------------------\n"
+"Tingkat inkubasi dipercepat"
 
 #. STRINGS.CREATURES.MODIFIERS.OUT_OF_CALORIES.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.OUT_OF_CALORIES.NAME"
 msgid "Starving"
-msgstr ""
+msgstr "Kelaparan"
 
 #. STRINGS.CREATURES.MODIFIERS.OUT_OF_CALORIES.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.OUT_OF_CALORIES.TOOLTIP"
 msgid "Get this critter something to eat!"
-msgstr ""
+msgstr "Beri makhluk ini sesuatu untuk dimakan!"
 
 #. STRINGS.CREATURES.MODIFIERS.OVERCROWDED.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.OVERCROWDED.NAME"
 msgid "Overcrowded"
-msgstr ""
+msgstr "Penuh sesak"
 
 #. STRINGS.CREATURES.MODIFIERS.OVERCROWDED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.OVERCROWDED.TOOLTIP"
@@ -11972,16 +11990,18 @@ msgid ""
 "This critter isn't comfortable with so many other critters in a room of this "
 "size"
 msgstr ""
+"Makhluk ini tidak nyaman berada di ruangan ukuran ini dengan begitu banyak "
+"makhluk lain."
 
 #. STRINGS.CREATURES.MODIFIERS.RANCHED.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.RANCHED.NAME"
 msgid "Groomed"
-msgstr ""
+msgstr "Terurus"
 
 #. STRINGS.CREATURES.MODIFIERS.RANCHED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.RANCHED.TOOLTIP"
 msgid "This critter has recently been attended to by a Rancher"
-msgstr ""
+msgstr "Makhluk ini baru di urus oleh Rancher"
 
 #. STRINGS.CREATURES.MODIFIERS.SCALE_GROWTH_RATE.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.SCALE_GROWTH_RATE.NAME"
@@ -11991,17 +12011,17 @@ msgstr ""
 #. STRINGS.CREATURES.MODIFIERS.TAME.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.TAME.NAME"
 msgid "Tame"
-msgstr ""
+msgstr "Jinak"
 
 #. STRINGS.CREATURES.MODIFIERS.TAME.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.TAME.TOOLTIP"
 msgid "This critter is tame"
-msgstr ""
+msgstr "Makhluk in ijinak"
 
 #. STRINGS.CREATURES.MODIFIERS.UNHAPPY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.UNHAPPY.NAME"
 msgid "Glum"
-msgstr ""
+msgstr "Murung"
 
 #. STRINGS.CREATURES.MODIFIERS.UNHAPPY.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.UNHAPPY.TOOLTIP"
@@ -12010,16 +12030,19 @@ msgid ""
 "------------------\n"
 "It will produce less materials as a result"
 msgstr ""
+"Makhluk ini sedang murung karena kebutuhannya tidak dipenuhi\n"
+"------------------\n"
+"Ia akan memproduksi materi lebih sedikit"
 
 #. STRINGS.CREATURES.MODIFIERS.WILD.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.WILD.NAME"
 msgid "Wild"
-msgstr ""
+msgstr "Liar"
 
 #. STRINGS.CREATURES.MODIFIERS.WILD.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.WILD.TOOLTIP"
 msgid "This critter is wild"
-msgstr ""
+msgstr "Makhluk ini liar"
 
 #. STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.DESC"
@@ -46988,7 +47011,7 @@ msgstr ""
 #. STRINGS.UI.VITALSSCREEN.EATEN_TODAY
 msgctxt "STRINGS.UI.VITALSSCREEN.EATEN_TODAY"
 msgid "Eaten Today"
-msgstr ""
+msgstr "Dimakan hari ini"
 
 #. STRINGS.UI.VITALSSCREEN.EATEN_TODAY_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.EATEN_TODAY_TOOLTIP"
@@ -46997,51 +47020,54 @@ msgid ""
 "------------------\n"
 "Consumed {0} of food this cycle"
 msgstr ""
+"Dimakan hari ini\n"
+"------------------\n"
+"Telah memakan {0} pangan di siklus ini"
 
 #. STRINGS.UI.VITALSSCREEN.EXPECTATIONS
 msgctxt "STRINGS.UI.VITALSSCREEN.EXPECTATIONS"
 msgid "Expectations"
-msgstr ""
+msgstr "Ekspektasi"
 
 #. STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS
 msgctxt "STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS"
 msgid "Food Expectation"
-msgstr ""
+msgstr "Ekspektasi pangan"
 
 #. STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS_TOOLTIP"
 msgid "This Duplicant desires food that is {0} quality or better"
-msgstr ""
+msgstr "Duplikan ini menuntut pangan yang berkualitas {0} atau lebih"
 
 #. STRINGS.UI.VITALSSCREEN.HEALTH
 msgctxt "STRINGS.UI.VITALSSCREEN.HEALTH"
 msgid "Health"
-msgstr ""
+msgstr "Kesehatan"
 
 #. STRINGS.UI.VITALSSCREEN.IMMUNITY
 msgctxt "STRINGS.UI.VITALSSCREEN.IMMUNITY"
 msgid "Immune System"
-msgstr ""
+msgstr "Sistem imun"
 
 #. STRINGS.UI.VITALSSCREEN.IMMUNITY_DISEASE
 msgctxt "STRINGS.UI.VITALSSCREEN.IMMUNITY_DISEASE"
 msgid "{0} ({1})"
-msgstr ""
+msgstr "{0} ({1})"
 
 #. STRINGS.UI.VITALSSCREEN.IMMUNITY_MULTIPLE_DISEASES
 msgctxt "STRINGS.UI.VITALSSCREEN.IMMUNITY_MULTIPLE_DISEASES"
 msgid "Multiple diseases ({0})"
-msgstr ""
+msgstr "Berbagai manam penyakit ({0})"
 
 #. STRINGS.UI.VITALSSCREEN.NOT_DROWNING
 msgctxt "STRINGS.UI.VITALSSCREEN.NOT_DROWNING"
 msgid "Liquid Level"
-msgstr ""
+msgstr "Jumlah cairan"
 
 #. STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS
 msgctxt "STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS"
 msgid "Morale"
-msgstr ""
+msgstr "Moral"
 
 #. STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS_TOOLTIP"
@@ -47050,71 +47076,74 @@ msgid ""
 "\n"
 "Current Morale:"
 msgstr ""
+"Duplikan ini butuh tingkat moral berjumlah {0}.\n"
+"\n"
+"Moral saat ini:"
 
 #. STRINGS.UI.VITALSSCREEN.STRESS
 msgctxt "STRINGS.UI.VITALSSCREEN.STRESS"
 msgid "Stress"
-msgstr ""
+msgstr "Stres"
 
 #. STRINGS.UI.VITALSSCREEN.SUBMERSION
 msgctxt "STRINGS.UI.VITALSSCREEN.SUBMERSION"
 msgid "Liquid Level"
-msgstr ""
+msgstr "Jumlah cairan"
 
 #. STRINGS.UI.VITALSSCREEN_CALORIES
 msgctxt "STRINGS.UI.VITALSSCREEN_CALORIES"
 msgid "Fullness"
-msgstr ""
+msgstr "Kekenyangan"
 
 #. STRINGS.UI.VITALSSCREEN_EATENTODAY
 msgctxt "STRINGS.UI.VITALSSCREEN_EATENTODAY"
 msgid "Eaten Today"
-msgstr ""
+msgstr "Telah Dimakan hari ini"
 
 #. STRINGS.UI.VITALSSCREEN_EATENTODAY_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN_EATENTODAY_TOOLTIP"
 msgid "The amount of food this Duplicant has eaten this cycle"
-msgstr ""
+msgstr "Jumlah pangan yang telah dikonsumsi Duplikan di siklus ini"
 
 #. STRINGS.UI.VITALSSCREEN_HEALTH
 msgctxt "STRINGS.UI.VITALSSCREEN_HEALTH"
 msgid "Health"
-msgstr ""
+msgstr "Kesehatan"
 
 #. STRINGS.UI.VITALSSCREEN_IMMUNITY
 msgctxt "STRINGS.UI.VITALSSCREEN_IMMUNITY"
 msgid "Immune System"
-msgstr ""
+msgstr "Sistem imun"
 
 #. STRINGS.UI.VITALSSCREEN_NAME
 msgctxt "STRINGS.UI.VITALSSCREEN_NAME"
 msgid "Name"
-msgstr ""
+msgstr "Nama"
 
 #. STRINGS.UI.VITALSSCREEN_RATIONS
 msgctxt "STRINGS.UI.VITALSSCREEN_RATIONS"
 msgid "Calories / Cycle"
-msgstr ""
+msgstr "Kalori / siklus"
 
 #. STRINGS.UI.VITALSSCREEN_RATIONS_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN_RATIONS_TOOLTIP"
 msgid "Set how many calories this Duplicant may consume daily"
-msgstr ""
+msgstr "Atur jumlah kalori yang boleh dikomsi dupikan per hari"
 
 #. STRINGS.UI.VITALSSCREEN_STRESS
 msgctxt "STRINGS.UI.VITALSSCREEN_STRESS"
 msgid "Stress"
-msgstr ""
+msgstr "Stres"
 
 #. STRINGS.UI.VITALSSCREEN_UNTIL_FULL
 msgctxt "STRINGS.UI.VITALSSCREEN_UNTIL_FULL"
 msgid "Until Full"
-msgstr ""
+msgstr "Sampai penuh"
 
 #. STRINGS.UI.WELCOMEMESSAGEBEGIN
 msgctxt "STRINGS.UI.WELCOMEMESSAGEBEGIN"
 msgid "BEGIN"
-msgstr ""
+msgstr "MULAI"
 
 #. STRINGS.UI.WELCOMEMESSAGEBODY
 msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY"
@@ -47127,46 +47156,54 @@ msgid ""
 "\n"
 "I must help my Duplicants survive before I investigate what went wrong."
 msgstr ""
+"Saya telah membangun dengan tim awal berjumlah tiga Duplikan, tetapi situasi "
+"disini tidak seperti yang kami perkirakan.\n"
+"\n"
+"Sumber Daya sangat tipis dan Pod kami terkubur jauh di bawah latar planet "
+"ini.\n"
+"\n"
+"Saya harus membatu duplikan kami bertahan hidup sebelum saya mengeliti lebih "
+"lanjut apa yang terjadi dengan salah."
 
 #. STRINGS.UI.WELCOMEMESSAGETITLE
 msgctxt "STRINGS.UI.WELCOMEMESSAGETITLE"
 msgid "- ALERT -"
-msgstr ""
+msgstr "- SIAGA -"
 
 #. STRINGS.UI.WORLDGEN.ANALYZINGWORLD
 msgctxt "STRINGS.UI.WORLDGEN.ANALYZINGWORLD"
 msgid "Shuffling DNA Blueprints..."
-msgstr ""
+msgstr "Mengacak denah DNA..."
 
 #. STRINGS.UI.WORLDGEN.ANALYZINGWORLDCOMPLETE
 msgctxt "STRINGS.UI.WORLDGEN.ANALYZINGWORLDCOMPLETE"
 msgid "Tidying up for the Duplicants..."
-msgstr ""
+msgstr "Merapikan duplikan..."
 
 #. STRINGS.UI.WORLDGEN.BORDERS
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS"
 msgid "Just adding water..."
-msgstr ""
+msgstr "Hanya menambahkan air..."
 
 #. STRINGS.UI.WORLDGEN.BORDERS1
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS1"
 msgid "Just adding water..."
-msgstr ""
+msgstr "Hanya menambahkan air..."
 
 #. STRINGS.UI.WORLDGEN.BORDERS2
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS2"
 msgid "Staring at the void..."
-msgstr ""
+msgstr "Menatap akan kehampaan..."
 
 #. STRINGS.UI.WORLDGEN.BORDERS3
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS3"
 msgid "Staring at the void..."
-msgstr ""
+msgstr "Menatap akan kehampaan..."
 
 #. STRINGS.UI.WORLDGEN.BORDERS4
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS4"
 msgid "Staring at the void..."
-msgstr ""
+msgstr "Menatap akan kehampaan..."
 
 #. STRINGS.UI.WORLDGEN.BORDERS5
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS5"
@@ -47196,247 +47233,247 @@ msgstr "Menghindari kontak mata yang canggung dengan kekosongan..."
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE"
 msgid "Sorting quadrillions of atoms..."
-msgstr "Penyortiran quadrilion atom..."
+msgstr "Menyortir atom-atom yang tak terhingga..."
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE1
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE1"
 msgid "Sorting quadrillions of atoms..."
-msgstr ""
+msgstr "Menyortir atom-atom yang tak terhingga..."
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE2
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE2"
 msgid "Sorting quadrillions of atoms..."
-msgstr ""
+msgstr "Menyortir atom-atom yang tak terhingga..."
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE3
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE3"
 msgid "Ironing the fabric of creation..."
-msgstr ""
+msgstr "Menyetrika gaun pembuat semesta..."
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE4
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE4"
 msgid "Ironing the fabric of creation..."
-msgstr ""
+msgstr "Menyetrika gaun pembuat semesta..."
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE5
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE5"
 msgid "Ironing the fabric of creation..."
-msgstr ""
+msgstr "Menyetrika gaun pembuat semesta..."
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE6
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE6"
 msgid "Taking hot meteor shower..."
-msgstr ""
+msgstr "Mengambil hujan meteor panas..."
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE7
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE7"
 msgid "Tightening asteroid belts..."
-msgstr ""
+msgstr "Mengencangkan pinggang asteroid..."
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE8
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE8"
 msgid "Tightening asteroid belts..."
-msgstr ""
+msgstr "Mengencangkan pinggang asteroid..."
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE9
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE9"
 msgid "Tightening asteroid belts..."
-msgstr ""
+msgstr "Mengencangkan pinggang asteroid..."
 
 #. STRINGS.UI.WORLDGEN.CHOOSEWORLDSIZE
 msgctxt "STRINGS.UI.WORLDGEN.CHOOSEWORLDSIZE"
 msgid "Select the magnitude of your new galaxy."
-msgstr ""
+msgstr "Pilih tingkat galaksi baru kamu"
 
 #. STRINGS.UI.WORLDGEN.CLEARINGLEVEL
 msgctxt "STRINGS.UI.WORLDGEN.CLEARINGLEVEL"
 msgid "Staring into the void..."
-msgstr ""
+msgstr "Menatap akan kehampaan..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETE
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETE"
 msgid "Success! Space adventure awaits."
-msgstr ""
+msgstr "Sukses! Petualangan luar angkasa menunggu."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT"
 msgid "Cooling glass..."
-msgstr ""
+msgstr "Mendinginkan kaca..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT1
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT1"
 msgid "Cooling glass..."
-msgstr ""
+msgstr "Mendinginkan kaca..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT10
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT10"
 msgid "Adding buckets of dirt..."
-msgstr ""
+msgstr "Menambahkan ember-ember tanah..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT2
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT2"
 msgid "Cooling glass..."
-msgstr ""
+msgstr "Mendinginkan kaca..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT3
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT3"
 msgid "Cooling glass..."
-msgstr ""
+msgstr "Mendinginkan kaca..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT4
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT4"
 msgid "Digging holes..."
-msgstr ""
+msgstr "Menggali lubang..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT5
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT5"
 msgid "Digging holes..."
-msgstr ""
+msgstr "Menggali lubang..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT6
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT6"
 msgid "Digging holes..."
-msgstr ""
+msgstr "Menggali lubang..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT7
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT7"
 msgid "Adding buckets of dirt..."
-msgstr ""
+msgstr "Menambahkan ember-ember tanah..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT8
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT8"
 msgid "Adding buckets of dirt..."
-msgstr ""
+msgstr "Menambahkan ember-ember tanah..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT9
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT9"
 msgid "Adding buckets of dirt..."
-msgstr ""
+msgstr "Menambahkan ember-ember tanah..."
 
 #. STRINGS.UI.WORLDGEN.CONVERTTERRAINCELLSTOEDGES
 msgctxt "STRINGS.UI.WORLDGEN.CONVERTTERRAINCELLSTOEDGES"
 msgid "Hardening diamonds..."
-msgstr ""
+msgstr "Mengeraskan berlian..."
 
 #. STRINGS.UI.WORLDGEN.DRAWWORLDBORDER
 msgctxt "STRINGS.UI.WORLDGEN.DRAWWORLDBORDER"
 msgid "Establishing personal boundaries..."
-msgstr ""
+msgstr "Menarik garis diantara hubungan..."
 
 #. STRINGS.UI.WORLDGEN.FAILED
 msgctxt "STRINGS.UI.WORLDGEN.FAILED"
 msgid "Goodness, has this ever gone terribly wrong!"
-msgstr ""
+msgstr "Mengecewakan, semua ini hancur lebur"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE"
 msgid "Baking igneous rock..."
-msgstr ""
+msgstr "Membakar batu-batu berapi"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE1
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE1"
 msgid "Multilayering sediment..."
-msgstr ""
+msgstr "Melapiskan sedimen..."
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE2
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE2"
 msgid "Multilayering sediment..."
-msgstr ""
+msgstr "Melapiskan sedimen..."
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE3
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE3"
 msgid "Multilayering sediment..."
-msgstr ""
+msgstr "Melapiskan sedimen..."
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE4
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE4"
 msgid "Superheating gases..."
-msgstr ""
+msgstr "Memanaskan gas..."
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE5
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE5"
 msgid "Superheating gases..."
-msgstr ""
+msgstr "Memanaskan gas..."
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE6
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE6"
 msgid "Superheating gases..."
-msgstr ""
+msgstr "Memanaskan gas..."
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE7
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE7"
 msgid "Vacuuming out vacuums..."
-msgstr ""
+msgstr "Mengvakum ruangan hampa..."
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE8
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE8"
 msgid "Vacuuming out vacuums..."
-msgstr ""
+msgstr "Mengvakum ruangan hampa..."
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE9
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE9"
 msgid "Vacuuming out vacuums..."
-msgstr ""
+msgstr "Mengvakum ruangan hampa..."
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM"
 msgid "Catalyzing Big Bang..."
-msgstr ""
+msgstr "Meledakan Big Bang..."
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM1
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM1"
 msgid "Catalyzing Big Bang..."
-msgstr ""
+msgstr "Meledakan Big Bang..."
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM2
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM2"
 msgid "Catalyzing Big Bang..."
-msgstr ""
+msgstr "Meledakan Big Bang..."
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM3
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM3"
 msgid "Catalyzing Big Bang..."
-msgstr ""
+msgstr "Meledakan Big Bang..."
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM4
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM4"
 msgid "Catalyzing Big Bang..."
-msgstr ""
+msgstr "Meledakan Big Bang..."
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM5
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM5"
 msgid "Catalyzing Big Bang..."
-msgstr ""
+msgstr "Meledakan Big Bang..."
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM6
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM6"
 msgid "Approaching event horizon..."
-msgstr ""
+msgstr "Mencapai penghujung semesta..."
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM7
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM7"
 msgid "Approaching event horizon..."
-msgstr ""
+msgstr "Mencapai penghujung semesta..."
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM8
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM8"
 msgid "Approaching event horizon..."
-msgstr ""
+msgstr "Mencapai penghujung semesta..."
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM9
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM9"
 msgid "Approaching event horizon..."
-msgstr ""
+msgstr "Mencapai penghujung semesta..."
 
 #. STRINGS.UI.WORLDGEN.GENERATINGWORLD
 msgctxt "STRINGS.UI.WORLDGEN.GENERATINGWORLD"
 msgid "The Galaxy Synthesizer"
-msgstr ""
+msgstr "Sang pembentuk alam semesta"
 
 #. STRINGS.UI.WORLDGEN.LOADING
 msgctxt "STRINGS.UI.WORLDGEN.LOADING"
 msgid "Loading world..."
-msgstr ""
+msgstr "Memuat dunia..."
 
 #. STRINGS.UI.WORLDGEN.NOHEADERS
 #, fuzzy
@@ -47457,189 +47494,189 @@ msgstr ""
 #. STRINGS.UI.WORLDGEN.NORMALISENOISE
 msgctxt "STRINGS.UI.WORLDGEN.NORMALISENOISE"
 msgid "Interpolating toxic gas..."
-msgstr ""
+msgstr "Menginterpolasi gas beracun..."
 
 #. STRINGS.UI.WORLDGEN.PLACINGCREATURES
 msgctxt "STRINGS.UI.WORLDGEN.PLACINGCREATURES"
 msgid "Building the suspense..."
-msgstr ""
+msgstr "Membuat Ketegangan..."
 
 #. STRINGS.UI.WORLDGEN.PROCESSING
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING"
 msgid "Embedding metals..."
-msgstr ""
+msgstr "Melekatkan besi-besi..."
 
 #. STRINGS.UI.WORLDGEN.PROCESSING1
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING1"
 msgid "Embedding metals..."
-msgstr ""
+msgstr "Melekatkan besi-besi..."
 
 #. STRINGS.UI.WORLDGEN.PROCESSING2
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING2"
 msgid "Embedding metals..."
-msgstr ""
+msgstr "Melekatkan besi-besi..."
 
 #. STRINGS.UI.WORLDGEN.PROCESSING3
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING3"
 msgid "Burying precious ore..."
-msgstr ""
+msgstr "Mengkubur mineral berharga..."
 
 #. STRINGS.UI.WORLDGEN.PROCESSING4
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING4"
 msgid "Burying precious ore..."
-msgstr ""
+msgstr "Mengkubur mineral berharga..."
 
 #. STRINGS.UI.WORLDGEN.PROCESSING5
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING5"
 msgid "Burying precious ore..."
-msgstr ""
+msgstr "Mengkubur mineral berharga..."
 
 #. STRINGS.UI.WORLDGEN.PROCESSING6
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING6"
 msgid "Burying precious ore..."
-msgstr ""
+msgstr "Mengkubur mineral berharga..."
 
 #. STRINGS.UI.WORLDGEN.PROCESSING7
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING7"
 msgid "Excavating tunnels..."
-msgstr ""
+msgstr "Menggali terongowan..."
 
 #. STRINGS.UI.WORLDGEN.PROCESSING8
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING8"
 msgid "Excavating tunnels..."
-msgstr ""
+msgstr "Menggali terongowan..."
 
 #. STRINGS.UI.WORLDGEN.PROCESSING9
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING9"
 msgid "Excavating tunnels..."
-msgstr ""
+msgstr "Menggali terongowan..."
 
 #. STRINGS.UI.WORLDGEN.PROCESSRIVERS
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSRIVERS"
 msgid "Pouring rivers..."
-msgstr ""
+msgstr "Menuang sungai..."
 
 #. STRINGS.UI.WORLDGEN.RESTARTING
 msgctxt "STRINGS.UI.WORLDGEN.RESTARTING"
 msgid "Rebooting..."
-msgstr ""
+msgstr "Mengulangi..."
 
 #. STRINGS.UI.WORLDGEN.RETRYCOUNT
 msgctxt "STRINGS.UI.WORLDGEN.RETRYCOUNT"
 msgid "Oh dear, let's try that again."
-msgstr ""
+msgstr "Oh tidak, mari kita coba sekali lagi"
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM"
 msgid "Infusing oxygen..."
-msgstr ""
+msgstr "Mencampur oksigen..."
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM1
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM1"
 msgid "Infusing oxygen..."
-msgstr ""
+msgstr "Mencampur oksigen..."
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM2
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM2"
 msgid "Too much oxygen. Removing..."
-msgstr ""
+msgstr "Terlalu banyak oksigen. Menghapus..."
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM3
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM3"
 msgid "Too much oxygen. Removing..."
-msgstr ""
+msgstr "Terlalu banyak oksigen. Menghapus..."
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM4
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM4"
 msgid "Ideal oxygen levels achieved..."
-msgstr ""
+msgstr "Kadar oksigen ideal tercapai..."
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM5
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM5"
 msgid "Ideal oxygen levels achieved..."
-msgstr ""
+msgstr "Kadar oksigen ideal tercapai..."
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM6
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM6"
 msgid "Planting space flora..."
-msgstr ""
+msgstr "Menanam flora luar angkasa..."
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM7
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM7"
 msgid "Planting space flora..."
-msgstr ""
+msgstr "Menanam flora luar angkasa..."
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM8
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM8"
 msgid "Releasing wildlife..."
-msgstr ""
+msgstr "Melepaskan api liar..."
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM9
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM9"
 msgid "Releasing wildlife..."
-msgstr ""
+msgstr "Melepaskan api liar..."
 
 #. STRINGS.UI.WORLDGEN.SETUPNOISE
 msgctxt "STRINGS.UI.WORLDGEN.SETUPNOISE"
 msgid "BANG!"
-msgstr ""
+msgstr "DUAR!"
 
 #. STRINGS.UI.WORLDGEN.USING_PLAYER_SEED
 msgctxt "STRINGS.UI.WORLDGEN.USING_PLAYER_SEED"
 msgid "Using selected world gen seed: "
-msgstr ""
+msgstr "Menggunakan bibit generasi dunia yang terpilih:"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT"
 msgid "Freezing ice formations..."
-msgstr ""
+msgstr "Membekukan formasi es..."
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT1
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT1"
 msgid "Freezing ice formations..."
-msgstr ""
+msgstr "Membekukan formasi es..."
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT10
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT10"
 msgid "Sprinkling sand..."
-msgstr ""
+msgstr "Mentaburkan pasir..."
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT2
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT2"
 msgid "Freezing ice formations..."
-msgstr ""
+msgstr "Membekukan formasi es..."
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT3
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT3"
 msgid "Freezing ice formations..."
-msgstr ""
+msgstr "Membekukan formasi es..."
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT4
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT4"
 msgid "Melting magma..."
-msgstr ""
+msgstr "Melelehkan magma..."
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT5
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT5"
 msgid "Melting magma..."
-msgstr ""
+msgstr "Melelehkan magma..."
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT6
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT6"
 msgid "Melting magma..."
-msgstr ""
+msgstr "Melelehkan magma..."
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT7
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT7"
 msgid "Sprinkling sand..."
-msgstr ""
+msgstr "Mentaburkan pasir..."
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT8
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT8"
 msgid "Sprinkling sand..."
-msgstr ""
+msgstr "Mentaburkan pasir..."
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT9
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
-msgstr ""
+msgstr "Mentaburkan pasir..."
