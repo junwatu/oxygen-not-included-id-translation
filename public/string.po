@@ -375,12 +375,12 @@ msgid ""
 "to the {Roles} position to use this building"
 msgstr ""
 "Buka Panel Kerja <color=#F44A47><b>(L)</b></color> dan tugaskan Duplikat di "
-"posisi {Roles} untuk menggunakan bangunan ini  "
+"posisi {Roles} untuk menggunakan bangunan ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME"
 msgid "Pipe Blocked"
-msgstr "PIpa Terblokir!"
+msgstr "PIpa Terblokir"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.TOOLTIP"
@@ -588,7 +588,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
 msgid "Scan Quality: {Quality}"
-msgstr "Kualitas Pindai: {Quality} "
+msgstr "Kualitas Pindai: {Quality}"
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.TOOLTIP"
@@ -1070,7 +1070,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME"
 msgid "Max Temperature Reached"
-msgstr "Suhu Maksimum Tercapai "
+msgstr "Suhu Maksimum Tercapai"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.TOOLTIP"
@@ -1089,7 +1089,7 @@ msgid ""
 "building to heat up"
 msgstr ""
 "Tekanan atmosfer minimal {TargetPressure} diperlukan untuk memanaskan gedung "
-"ini "
+"ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_LIQUID.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_LIQUID.NAME"
@@ -2113,7 +2113,7 @@ msgstr "Pengaturan akan berubah seketika  Duplikat tersedia"
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.NAME"
 msgid "Uproot Errand"
-msgstr "Misi Mencabut "
+msgstr "Misi Mencabut"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.TOOLTIP"
@@ -2259,7 +2259,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.RESEARCHING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RESEARCHING.NAME"
 msgid "Current <link=\"TECH\">Research</link>: {Tech}"
-msgstr " <link=\"TECH\">Penelitian</link> Saat Ini: {Tech}"
+msgstr "<link=\"TECH\">Penelitian</link> Saat Ini: {Tech}"
 
 #. STRINGS.BUILDING.STATUSITEMS.RESEARCHING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RESEARCHING.TOOLTIP"
@@ -2285,7 +2285,7 @@ msgstr "Watt Saat Ini: {Wattage}"
 #. STRINGS.BUILDING.STATUSITEMS.SOLARPANELWATTAGE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLARPANELWATTAGE.TOOLTIP"
 msgid "This panel is generating {Wattage} of power"
-msgstr "Panel ini menghasilkan daya sebesar {Wattage} "
+msgstr "Panel ini menghasilkan daya sebesar {Wattage}"
 
 #. STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.NAME"
@@ -2401,7 +2401,7 @@ msgstr "Status saat ini: Pengisian Pakaian"
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.TOOLTIP"
 msgid "This Exosuit is docked and charging"
-msgstr "Pakaian Luar "
+msgstr "Pakaian Luar telah di taruh dan di cas"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.NAME"
@@ -2842,7 +2842,7 @@ msgstr "Kerugian Koloni"
 #. STRINGS.BUILDING.STATUSITEMS.WATTSONGAMEOVER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTSONGAMEOVER.TOOLTIP"
 msgid "All Duplicants are dead or incapacitated"
-msgstr "Semua duplicant sudah mati..."
+msgstr "Semua duplikat sudah mati"
 
 #. STRINGS.BUILDING.STATUSITEMS.WELL_OVERPRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WELL_OVERPRESSURE.NAME"
@@ -2865,7 +2865,7 @@ msgid ""
 "Well pressure increases with each use and must be periodically relieved to "
 "prevent shutdown"
 msgstr ""
-" Tekanan sumur meningkat pada masing-masing penggunaan dan harus secara "
+"Tekanan sumur meningkat pada masing-masing penggunaan dan harus secara "
 "berkala dikurangi untuk mencegah shutdown"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.NAME
@@ -2989,22 +2989,22 @@ msgstr ""
 #. STRINGS.BUILDINGS.DAMAGESOURCES.BAD_INPUT_ELEMENT
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.BAD_INPUT_ELEMENT"
 msgid "receiving an incorrect substance"
-msgstr "Menerima bahan yang salah"
+msgstr "menerima bahan yang salah"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.BUILDING_OVERHEATED
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.BUILDING_OVERHEATED"
 msgid "overheating"
-msgstr "Panas berlebih"
+msgstr "panas berlebih"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.CIRCUIT_OVERLOADED
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.CIRCUIT_OVERLOADED"
 msgid "an overloaded circuit"
-msgstr "Sirkuit kelebihan beban"
+msgstr "sirkuit kelebihan beban"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.COMET
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.COMET"
 msgid "falling space rocks"
-msgstr "Batu ruang angkasa berjatuhan"
+msgstr "batu ruang angkasa berjatuhan"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.CONDUIT_CONTENTS_BOILED
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.CONDUIT_CONTENTS_BOILED"
@@ -3024,12 +3024,12 @@ msgstr ""
 #. STRINGS.BUILDINGS.DAMAGESOURCES.MICROMETEORITE
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.MICROMETEORITE"
 msgid "micrometeorite"
-msgstr "Meteorit mikro"
+msgstr "meteorit mikro"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.MINION_DESTRUCTION
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.MINION_DESTRUCTION"
 msgid "an angry Duplicant. Rude!"
-msgstr "Duplikat yand marah. Kasar!"
+msgstr "duplikat yand marah. Kasar!"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.NOTIFICATION_TOOLTIP"
@@ -3039,7 +3039,7 @@ msgstr "Kerusakan berlanjut {0} dari {1}"
 #. STRINGS.BUILDINGS.DAMAGESOURCES.ROCKET
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.ROCKET"
 msgid "rocket engine"
-msgstr "Mesin Roket"
+msgstr "mesin roket"
 
 #. STRINGS.BUILDINGS.DISINFECTABLE.DISABLE_DISINFECT.NAME
 msgctxt "STRINGS.BUILDINGS.DISINFECTABLE.DISABLE_DISINFECT.NAME"
@@ -3072,7 +3072,7 @@ msgid ""
 "Super computers unlock higher technology tiers than research stations alone."
 msgstr ""
 "Super komputer membuka lapisan teknologi yang lebih tinggi dibandingkan "
-"stasiun penelitian saja. "
+"stasiun penelitian saja."
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT
 #, fuzzy
@@ -3321,7 +3321,7 @@ msgid ""
 "than lost."
 msgstr ""
 "Baterai berfungsi untuk menyimpan daya lebih dari generator daripada daya "
-"tersebut terbuang sia sia. "
+"tersebut terbuang sia sia."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.EFFECT"
@@ -3986,7 +3986,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LEFT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LEFT"
 msgid "on left"
-msgstr "Sebelah kiri"
+msgstr "sebelah kiri"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_PORT_DESC"
@@ -4140,7 +4140,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.EFFECT"
 msgid "A tall, thin window."
-msgstr "Jendela tipis yang tinggi"
+msgstr "Jendela tipis yang tinggi."
 
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME"
@@ -11909,7 +11909,7 @@ msgstr ""
 "Ruangan ini akan menjadi penuh sesak ketika semua telur menetas\n"
 "\n"
 "Makhluk yang terpilih ini telah memperlambat reproduksinya untuk mencegah "
-"kelebihan penduduk."
+"kelebihan penduduk"
 
 #. STRINGS.CREATURES.MODIFIERS.HAPPY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.HAPPY.NAME"
@@ -11925,7 +11925,7 @@ msgid ""
 msgstr ""
 "Makhluk ini sangat semangat karena kebutuhannya telah dipenuhi\n"
 "------------------\n"
-"Ia akan memproduksi lebih banyak materi."
+"Ia akan memproduksi lebih banyak materi"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATING.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATING.NAME"
@@ -11991,7 +11991,7 @@ msgid ""
 "size"
 msgstr ""
 "Makhluk ini tidak nyaman berada di ruangan ukuran ini dengan begitu banyak "
-"makhluk lain."
+"makhluk lain"
 
 #. STRINGS.CREATURES.MODIFIERS.RANCHED.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.RANCHED.NAME"
@@ -46929,7 +46929,7 @@ msgstr "Ubah tanaman ke bibit"
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.NAME"
 msgid " Set Direction: Both"
-msgstr "Atur Arah: Keduanya"
+msgstr " Atur Arah: Keduanya"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.TOOLTIP"
@@ -47321,7 +47321,7 @@ msgstr "Mendinginkan gelas..."
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT10
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT10"
 msgid "Adding buckets of dirt..."
-msgstr "Menambahkan beberapa ember sampah... "
+msgstr "Menambahkan beberapa ember sampah..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT2
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT2"
@@ -47351,17 +47351,17 @@ msgstr "Menggali lubang..."
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT7
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT7"
 msgid "Adding buckets of dirt..."
-msgstr "Menambahkan beberapa ember sampah... "
+msgstr "Menambahkan beberapa ember sampah..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT8
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT8"
 msgid "Adding buckets of dirt..."
-msgstr "Menambahkan beberapa ember sampah... "
+msgstr "Menambahkan beberapa ember sampah..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT9
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT9"
 msgid "Adding buckets of dirt..."
-msgstr "Menambahkan beberapa ember sampah... "
+msgstr "Menambahkan beberapa ember sampah..."
 
 #. STRINGS.UI.WORLDGEN.CONVERTTERRAINCELLSTOEDGES
 msgctxt "STRINGS.UI.WORLDGEN.CONVERTTERRAINCELLSTOEDGES"
@@ -47376,12 +47376,12 @@ msgstr "Menarik garis diantara hubungan..."
 #. STRINGS.UI.WORLDGEN.FAILED
 msgctxt "STRINGS.UI.WORLDGEN.FAILED"
 msgid "Goodness, has this ever gone terribly wrong!"
-msgstr "Mengecewakan, semua ini hancur lebur"
+msgstr "Mengecewakan, semua ini hancur lebur!"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE"
 msgid "Baking igneous rock..."
-msgstr "Membakar batu-batu berapi"
+msgstr "Membakar batu-batu berapi..."
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE1
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE1"
@@ -47577,7 +47577,7 @@ msgstr "Memuat Awal...."
 #. STRINGS.UI.WORLDGEN.RETRYCOUNT
 msgctxt "STRINGS.UI.WORLDGEN.RETRYCOUNT"
 msgid "Oh dear, let's try that again."
-msgstr "Oh Tuhan, mari kita coba lagi"
+msgstr "Oh Tuhan, mari kita coba lagi."
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM"
@@ -47629,17 +47629,17 @@ msgstr "Melepaskan satwa liar..."
 #. STRINGS.UI.WORLDGEN.USING_PLAYER_SEED
 msgctxt "STRINGS.UI.WORLDGEN.USING_PLAYER_SEED"
 msgid "Using selected world gen seed: "
-msgstr "Menggunakan benih gen dunia yang dipilih:"
+msgstr "Menggunakan benih gen dunia yang dipilih: "
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT"
 msgid "Freezing ice formations..."
-msgstr "Menghentikan formasi es"
+msgstr "Menghentikan formasi es."
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT1
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT1"
 msgid "Freezing ice formations..."
-msgstr "Menghentikan formasi es"
+msgstr "Menghentikan formasi es."
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT10
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT10"
@@ -47649,12 +47649,12 @@ msgstr "Pasir berpendar..."
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT2
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT2"
 msgid "Freezing ice formations..."
-msgstr "Menghentikan formasi es"
+msgstr "Menghentikan formasi es."
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT3
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT3"
 msgid "Freezing ice formations..."
-msgstr "Menghentikan formasi es"
+msgstr "Menghentikan formasi es."
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT4
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT4"
