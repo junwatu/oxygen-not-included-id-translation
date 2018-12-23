@@ -47097,9 +47097,6 @@ msgstr ""
 "Moral Sekarang:"
 
 #. STRINGS.UI.VITALSSCREEN.STRESS
-msgctxt "STRINGS.UI.VITALSSCREEN.STRESS"
-msgid "Stress"
-
 #. STRINGS.UI.VITALSSCREEN.SUBMERSION
 msgctxt "STRINGS.UI.VITALSSCREEN.SUBMERSION"
 msgid "Liquid Level"
@@ -47608,9 +47605,6 @@ msgid "Ideal oxygen levels achieved..."
 msgstr "Level oksigen idea tercapai..."
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM5
-msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM5"
-msgid "Ideal oxygen levels achieved..."
-
 #. STRINGS.UI.WORLDGEN.SETTLESIM6
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM6"
 msgid "Planting space flora..."
@@ -47632,9 +47626,6 @@ msgid "Releasing wildlife..."
 msgstr "Melepaskan satwa liar..."
 
 #. STRINGS.UI.WORLDGEN.SETUPNOISE
-msgctxt "STRINGS.UI.WORLDGEN.SETUPNOISE"
-msgid "BANG!"
-
 #. STRINGS.UI.WORLDGEN.USING_PLAYER_SEED
 msgctxt "STRINGS.UI.WORLDGEN.USING_PLAYER_SEED"
 msgid "Using selected world gen seed: "
