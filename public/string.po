@@ -3134,6 +3134,8 @@ msgid ""
 "Cools the <link=\"ELEMENTSGAS\">Gas</link> piped through it, but outputs "
 "<link=\"HEAT\">Heat</link> in its immediate vicinity."
 msgstr ""
+"Mendinginkan <link=\"ELEMENTSGAS\">Gas</link> yang disalurkan melalui itu, "
+"but outputs <link=\"HEAT\">Heat</link> in its immediate vicinity."
 
 #. STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.NAME"
@@ -3159,7 +3161,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.AIRFILTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRFILTER.NAME"
 msgid "<link=\"AIRFILTER\">Deodorizer</link>"
-msgstr ""
+msgstr "<link=\"AIRFILTER\">Pewangi</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.DESC"
@@ -3217,7 +3219,7 @@ msgstr "Batas Pengosonagan <link=\"DIRTYWATER\">Ait Terpolusi</link>"
 #. STRINGS.BUILDINGS.PREFABS.APOTHECARY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.DESC"
 msgid "All-natural remedies to cure what ails you."
-msgstr ""
+msgstr "Semua obat alami akan menyembuhkan apa yang melanda Anda."
 
 #. STRINGS.BUILDINGS.PREFABS.APOTHECARY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.EFFECT"
@@ -3235,7 +3237,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.APOTHECARY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.NAME"
 msgid "<link=\"APOTHECARY\">Apothecary</link>"
-msgstr ""
+msgstr "<link=\"APOTHECARY\">Apotek</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.DESC"
@@ -3260,7 +3262,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.NAME"
 msgid "<link=\"ARCADEMACHINE\">Arcade Cabinet</link>"
-msgstr ""
+msgstr "<link=\"ARCADEMACHINE\">Kabinet Arcade</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC"
@@ -3329,6 +3331,8 @@ msgid ""
 "Stores a bit of runoff <link=\"POWER\">Power</link> from generators, but "
 "loses charge over time."
 msgstr ""
+"Menyimpan sedikit <link=\"POWER\">Listrik</link> dari pembangkit listrik, "
+"tetapi akan habis bersamaan dengan waktu."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.NAME"
@@ -3350,6 +3354,8 @@ msgid ""
 "Stores most runoff <link=\"POWER\">Power</link> from generators, but loses "
 "charge over time."
 msgstr ""
+"Menyimpan sedikit <link=\"POWER\">Listrik</link> dari pembangkit listrik, "
+"tetapi akan habis bersamaan dengan waktu."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.NAME"
@@ -3380,6 +3386,8 @@ msgid ""
 "Smart batteries can automatically turn systems off when there is no charge "
 "to sustain them."
 msgstr ""
+"Smart baterai dapat secara otomatis mematikan sistem ketika tidak ada cas "
+"untuk mereka."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT"
@@ -3390,11 +3398,16 @@ msgid ""
 "Logic input becomes <link=\"LOGIC\">Active</link> when charged above the set "
 "threshold."
 msgstr ""
+"Menyimpan sedikit <link=\"POWER\">Listrik</link> dari pembangkit listrik, "
+"tetapi akan habis bersamaan dengan waktu.\n"
+"\n"
+"Masukan logika akan <link=\"LOGIC\">Aktif</link> ketika pengisian diatas "
+"batas yang diatur."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_DESC"
 msgid "<link=\"LOGIC\">Active</link> if charge exceeds threshold"
-msgstr ""
+msgstr "<link=\"LOGIC\">Aktif</link> jika pengisian daya melebihi ambang"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.NAME"
@@ -4041,7 +4054,7 @@ msgstr "Berubah dari {0} ke {1}"
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.RESULT_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.RESULT_DESCRIPTION"
 msgid "Cracked {0}"
-msgstr ""
+msgstr "Terpecahkan {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.DESC"
@@ -5940,22 +5953,22 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.READ_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.READ_PORT_DESC"
 msgid "Current Value"
-msgstr ""
+msgstr "Harga saat ini"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_DESC"
 msgid "Make Inactive"
-msgstr ""
+msgstr "Buat Tidak Aktif"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_DESC"
 msgid "Make Active"
-msgstr ""
+msgstr "Buat Aktif"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.STATUS_ITEM_VALUE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.STATUS_ITEM_VALUE"
 msgid "Current Value: {0}"
-msgstr ""
+msgstr "Harga saat ini: {}"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.DESC"
@@ -5963,6 +5976,8 @@ msgid ""
 "Automated systems save power and time by removing the need for Duplicant "
 "management."
 msgstr ""
+"Sistem automasi menghemat listrik dan waktu dengan menghapus kebutuhan dari "
+"manajemen Duplikat."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.EFFECT"
@@ -5972,16 +5987,20 @@ msgid ""
 "\n"
 "Does not affect circuitry preceding the switch."
 msgstr ""
+"Secara otomatis merubah <link=\"POWER\">Listrik</link> hidup atau mati "
+"menggunakan teknologi <link=\"LOGIC\">Automasi</link>.\n"
+"\n"
+"Tidak mempengaruhi sirkuit sebelum saklar."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_DESC"
 msgid "On/Off"
-msgstr ""
+msgstr "On/Off"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.NAME"
 msgid "<link=\"LOGICPOWERRELAY\">Power Shutoff</link>"
-msgstr ""
+msgstr "<link=\"LOGICPOWERRELAY\">Listrik Dimatikan</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.DESC"
@@ -5989,6 +6008,8 @@ msgid ""
 "Atmo Sensors can be used to prevent excess oxygen production and "
 "overpressurization."
 msgstr ""
+"Sensor Atmo bisa digunakan untuk mencegah kelebihan produksi oksigen dan "
+"tekanan berlebih."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.EFFECT"
@@ -5996,16 +6017,18 @@ msgid ""
 "Becomes <link=\"LOGIC\">Active</link> or on <link=\"LOGIC\">Standby</link> "
 "when Gas Pressure enters the chosen range."
 msgstr ""
+"Menjadi <link=\"LOGIC\">Aktif</link> atau <link=\"LOGIC\">Siaga</link> "
+"ketika Tekanan Gas memasuki kisaran daerah yang dipilih."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_DESC"
 msgid "Active/Standby based on ambient Gas Pressure"
-msgstr ""
+msgstr "Aktivasi/Siaga berdasarkan Tekanan Gas sekitar"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.NAME"
 msgid "<link=\"LOGICPRESSURESENSORGAS\">Atmo Sensor</link>"
-msgstr ""
+msgstr "<link=\"LOGICPRESSURESENSORGAS\">Sensor Atmo</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.DESC"
@@ -14896,7 +14919,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.NAME"
 msgid "Athletics"
-msgstr ""
+msgstr "Atletik"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.SPEEDMODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.SPEEDMODIFIER"
@@ -14909,6 +14932,8 @@ msgid ""
 "\n"
 "Base: {0}"
 msgstr ""
+"\n"
+"Dasar: {0}"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BLADDERDELTA.DESC
 #, fuzzy
@@ -14949,7 +14974,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.NAME"
 msgid "Farming"
-msgstr ""
+msgstr "Pertanian"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.TINKER_MODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.TINKER_MODIFIER"
@@ -15004,52 +15029,53 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ATTRIBUTES.CARING.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CARING.NAME"
 msgid "Kindness"
-msgstr ""
+msgstr "Kebaikan"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.CARING.SPEEDMODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CARING.SPEEDMODIFIER"
 msgid "{0} Medical Care Speed"
-msgstr ""
+msgstr "Keceparan Pelayanan Medis {0}"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.CARRYAMOUNT.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CARRYAMOUNT.DESC"
 msgid "Determines the maximum weight that a Duplicant can carry."
-msgstr ""
+msgstr "Menentukan berat maksimum yang bisa dibawa oleh Duplikat."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.CARRYAMOUNT.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CARRYAMOUNT.NAME"
 msgid "Carrying Capacity"
-msgstr ""
+msgstr "Kapasitas Membawa"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.DESC"
 msgid "Determines a Duplicant's building speed."
-msgstr ""
+msgstr "Menentukan kecepatan Duplikat dalam membangun."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.NAME"
 msgid "Construction"
-msgstr ""
+msgstr "Konstruksi"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.SPEEDMODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.SPEEDMODIFIER"
 msgid "{0} Construction Speed"
-msgstr ""
+msgstr "Keceparan Membangun {0}"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.COOKING.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.COOKING.DESC"
 msgid "Determines how quickly a Duplicant prepares <link=\"FOOD\">Food</link>."
 msgstr ""
+"Menentukan seberapa cepat Duplikat menyiapkan <link=\"FOOD\">Makanan</link>."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.COOKING.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.COOKING.NAME"
 msgid "Cooking"
-msgstr ""
+msgstr "Memasak"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.COOKING.SPEEDMODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.COOKING.SPEEDMODIFIER"
 msgid "{0} Cooking Speed"
-msgstr ""
+msgstr "Kecepatan Memasak {0}"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECOR.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOR.DESC"
@@ -15061,7 +15087,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECOR.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOR.NAME"
 msgid "Decor"
-msgstr ""
+msgstr "Dekorasi"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.DESC"
@@ -15076,7 +15102,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
 msgid "Decor Benefit"
-msgstr ""
+msgstr "Manfaat Dekorasi"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECORRADIUS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORRADIUS.DESC"
@@ -15086,7 +15112,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECORRADIUS.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORRADIUS.NAME"
 msgid "Decor Radius"
-msgstr ""
+msgstr "Kisaran Dekorasi"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.ATTACK_MODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.ATTACK_MODIFIER"
@@ -15446,7 +15472,7 @@ msgstr "{0} / {1}"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME"
 msgid "Morale"
-msgstr ""
+msgstr "Moral"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION"
@@ -29478,7 +29504,7 @@ msgstr ""
 #. STRINGS.MISC.STATUSITEMS.STUDIED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.STUDIED.NAME"
 msgid "Analysis Complete"
-msgstr ""
+msgstr "Analisa Selesai"
 
 #. STRINGS.MISC.STATUSITEMS.STUDIED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.STUDIED.TOOLTIP"
@@ -29488,22 +29514,22 @@ msgstr ""
 #. STRINGS.MISC.STATUSITEMS.TREEFILTERABLETAGS.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.TREEFILTERABLETAGS.NAME"
 msgid "{Tags}"
-msgstr ""
+msgstr "{Tags}"
 
 #. STRINGS.MISC.STATUSITEMS.TREEFILTERABLETAGS.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.TREEFILTERABLETAGS.TOOLTIP"
 msgid "{Tags}"
-msgstr ""
+msgstr "{Tags}"
 
 #. STRINGS.MISC.STATUSITEMS.USING.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.USING.NAME"
 msgid "Using {Target}"
-msgstr ""
+msgstr "Memakai {Target}"
 
 #. STRINGS.MISC.STATUSITEMS.USING.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.USING.TOOLTIP"
 msgid "{Target} is currently in use"
-msgstr ""
+msgstr "{Target} yang dipakai saat ini"
 
 #. STRINGS.MISC.STATUSITEMS.WAITINGFORDIG.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.WAITINGFORDIG.NAME"
@@ -29523,7 +29549,7 @@ msgstr ""
 #. STRINGS.MISC.STATUSITEMS.WAITINGFORMOP.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.WAITINGFORMOP.TOOLTIP"
 msgid "Spill will be mopped once a Duplicant is available"
-msgstr ""
+msgstr "Tumpahan akan segera disapu ketika Duplikat tersedia "
 
 #. STRINGS.MISC.TAGS.AGRICULTURE
 msgctxt "STRINGS.MISC.TAGS.AGRICULTURE"
