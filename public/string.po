@@ -46593,13 +46593,15 @@ msgstr ""
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH1
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH1"
 msgid "Unfortunately, the computer's hard drive is irreparably corrupted."
-msgstr ""
+msgstr "Sayangnya, hard drive komputer tidak dapat diperbaiki lagi."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH2
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH2"
 msgid ""
 "The computer was wiped clean before I got here. There is nothing to recover."
 msgstr ""
+"Komputer ini tersapu bersih sebelum aku sampai di sini. Tidak ada yang dapat "
+"dipulihkan."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH3
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH3"
@@ -46607,6 +46609,8 @@ msgid ""
 "Some intact files are available on the computer, but nothing I haven't "
 "already discovered elsewhere. I find nothing else."
 msgstr ""
+"Beberapa berkas utuh ada di komputer, tetapi tidak ada yang dapat saya "
+"temukan ditempat lain. Saya tidak menemukan selain itu."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH4
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH4"
@@ -46621,6 +46625,10 @@ msgid ""
 "\n"
 "Also, it looks as though they were about to lose."
 msgstr ""
+"Seseorang meninggalkan permainan solitare berjalan. Tidak ada apapun yang "
+"menarik selain itu.\n"
+"\n"
+"Dan juga, kelihatannya mereka akan mengalami kekalahan."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH6
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH6"
@@ -46635,6 +46643,8 @@ msgid ""
 "The user alphabetized the shortcuts on their desktop. There is nothing else "
 "of import to be found."
 msgstr ""
+"Pengguna mengurutkan shortcut sesuai abjad di desktop mereka. Tidak ada "
+"apapaun selain itu yang ditermukan."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH8
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH8"
@@ -46642,6 +46652,8 @@ msgid ""
 "The background is a picture of a golden retriever in a science lab. It looks "
 "very confused. There is nothing else of import to be found."
 msgstr ""
+"Latar belakangnya adalah gambar pengambil berlapis emas di lab sains. "
+"Kelihatan sangat membingungkan.Tidak ada selain itu yang ditemukan."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH9
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH9"
@@ -46649,6 +46661,8 @@ msgid ""
 "This user never changed their default background. There is nothing else of "
 "import to be found. How dull."
 msgstr ""
+"Pengguna ini tidak pernah merubah latar belakang default. Tidak ada selain "
+"itu yang bisa ditemukan. Sangat membosankan."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH1
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH1"
@@ -46658,6 +46672,10 @@ msgid ""
 "\n"
 "New Database Entry unlocked."
 msgstr ""
+"Setelah mencari melalui database di komputer. Saya telah mengumpulkan "
+"beberapa berkas yang menarik perhatian saya.\n"
+"\n"
+"Entri Database Baru terbuka."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH2
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH2"
@@ -46667,6 +46685,10 @@ msgid ""
 "\n"
 "New Database Entry unlocked."
 msgstr ""
+"Pencarian di komputer , saya telah menemukan beberapa berkas yang  dapat "
+"dipulihkan dan bisa terbaca.\n"
+"\n"
+"Entri Database Baru terbuka."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH3
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH3"
@@ -46934,7 +46956,7 @@ msgstr " Atur Arah: Keduanya"
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.TOOLTIP"
 msgid "Select to make Duplicants wash when passing by in either direction"
-msgstr ""
+msgstr "Pilih untuk membuat Duplikat mencuci ketika lewat di kedua arah"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_LEFT.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_LEFT.NAME"
@@ -46954,7 +46976,7 @@ msgstr "Atur Arah: Kanan"
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.TOOLTIP"
 msgid "Select to make Duplicants wash when passing by from left to right"
-msgstr ""
+msgstr "Pilih untuk membuat Duplikat mencuci ketika lewat dari kiri ke kanan"
 
 #. STRINGS.UI.VIEWDUPLICANTS
 msgctxt "STRINGS.UI.VIEWDUPLICANTS"
@@ -46974,7 +46996,7 @@ msgstr ""
 #. STRINGS.UI.VITALSSCREEN.CALORIES
 msgctxt "STRINGS.UI.VITALSSCREEN.CALORIES"
 msgid "Fullness"
-msgstr ""
+msgstr "Kekenyangan"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC.BASE
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC.BASE"
@@ -46987,7 +47009,7 @@ msgstr ""
 msgctxt ""
 "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC.TOOLTIP"
 msgid "This plant will take {0} to grow domestically"
-msgstr ""
+msgstr "Tanaman ini akan mengambil {0} untuk tumbuh secara lokal"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.BASE
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.BASE"
@@ -46995,6 +47017,8 @@ msgid ""
 "<b>Domestic Growth\n"
 "[Lifecycle: {0}]</b>"
 msgstr ""
+"<b>Pertumbuhan\n"
+"[Lifecycle: {0}]</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.TOOLTIP
 #, fuzzy
