@@ -15477,7 +15477,7 @@ msgstr "Moral"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION"
 msgid "Job Assignment: +{0} Morale Need"
-msgstr ""
+msgstr "Penugasan Kerja: Dibutuhkan Moral +{0}"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION_OVER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION_OVER"
@@ -29549,12 +29549,12 @@ msgstr ""
 #. STRINGS.MISC.STATUSITEMS.WAITINGFORMOP.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.WAITINGFORMOP.TOOLTIP"
 msgid "Spill will be mopped once a Duplicant is available"
-msgstr "Tumpahan akan segera disapu ketika Duplikat tersedia "
+msgstr "Tumpahan akan segera disapu ketika Duplikat tersedia"
 
 #. STRINGS.MISC.TAGS.AGRICULTURE
 msgctxt "STRINGS.MISC.TAGS.AGRICULTURE"
 msgid "Agriculture"
-msgstr ""
+msgstr "Agrikultur"
 
 #. STRINGS.MISC.TAGS.ALLOY
 msgctxt "STRINGS.MISC.TAGS.ALLOY"
@@ -29564,7 +29564,7 @@ msgstr ""
 #. STRINGS.MISC.TAGS.ANTISEPTIC
 msgctxt "STRINGS.MISC.TAGS.ANTISEPTIC"
 msgid "Antiseptic"
-msgstr ""
+msgstr "Antiseptik"
 
 #. STRINGS.MISC.TAGS.ANY
 msgctxt "STRINGS.MISC.TAGS.ANY"
@@ -29574,7 +29574,7 @@ msgstr ""
 #. STRINGS.MISC.TAGS.ANYWATER
 msgctxt "STRINGS.MISC.TAGS.ANYWATER"
 msgid "Water Based"
-msgstr ""
+msgstr "Bedasarkan Air"
 
 #. STRINGS.MISC.TAGS.ART
 msgctxt "STRINGS.MISC.TAGS.ART"
@@ -29589,17 +29589,17 @@ msgstr ""
 #. STRINGS.MISC.TAGS.BED
 msgctxt "STRINGS.MISC.TAGS.BED"
 msgid "Bed"
-msgstr ""
+msgstr "Tempar Tidur"
 
 #. STRINGS.MISC.TAGS.BLEACHSTONE
 msgctxt "STRINGS.MISC.TAGS.BLEACHSTONE"
 msgid "Bleach Stone"
-msgstr ""
+msgstr "Batu Pencuci"
 
 #. STRINGS.MISC.TAGS.BREATHABLE
 msgctxt "STRINGS.MISC.TAGS.BREATHABLE"
 msgid "Breathable Gas"
-msgstr ""
+msgstr "Gas Dapat Dihirup"
 
 #. STRINGS.MISC.TAGS.BUILDABLEANY
 msgctxt "STRINGS.MISC.TAGS.BUILDABLEANY"
@@ -29624,32 +29624,32 @@ msgstr ""
 #. STRINGS.MISC.TAGS.BURNS
 msgctxt "STRINGS.MISC.TAGS.BURNS"
 msgid "Flammable"
-msgstr ""
+msgstr "Mudah Terbakar"
 
 #. STRINGS.MISC.TAGS.CLINIC
 msgctxt "STRINGS.MISC.TAGS.CLINIC"
 msgid "Clinic"
-msgstr ""
+msgstr "Klinik"
 
 #. STRINGS.MISC.TAGS.CLOTHES
 msgctxt "STRINGS.MISC.TAGS.CLOTHES"
 msgid "Clothing"
-msgstr ""
+msgstr "Pakaian"
 
 #. STRINGS.MISC.TAGS.COAL
 msgctxt "STRINGS.MISC.TAGS.COAL"
 msgid "Coal"
-msgstr ""
+msgstr "Batu Bara"
 
 #. STRINGS.MISC.TAGS.COMMAND_MODULE
 msgctxt "STRINGS.MISC.TAGS.COMMAND_MODULE"
 msgid "Command Module"
-msgstr ""
+msgstr "Modul Perintah"
 
 #. STRINGS.MISC.TAGS.COMPOST_FORMAT
 msgctxt "STRINGS.MISC.TAGS.COMPOST_FORMAT"
 msgid "{Item}"
-msgstr ""
+msgstr "{Item}"
 
 #. STRINGS.MISC.TAGS.COMPOSTABLE
 msgctxt "STRINGS.MISC.TAGS.COMPOSTABLE"
@@ -29679,27 +29679,27 @@ msgstr ""
 #. STRINGS.MISC.TAGS.COOKING
 msgctxt "STRINGS.MISC.TAGS.COOKING"
 msgid "Cook Delivery"
-msgstr ""
+msgstr "Pengiriman Masakan"
 
 #. STRINGS.MISC.TAGS.COOKINGINGREDIENT
 msgctxt "STRINGS.MISC.TAGS.COOKINGINGREDIENT"
 msgid "Cooking Ingredient"
-msgstr ""
+msgstr "Bahan Masakan"
 
 #. STRINGS.MISC.TAGS.CRUSHABLE
 msgctxt "STRINGS.MISC.TAGS.CRUSHABLE"
 msgid "Crushable"
-msgstr ""
+msgstr "Dapat Dihancurkan"
 
 #. STRINGS.MISC.TAGS.DECORATION
 msgctxt "STRINGS.MISC.TAGS.DECORATION"
 msgid "Decoration"
-msgstr ""
+msgstr "Dekorasi"
 
 #. STRINGS.MISC.TAGS.DOCTORING
 msgctxt "STRINGS.MISC.TAGS.DOCTORING"
 msgid "Care Delivery"
-msgstr ""
+msgstr "Pengiriman Perawatan"
 
 #. STRINGS.MISC.TAGS.EDIBLE
 msgctxt "STRINGS.MISC.TAGS.EDIBLE"
@@ -29714,12 +29714,12 @@ msgstr ""
 #. STRINGS.MISC.TAGS.EGGSHELL
 msgctxt "STRINGS.MISC.TAGS.EGGSHELL"
 msgid "Egg Shell"
-msgstr ""
+msgstr "Cangkang Telur"
 
 #. STRINGS.MISC.TAGS.EMITSLIGHT
 msgctxt "STRINGS.MISC.TAGS.EMITSLIGHT"
 msgid "Light Emitter"
-msgstr ""
+msgstr "Sumber Cahaya"
 
 #. STRINGS.MISC.TAGS.EXTRUDABLE
 msgctxt "STRINGS.MISC.TAGS.EXTRUDABLE"
@@ -29744,17 +29744,17 @@ msgstr ""
 #. STRINGS.MISC.TAGS.FARMINGMATERIAL
 msgctxt "STRINGS.MISC.TAGS.FARMINGMATERIAL"
 msgid "Fertilizer"
-msgstr ""
+msgstr "Penyubur"
 
 #. STRINGS.MISC.TAGS.FARMSTATION
 msgctxt "STRINGS.MISC.TAGS.FARMSTATION"
 msgid "Farm Station"
-msgstr ""
+msgstr "Stasiun Pertanian"
 
 #. STRINGS.MISC.TAGS.FILTER
 msgctxt "STRINGS.MISC.TAGS.FILTER"
 msgid "Filtration Medium"
-msgstr ""
+msgstr "Media Penyaringan"
 
 #. STRINGS.MISC.TAGS.GAS
 msgctxt "STRINGS.MISC.TAGS.GAS"
@@ -46725,6 +46725,10 @@ msgid ""
 "\n"
 "New Database Entry unlocked."
 msgstr ""
+"Komputer kelihatan asli diluar, tetapi sangat rusak didalamnya. Masih, saya "
+"berhasil menemukan berkas yag tidak rusak, dan menambahkannya ke database.\n"
+"\n"
+"Entri Baru Database tidak terkunci."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH4
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH4"
@@ -46734,6 +46738,10 @@ msgid ""
 "\n"
 "New Database Entry unlocked."
 msgstr ""
+"Komputer hampir sepenuhnya telah terhapus sampai beraih, kecuali satu berkas "
+"tersembunyi di recyle bin.\n"
+"\n"
+"Entri Baru Database tidak terkunci."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH5
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH5"
@@ -46764,7 +46772,7 @@ msgstr ""
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_FAIL.SEARCH1
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_FAIL.SEARCH1"
 msgid "I look around but find nothing of interest."
-msgstr ""
+msgstr "Saya melihat sekitar tetapi tidak menemukan apapun yang menarik."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH1
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH1"
@@ -46815,6 +46823,9 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
+"Saya menemukan kotak memori didalam dan mengkopi datanya ke database.\n"
+"\n"
+"Entri Database Baru ditemukan."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_POD
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_POD"
@@ -46905,7 +46916,7 @@ msgstr "Pilih Penelitian"
 #. STRINGS.UI.USERMENUACTIONS.SELECTRESEARCH.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.SELECTRESEARCH.TOOLTIP"
 msgid "Choose a technology from the Research Tree <color=#F44A47>[R]</color>"
-msgstr ""
+msgstr "Memillih teknologi dari Pohon Penelitian <color=#F44A47>[R]</color>"
 
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.NAME"
@@ -46962,7 +46973,7 @@ msgstr ""
 #. STRINGS.UI.USERMENUACTIONS.UNEQUIP.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.UNEQUIP.TOOLTIP"
 msgid "Take off and drop this equipment"
-msgstr ""
+msgstr "Ambil dan taruh peralatan"
 
 #. STRINGS.UI.USERMENUACTIONS.UPROOT.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.UPROOT.NAME"
@@ -46992,7 +47003,7 @@ msgstr "Atur Arah: Kiri"
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_LEFT.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_LEFT.TOOLTIP"
 msgid "Select to make Duplicants wash when passing by from right to left"
-msgstr ""
+msgstr "Pilih untuk membuat Duplikat "
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.NAME"
@@ -47017,7 +47028,7 @@ msgstr ""
 #. STRINGS.UI.VITALSSCREEN.ATMOSPHERE_CONDITION
 msgctxt "STRINGS.UI.VITALSSCREEN.ATMOSPHERE_CONDITION"
 msgid "Atmosphere:"
-msgstr ""
+msgstr "Atmosfer:"
 
 #. STRINGS.UI.VITALSSCREEN.CALORIES
 msgctxt "STRINGS.UI.VITALSSCREEN.CALORIES"
@@ -47030,6 +47041,8 @@ msgid ""
 "<b>Additional Domestic Growth\n"
 "[Lifecycle: {0}]</b>"
 msgstr ""
+"<b>Pertumbuhan Lokal Tambahan\n"
+"[Siklus hidup: {0}]</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC.TOOLTIP
 msgctxt ""
@@ -47058,6 +47071,8 @@ msgid ""
 "<b>Wild Growth\n"
 "[Lifecycle: {0}]</b>"
 msgstr ""
+"<b>Pertumbuhan Liar\n"
+"[Siklus hidup: {0}]</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.TOOLTIP"
@@ -47098,7 +47113,7 @@ msgstr "Ekspektasi"
 #. STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS
 msgctxt "STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS"
 msgid "Food Expectation"
-msgstr "Ekspektasi pangan"
+msgstr "Ekspektasi Makanan"
 
 #. STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS_TOOLTIP"
