@@ -2659,6 +2659,8 @@ msgid ""
 "The {ELEMENT} present below this turbine must be {MASS} more pressurized "
 "than the {ELEMENT} above it in order to turn the turbine"
 msgstr ""
+"{ELEMENT} di bawah turbin ini harus bertekanan lebih {MASS} daripada "
+"{ELEMENT} di atasnya untuk mmemutar turbin"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.NAME"
@@ -2906,7 +2908,7 @@ msgstr "Watt Maksimum: {WireMaxWattage}"
 #. STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.TOOLTIP"
 msgid "The maximum wattage that this wire can safely sustain"
-msgstr ""
+msgstr "Daya maksimum dimana kabel ini dapat menopang dengan aman. "
 
 #. STRINGS.BUILDING.STATUSITEMS.WIRENOMINAL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRENOMINAL.NAME"
@@ -3019,7 +3021,7 @@ msgstr "isi pipa menjadi terlalu dingin"
 #. STRINGS.BUILDINGS.DAMAGESOURCES.LIQUID_PRESSURE
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.LIQUID_PRESSURE"
 msgid "neighboring liquid pressure"
-msgstr ""
+msgstr "Mengalihkan tekanan cairan"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.MICROMETEORITE
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.MICROMETEORITE"
@@ -3140,7 +3142,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.NAME"
 msgid "<link=\"AIRCONDITIONER\">Thermo Regulator</link>"
-msgstr ""
+msgstr "<link=\"AIRCONDITIONER\">Pengatur Panas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.AIRFILTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRFILTER.DESC"
@@ -3460,17 +3462,20 @@ msgid ""
 "A bottle emptier's Element Filter can be used to designate areas for "
 "specific liquid storage."
 msgstr ""
+"Elemen filter dari botol pengosong dapat digunakan untuk memilih area untuk "
+"penyimpanan cairan tertentu."
 
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIER.EFFECT"
 msgid ""
 "Empties bottled <link=\"ELEMENTSLIQUID\">Liquids</link> back into the world."
 msgstr ""
+"Mengosongkan <link=\"ELEMENTSLIQUID\">cairan</link> botol kembali ke dunia."
 
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIER.NAME"
 msgid "<link=\"BOTTLEEMPTIER\">Bottle Emptier</link>"
-msgstr ""
+msgstr "<link=\"BOTTLEEMPTIER\">Pengosong Botol</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.DESC"
@@ -3478,21 +3483,23 @@ msgid ""
 "A canister emptier's Element Filter can be used to designate areas for "
 "specific gas storage."
 msgstr ""
+"Elemen filter dari botol pengosong dapat digunakan untuk memilih area untuk "
+"penyimpanan gas tertentu."
 
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.EFFECT"
 msgid "Empties <link=\"ELEMENTSGAS\">Gas</link> canisters back into the world."
-msgstr ""
+msgstr "Mengosongkan tabung <link=\"ELEMENTSGAS\">Gas</link> kembali ke dunia."
 
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.NAME"
 msgid "<link=\"BOTTLEEMPTIERGAS\">Canister Emptier</link>"
-msgstr ""
+msgstr "<link=\"BOTTLEEMPTIER\">Pengosong Tabung</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.DESC"
 msgid "A massive, slow-moving door which is nearly indestructible."
-msgstr ""
+msgstr "Pintu besar, bergerak lambat dan hampir tidak bisa dihancurkan."
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.EFFECT"
@@ -3504,11 +3511,17 @@ msgid ""
 "\n"
 "Can withstand extremely high pressures and impacts."
 msgstr ""
+"Blok <link=\"ELEMENTSLIQUID\">Cairan</link> dan aliran <link=\"ELEMENTSGAS"
+"\">Gas</link>, mempertahankan tekananan antar daerah.\n"
+"\n"
+"Atur Izin Akses untuk daerah batasan.\n"
+"\n"
+"Dapat menahan benturan dan tekanan yang sangat tinggi."
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.NAME"
 msgid "<link=\"BUNKERDOOR\">Bunker Door</link>"
-msgstr ""
+msgstr "<link=\"BUNKERDOOR\">Pintu Bunker</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC"
@@ -3516,6 +3529,8 @@ msgid ""
 "Bunker tiles can be used to build strong shelters in otherwise dangerous "
 "environments."
 msgstr ""
+"Bunker ubin dapat digunakan untuk membangun tempat penampungan yang kuat "
+"dalam lingkungan yang tidak berbahaya."
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT"
@@ -3524,16 +3539,20 @@ msgid ""
 "\n"
 "Can withstand extreme pressures and impacts."
 msgstr ""
+"Digunakan sebagai lantai dan dinding ubin untuk membangun kamar.\n"
+"\n"
+"Dapat menahan benturan dan tekanan yang ekstrim."
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.NAME"
 msgid "<link=\"BUNKERTILE\">Bunker Tile</link>"
-msgstr ""
+msgstr "<link=\"BUNKERTILE\">Bunker Ubin</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BURNER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.DESC"
 msgid "Burners reach incredible temperatures and can quickly melt large areas."
 msgstr ""
+"Pembakar mencapai suhu luar biasa dan dapat cepat mencairkan area yang luas."
 
 #. STRINGS.BUILDINGS.PREFABS.BURNER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.EFFECT"
@@ -3541,16 +3560,18 @@ msgid ""
 "Produces a searing <link=\"HEAT\">Heat Jet</link> using liquid <link="
 "\"CRUDEOIL\">Crude Oil</link>."
 msgstr ""
+"Menghasilkan pembakran <link=\"HEAT\">Panas Jet</link> menggunakan cairan "
+"<link=\"CRUDEOIL\">Minyak Mentah</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.BURNER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.NAME"
 msgid "<link=\"BURNER\">Burner</link>"
-msgstr ""
+msgstr "<link=\"BURNER\">Pembakar</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.AVERAGEQUALITYNAME"
 msgid "Mediocre Painting"
-msgstr ""
+msgstr "Lukisan Biasa"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.DESC"
@@ -3558,6 +3579,8 @@ msgid ""
 "Once built, a Duplicant can paint a blank canvas to produce a decorative "
 "painting."
 msgstr ""
+"Sekali dibangun, Duplikat dapat melukis kanvas kosong untuk memproduksi "
+"lukisan yang dekoratif."
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.EFFECT"
@@ -3567,21 +3590,23 @@ msgid ""
 "\n"
 "Must be painted by a Duplicant."
 msgstr ""
+"Meningkatkan <link=\"DECOR\">Hiasan</link> dan mengurangi <link=\"STRESS"
+"\">Stres</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.EXCELLENTQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.EXCELLENTQUALITYNAME"
 msgid "Masterpiece"
-msgstr ""
+msgstr "Karya Besar"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.NAME"
 msgid "<link=\"CANVAS\">Blank Canvas</link>"
-msgstr ""
+msgstr "<link=\"CANVAS\">Kanvas Kosong</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.POORQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.POORQUALITYNAME"
 msgid "Crude Painting"
-msgstr ""
+msgstr "Lukisan Kasar"
 
 #. STRINGS.BUILDINGS.PREFABS.CARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.DESC"
@@ -3589,6 +3614,8 @@ msgid ""
 "Duplicants will fill cargo bays with whatever resources they find during "
 "their space missions."
 msgstr ""
+"Duplikat akan mengisi kargo dengan sumber daya apapun yang mereka temukan "
+"sepanjang misi luar angkasa mereka."
 
 #. STRINGS.BUILDINGS.PREFABS.CARGOBAY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.EFFECT"
@@ -3598,27 +3625,35 @@ msgid ""
 "\n"
 "Stored resources become available to the colony upon the rocket's return."
 msgstr ""
+"Mengijinkan Duplikat untuk menyimpan segala sumber daya <link=\"ELEMENTSSOLID"
+"\">Padat</link> yang mereka temukan sepanjang misi luar angkasa.\n"
+"\n"
+"Sumber daya tersimpan tersedia untuk koloni setelah kembalinya roket."
 
 #. STRINGS.BUILDINGS.PREFABS.CARGOBAY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.NAME"
 msgid "<link=\"CARGOBAY\">Cargo Bay</link>"
-msgstr ""
+msgstr "<link=\"CARGOBAY\">Ruang Kargo</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.DESC"
 msgid "Light reduces Duplicant stress and is required to grow certain plants."
 msgstr ""
+"Cahaya mengurangi stres dari Duplikat dan dibutuhkan untuk menumbuhkan "
+"beberapa tanaman."
 
 #. STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.EFFECT"
 msgid ""
 "Provides <link=\"LIGHT\">Light</link> when <link=\"POWER\">Powered</link>."
 msgstr ""
+"Menyediakan <link=\"LIGHT\">Cahaya</link> ketika <link=\"POWER\">Dinyalakan</"
+"link>."
 
 #. STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.NAME"
 msgid "<link=\"CEILINGLIGHT\">Ceiling Light</link>"
-msgstr ""
+msgstr "<link=\"CEILINGLIGHT\">Cahaya Langit-Langit</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.DESC"
@@ -3626,6 +3661,8 @@ msgid ""
 "Checkpoints can be connected to automated sensors to determine when it is "
 "safe to enter."
 msgstr ""
+"Cekpoin bisa dihubungkan dengan sensor terautomasi untuk menentukan kapan "
+"bisa masuk dengan aman."
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.EFFECT"
@@ -3634,16 +3671,19 @@ msgid ""
 "\n"
 "Prevents Duplicants from passing when on <link=\"LOGIC\">Standby</link>."
 msgstr ""
+"Memungkinkan Duplikat harus melintas ketika <link=\"LOGIC\">Aktif</link>.\n"
+"\n"
+"Mencegah Duplikat untuk lewat ketika <link=\"LOGIC\">Siaga</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_DESC"
 msgid "Duplicant Stop/Go"
-msgstr ""
+msgstr "Duplikat Berhenti/Berjalan"
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.NAME"
 msgid "<link=\"CHECKPOINT\">Duplicant Checkpoint</link>"
-msgstr ""
+msgstr "<link=\"CHECKPOINT\">Cekpoin Duplikat</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.DESC"
@@ -3651,6 +3691,8 @@ msgid ""
 "A textile loom can be used to spin Reed Fiber into wearable Duplicant "
 "clothing."
 msgstr ""
+"Tenun tekstil dapat digunakan untuk memutar Serat Alang-Alang ke pakaian "
+"yang dapat dipakai oleh Duplikat."
 
 #. STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.EFFECT"
@@ -3659,11 +3701,14 @@ msgid ""
 "\n"
 "Duplicants will not fabricate items unless recipes are queued."
 msgstr ""
+"Penjahit item <link=\"EQUIPMENT\">Pakaian</link> Duplikat.\n"
+"\n"
+"Duplikat tidak akan memciptakan item kecuali resep dalam antrian."
 
 #. STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.NAME"
 msgid "<link=\"CLOTHINGFABRICATOR\">Textile Loom</link>"
-msgstr ""
+msgstr "<link=\"CLOTHINGFABRICATOR\">Alat Tenun Tekstil</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.DESC"
@@ -3671,6 +3716,8 @@ msgid ""
 "Carbon skimmers remove large amounts of carbon dioxide, but produce no "
 "breathable air."
 msgstr ""
+"Peluncur Karbon menghapuskan sejumlah besar dari karbon dioksida, tetapi "
+"memproduksi udara yang tidak dapat dihirup."
 
 #. STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.EFFECT"
@@ -3678,11 +3725,13 @@ msgid ""
 "Uses <link=\"WATER\">Water</link> to filter <link=\"CARBONDIOXIDE\">Carbon "
 "Dioxide</link> from the air."
 msgstr ""
+"Menggunakan <link=\"WATER\">Air</link> untuk menfilter <link=\"CARBONDIOXIDE"
+"\">Karbon Dioksida</link> dari udara."
 
 #. STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.NAME"
 msgid "<link=\"CO2SCRUBBER\">Carbon Skimmer</link>"
-msgstr ""
+msgstr "<link=\"CO2SCRUBBER\">Peluncur Karbon</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.DESC"
@@ -3690,6 +3739,8 @@ msgid ""
 "Networks of many scanners will detect objects more efficiently than one "
 "scanner alone."
 msgstr ""
+"Jaringan dari banyak pemindai akan mendeteksi objek lebih efisien daripada "
+"pemindai tunggal sendirian."
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT"
@@ -3700,6 +3751,11 @@ msgid ""
 "Can be configured to detect incoming meteor showers or returning space "
 "rockets."
 msgstr ""
+"Mengirimkan <link=\"LOGIC\">Sinyal Aktif</link> ke sirkuit logika ketika "
+"mendeteksi objek yang datang dari luar angkasa.\n"
+"\n"
+"Dapat dikonfigurasi untuk mendeteksi hujan meteor atau kembalinya roket luar "
+"angkasa."
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.NAME"
