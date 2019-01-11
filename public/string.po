@@ -3760,7 +3760,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.NAME"
 msgid "<link=\"COMETDETECTOR\">Space Scanner</link>"
-msgstr ""
+msgstr "<link=\"COMETDETECTOR\">Pemindai Luar Angkasa</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.DESC"
@@ -3768,6 +3768,8 @@ msgid ""
 "At least one astronaut must be assigned to the command module to pilot a "
 "rocket."
 msgstr ""
+"Setidaknya satu astronot harus ditugaskan di modul perintah untuk menjadi "
+"pilot roket."
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.EFFECT"
@@ -3777,16 +3779,22 @@ msgid ""
 "\n"
 "A Command Capsule must be the last module installed at the top of a rocket."
 msgstr ""
+"Berisi tempat duduk penumpang untuk <link=\"ASTRONAUT\">Astronot</link> "
+"Duplikat.\n"
+"\n"
+"Sebuah kapsul perintah haruslah modul terakhir yang dipasang di atas roket."
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.NAME"
 msgid "<link=\"COMMANDMODULE\">Command Capsule</link>"
-msgstr ""
+msgstr "<link=\"COMMANDMODULE\">Kapsul Perintah</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COMPOST.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMPOST.DESC"
 msgid "Composts safely deal with biological waste, producing fresh dirt."
 msgstr ""
+"Kompos yang aman berurusan dengan sampah hayati, yang menghasilkan kotoran "
+"segar."
 
 #. STRINGS.BUILDINGS.PREFABS.COMPOST.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMPOST.EFFECT"
@@ -3794,11 +3802,13 @@ msgid ""
 "Reduces <link=\"TOXICSAND\">Polluted Dirt</link> and other compostables down "
 "into <link=\"DIRT\">Dirt</link>."
 msgstr ""
+"Mengurangi <link=\"TOXICSAND\">Sampah Terpolusi</link> dan bahan lain yang "
+"dapat di kompos dimasukkan ke <link=\"DIRT\">Sampah</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.COMPOST.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMPOST.NAME"
 msgid "<link=\"COMPOST\">Compost</link>"
-msgstr ""
+msgstr "<link=\"COMPOST\">Kompos</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.NAME"
@@ -3833,7 +3843,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.NAME"
 msgid "<link=\"COOKINGSTATION\">Electric Grill</link>"
-msgstr ""
+msgstr "<link=\"COOKINGSTATION\">Pemanggang Elektrik</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.DESC"
@@ -3854,11 +3864,17 @@ msgid ""
 "Assigned Duplicants must possess the <link=\"SENIORRESEARCHER\">Planetarium "
 "Researching</link> trait."
 msgstr ""
+"Melakukan <link=\"RESEARCH\">Penelitian Antar Bintang</link> menggunakan "
+"data dari <link=\"TELESCOPE\">Teleskop</link> dan <link=\"RESEARCHMODULE"
+"\">Modul Penelitian</link>.\n"
+"\n"
+"Duplikat yang ditetapkan harus memiliki sifat <link=\"SENIORRESEARCHER\"> "
+"Meneliti Planetarium</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.NAME"
 msgid "<link=\"COSMICRESEARCHCENTER\">Virtual Planetarium</link>"
-msgstr ""
+msgstr "<link=\"COSMICRESEARCHCENTER\">Planetarium Virtual</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.DESC"
@@ -3883,7 +3899,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.NAME"
 msgid "<link=\"CREATUREDELIVERYPOINT\">Critter Drop-Off</link>"
-msgstr ""
+msgstr "<link=\"CREATUREDELIVERYPOINT\">Peletakkan Makhluk</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.DESC"
@@ -3902,7 +3918,7 @@ msgstr "Secara otomatis membagi-bagikan makanan untuk makhluk yang kelaparan."
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.NAME"
 msgid "<link=\"CREATUREFEEDER\">Critter Feeder</link>"
-msgstr ""
+msgstr "<link=\"CREATUREFEEDER\">Pemberi Makan Makhluk</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC"
@@ -3916,31 +3932,34 @@ msgid ""
 "\n"
 "Single use."
 msgstr ""
+"Penangkapan makhluk hidup untuk di kirimkan.\n"
+"\n"
+"Sekali Pemakaian."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.NAME"
 msgid "<link=\"CREATURETRAP\">Critter Trap</link>"
-msgstr ""
+msgstr "<link=\"CREATURETRAP\">Perangkap Makhluk</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.DESC"
 msgid "Generates infinite testing power"
-msgstr ""
+msgstr "Menghasilkan pengetesan listrik yang tidak terbatas"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.EFFECT"
 msgid "Runs on coffee"
-msgstr ""
+msgstr "Berbahan bakar kopi"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME"
 msgid "DEV Generator"
-msgstr ""
+msgstr "Generator DEV"
 
 #. STRINGS.BUILDINGS.PREFABS.DININGTABLE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DININGTABLE.DESC"
 msgid "Duplicants prefer to dine at a table, rather than eat off the floor."
-msgstr ""
+msgstr "Duplikat lebih nyaman makan di meja, daripada makan di lantai."
 
 #. STRINGS.BUILDINGS.PREFABS.DININGTABLE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DININGTABLE.EFFECT"
@@ -3949,11 +3968,15 @@ msgid ""
 "\n"
 "Duplicants will automatically eat at their assigned table when hungry."
 msgstr ""
+"Berikan satu tempat untuk Duplikat makan.\n"
+"\n"
+"Duplikat secara otomatis akan makan di meja yang ditunjuk ketika mereka "
+"lapar."
 
 #. STRINGS.BUILDINGS.PREFABS.DININGTABLE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DININGTABLE.NAME"
 msgid "<link=\"DININGTABLE\">Mess Table</link>"
-msgstr ""
+msgstr "<link=\"DININGTABLE\">Meja Makan</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.DESC"
@@ -3961,6 +3984,8 @@ msgid ""
 "Channels move more volume than pumps and require no power, but need "
 "sufficient pressure to function."
 msgstr ""
+"Kanal memindahkan lebih banyak volume dan tidak membutuhkan listrik, tetapi "
+"cukup membutuhkan tekanan untuk berfungsi."
 
 #. STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.EFFECT"
@@ -3969,16 +3994,19 @@ msgid ""
 "\n"
 "Can be used as floor tile and rotated before construction."
 msgstr ""
+"Mengarahkan cairan dalam volume besar melalui saluran.\n"
+"\n"
+"Dapat digunakan sebagai ubin lantai dan diputar sebelum pembangunan."
 
 #. STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.NAME"
 msgid "<link=\"DIRECTIONALWORLDPUMPLIQUID\">Liquid Channel</link>"
-msgstr ""
+msgstr "<link=\"DIRECTIONALWORLDPUMPLIQUID\">Kanal Cairan</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.DESC"
 msgid "Gets hot and steamy."
-msgstr ""
+msgstr "Semakin panas dan beruap."
 
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.EFFECT"
@@ -3987,11 +4015,14 @@ msgid ""
 "into <link=\"STEAM\">Steam</link> and <link=\"TOXICSAND\">Polluted Dirt</"
 "link>"
 msgstr ""
+"Memisahkan setiap <link=\"DIRTYWATER\"Air Terpolusi</link> yang disalurkan "
+"ke dalam <link=\"STEAM\">Uap</link> dan <link=\"TOXICSAND\"Kotoran "
+"Terpolusi</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.NAME"
 msgid "<link=\"DISTILLATIONCOLUMN\">Distillation Column</link>"
-msgstr ""
+msgstr "<link=\"DISTILLATIONCOLUMN\">Kolom Distilasi</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.ABOVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.ABOVE"
@@ -4051,6 +4082,12 @@ msgid ""
 "\n"
 "Wild critters cannot pass through doors."
 msgstr ""
+"Penutupan daerah tanpa pemblokiran aliran <link=\"ELEMENTSLIQUID\">Cairan</"
+"link> atau <link=\"ELEMENTSGAS\"> Gas</link>.\n"
+"\n"
+"Set Izin Akses Duplikat untuk pembatasan daerah.\n"
+"\n"
+"Makhluk liar tidak dapat melewati pintu."
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LEFT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LEFT"
@@ -4096,11 +4133,16 @@ msgid ""
 "\n"
 "Duplicants will not crack eggs unless tasks are queued."
 msgstr ""
+"Mengkonversi telur makhluk yang layak ke bahan-bahan memasak.\n"
+"\n"
+"Telur Retak tidak bisa menetas.\n"
+"\n"
+"Duplikat tidak akan memecahkan telur kecuali tugas dalam antrian."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.NAME"
 msgid "<link=\"EGGCRACKER\">Egg Cracker</link>"
-msgstr ""
+msgstr "<link=\"EGGCRACKER\">Pemecah Telur</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.RECIPE_DESCRIPTION"
@@ -4118,6 +4160,8 @@ msgid ""
 "Incubators can maintain the ideal internal conditions for several species of "
 "critter egg."
 msgstr ""
+"Inkubator dapat mempertahankan kondisi internal ideal untuk beberapa jenis "
+"makhluk telur."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.EFFECT"
@@ -4127,11 +4171,15 @@ msgid ""
 "Assigned Duplicants must possess the <link=\"RANCHER\">Critter Wrangling</"
 "link> trait."
 msgstr ""
+"Menginkubasi telur telur dari makhluk sampai siap menetas.\n"
+"\n"
+"Duplikat Yang Ditetapkan harus memiliki sifat <link=\"RANCHER\"> makhluk "
+"pertikaian</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.NAME"
 msgid "<link=\"EGGINCUBATOR\">Incubator</link>"
-msgstr ""
+msgstr "<link=\"EGGINCUBATOR\">Inkubator</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.DESC"
