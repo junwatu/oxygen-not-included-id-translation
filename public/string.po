@@ -4185,6 +4185,8 @@ msgstr "<link=\"EGGINCUBATOR\">Inkubator</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.DESC"
 msgid "Water goes in one end, life sustaining oxygen comes out the other."
 msgstr ""
+"Air berjalan di salah satu ujung, oksigen yang mempertahankan hidup keluar "
+"dari ujung ang lain."
 
 #. STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.EFFECT"
@@ -4194,16 +4196,21 @@ msgid ""
 "\n"
 "Becomes idle when the area reaches maximum pressure capacity."
 msgstr ""
+"Mengkonversi <link=\"WATER\">Air</link> ke <link=\"OXYGEN\">Oksigen</link> "
+"dan <link=\"HYDROGEN\">Hidrogen</link>.\n"
+"\n"
+"Menjadi siaga ketika daerah mencapai kapasitas maksimum tekanan."
 
 #. STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.NAME"
 msgid "<link=\"ELECTROLYZER\">Electrolyzer</link>"
-msgstr ""
+msgstr "<link=\"ELECTROLYZER\">Electrolyzer</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.DESC"
 msgid "A shot of espresso helps Duplicants relax after a long day."
 msgstr ""
+"Segelas kopi espresso membantu Duplikat bersantai setelah hari yang panjang."
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT"
@@ -4212,11 +4219,14 @@ msgid ""
 "\n"
 "Increases Duplicant Morale."
 msgstr ""
+"Menyediakan penyegaran untuk Duplikat pada istirahat mereka.\n"
+"\n"
+"Meningkatkan semangat Duplikat."
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.NAME"
 msgid "<link=\"ESPRESSOMACHINE\">Espresso Machine</link>"
-msgstr ""
+msgstr "<link=\"ESPRESSOMACHINE\">Mesin Kopi Espresso</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC"
@@ -4224,6 +4234,8 @@ msgid ""
 "Drywall can be used in conjunction with tiles to build airtight rooms on the "
 "surface."
 msgstr ""
+"Drywall dapat digunakan dalam hubungannya dengan ubin untuk membangun kamar "
+"kedap udara di permukaan."
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT"
@@ -4232,11 +4244,14 @@ msgid ""
 "\n"
 "Builds an insulating backwall behind buildings."
 msgstr ""
+"Mencegah kehilangan gas dan cairan dalam ruang.\n"
+"\n"
+"Membangun isolasi dinding di belakang bangunan."
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME"
 msgid "<link=\"EXTERIORWALL\">Drywall</link>"
-msgstr ""
+msgstr "<link=\"EXTERIORWALL\">Drywall</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.DESC
 #, fuzzy
@@ -4262,12 +4277,14 @@ msgstr "Jendela tipis yang tinggi."
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME"
 msgid "<link=\"\">Window</link>"
-msgstr ""
+msgstr "<link=\"\">Jendela</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC"
 msgid "This station only has an effect on crops grown within the same room."
 msgstr ""
+"Stasiun ini hanya memiliki efek pada tanaman yang tumbuh dalam ruangan yang "
+"sama."
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT"
@@ -4280,11 +4297,18 @@ msgid ""
 "\n"
 "This building is a necessary component of the Greenhouse room."
 msgstr ""
+"Memproduksi pupuk mikronutrien untuk meningkatkan laju pertumbuhan <link="
+"\"PLANTS\">Tanaman</link>.\n"
+"\n"
+"Duplikat Yang Ditetapkan harus memiliki kebiasaan dalam <link=\"FARMER"
+"\">Pemeliharan Tanaman</link>.\n"
+"\n"
+"Bangunan ini merupakan komponen yang diperlukan ruang Greenhouse."
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME"
 msgid "<link=\"FARMSTATION\">Farm Station</link>"
-msgstr ""
+msgstr "<link=\"FARMSTATION\">Stasiun Pertanian</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC"
@@ -4292,6 +4316,8 @@ msgid ""
 "Duplicants can deliver fertilizer and liquids to farm tiles, accelerating "
 "plant growth."
 msgstr ""
+"Duplikat bisa mengirimkan cairan dan penyubur ke ubin pertanian, mempercepat "
+"pertumbuhan tanaman."
 
 #. STRINGS.BUILDINGS.PREFABS.FARMTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.EFFECT"
@@ -4301,11 +4327,13 @@ msgid ""
 "\n"
 "Can be used as floor tile and rotated before construction."
 msgstr ""
+"Menumbuhkan satu <link=\"PLANTS\">Tanaman</link> dari sebuah <link=\"PLANTS"
+"\">Bibit</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.FARMTILE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.NAME"
 msgid "<link=\"FARMTILE\">Farm Tile</link>"
-msgstr ""
+msgstr "<link=\"FARMTILE\">Ubin Pertanian</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.DESC"
@@ -4313,6 +4341,8 @@ msgid ""
 "Fertilizer Synthesizers convert polluted dirt into fertilizer for domestic "
 "plants."
 msgstr ""
+"Pensintesa Pupuk mengubah kotoran terpolusi menjadi pupuk untuk tanaman "
+"peliharaan."
 
 #. STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.EFFECT"
@@ -4320,11 +4350,13 @@ msgid ""
 "Uses <link=\"DIRTYWATER\">Polluted Water</link> to produce <link=\"FERTILIZER"
 "\">Fertilizer</link>."
 msgstr ""
+"Menggunakan <link=\"DIRTYWATER\">Air Terpolusi</link> untuk memproduksi "
+"<link=\"FERTILIZER\">Pupuk</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.NAME"
 msgid "<link=\"FERTILIZERMAKER\">Fertilizer Synthesizer</link>"
-msgstr ""
+msgstr "<link=\"FERTILIZERMAKER\">Pensintesa Pupuk</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FIREPOLE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FIREPOLE.DESC"
@@ -4332,6 +4364,8 @@ msgid ""
 "Fire poles provide quick downward travel, while ladders provide better "
 "upward movement."
 msgstr ""
+"Tiang memberikan percepatan perjalanan ke bawah, sementara tangga memberikan "
+"pergerakan ke atas yang lebih baik."
 
 #. STRINGS.BUILDINGS.PREFABS.FIREPOLE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FIREPOLE.EFFECT"
@@ -4340,17 +4374,21 @@ msgid ""
 "\n"
 "Significantly slows upward climbing."
 msgstr ""
+"Memungkinkan cepat Duplicant keturunan.\n"
+"\n"
+"Secara signifikan memperlambat memanjat ke atas."
 
 #. STRINGS.BUILDINGS.PREFABS.FIREPOLE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FIREPOLE.NAME"
 msgid "<link=\"FIREPOLE\">Fire Pole</link>"
-msgstr ""
+msgstr "<link=\"FIREPOLE\">Tiang Api</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.DESC"
 msgid ""
 "This building must be built above liquid to prevent fish from suffocating."
 msgstr ""
+"Bangunan ini harus dibangun di atas cairan untuk mencegah ikan dari tercekik."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT"
@@ -4359,16 +4397,20 @@ msgid ""
 "\n"
 "Can be used multiple times."
 msgstr ""
+"Pelepasan kembali makhluk terperangkap ke dunia\n"
+"\n"
+"Bisa digunakan berulang kali."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.NAME"
 msgid "<link=\"FISHDELIVERYPOINT\">Fish Release</link>"
-msgstr ""
+msgstr "<link=\"FISHDELIVERYPOINT\">Pelepasan Ikan</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FISHFEEDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.DESC"
 msgid "Build this feeder above a body of water to feed the fish within."
 msgstr ""
+"Bangun pengumpan ini di atas badan air untuk memberi makan ikan didalamnya."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHFEEDER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.EFFECT"
@@ -4377,16 +4419,20 @@ msgid ""
 "\n"
 "Dispenses once per day."
 msgstr ""
+"Secara otomatis membagi-bagikan makanan yang tersimpan ke daerah di bawah "
+"ini.\n"
+"\n"
+"Dibagikan sekali per hari."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHFEEDER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.NAME"
 msgid "<link=\"FISHFEEDER\">Fish Feeder</link>"
-msgstr ""
+msgstr "<link=\"FISHFEEDER\">Pengumpan Ikan</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FISHTRAP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHTRAP.DESC"
 msgid "Trapped fish will automatically be bagged for transport."
-msgstr ""
+msgstr "Ikan terjebak akan secara otomatis dikantongi untuk dikirimkan."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHTRAP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHTRAP.EFFECT"
@@ -4395,34 +4441,43 @@ msgid ""
 "\n"
 "Single use."
 msgstr ""
+"Menarik dan Memerangkap ikan yang berenang.\n"
+"\n"
+"Sekali penggunaan."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHTRAP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHTRAP.NAME"
 msgid "<link=\"FISHTRAP\">Fish Trap</link>"
-msgstr ""
+msgstr "<link=\"FISHTRAP\">Perangkap Ikan</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORLAMP.DESC
+#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.DESC"
 msgid ""
 "The emitting radius of a building's light can be viewed in the Light Overlay."
 msgstr ""
+"Radius pancaran dari cahaya bangunan dapat di lihat di Hamparan Cahaya."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORLAMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.EFFECT"
 msgid ""
 "Provides <link=\"LIGHT\">Light</link> when <link=\"POWER\">Powered</link>."
 msgstr ""
+"Menyediakan <link=\"LIGHT\">Cahaya</link> ketika <link=\"POWER\">Dinyalakan</"
+"link>."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORLAMP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.NAME"
 msgid "<link=\"FLOORLAMP\">Lamp</link>"
-msgstr ""
+msgstr "<link=\"FLOORLAMP\">Lampu</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.DESC"
 msgid ""
 "Weight plates can be used to turn on amenities only when Duplicants pass by."
 msgstr ""
+"Piring yang berat dapat digunakan untuk menghidupkan fasilitas hanya ketika "
+"Duplikat melewatinya."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.EFFECT"
@@ -4433,21 +4488,23 @@ msgid ""
 "Cannot be triggered by <link=\"ELEMENTSGAS\">Gas</link> or <link="
 "\"ELEMENTSLIQUID\">Liquids</link>."
 msgstr ""
+"Menjadi <link=\"LOGIC\">Aktif</link> ketika objek atau Duplikat ditempatkan "
+"diatasnya."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.LOGIC_PORT_DESC"
 msgid "<link=\"LOGIC\">Active</link>/<link=\"LOGIC\">Inactive</link>"
-msgstr ""
+msgstr "<link=\"LOGIC\">Aktif</link>/<link=\"LOGIC\">Tidak Aktif</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.NAME"
 msgid "<link=\"FLOORSWITCH\">Weight Plate</link>"
-msgstr ""
+msgstr "<link=\"FLOORSWITCH\">Piring Berat</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASE.DESC"
 msgid "Flower pots allow decorative plants to be moved to new locations."
-msgstr ""
+msgstr "Pot Bunga mengijinkan tanaman hias untuk dipindah ke lokasi baru."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASE.EFFECT"
@@ -4458,11 +4515,16 @@ msgid ""
 "Houses a single <link=\"PLANTS\">Plant</link> when sown with a <link=\"PLANTS"
 "\">Seed</link>."
 msgstr ""
+"Meningkatkan <link=\"DECOR\">Hiasan</link> dan mengurangi <link=\"STRESS"
+"\">Stres</link>\n"
+"\n"
+"Rumah untuk satu <link=\"PLANTS\">Tanaman</link> ketika ditaburi <link="
+"\"PLANTS\">Bibit</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASE.NAME"
 msgid "<link=\"FLOWERVASE\">Flower Pot</link>"
-msgstr ""
+msgstr "<link=\"FLOWERVASE\">Pot Bunga</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.DESC"
@@ -4470,6 +4532,8 @@ msgid ""
 "Lavatories transmit fewer germs to Duplicants' skin and require no manual "
 "emptying."
 msgstr ""
+"Toilet memberikan lebih sedikit kuman ke kulit Duplicant dan tidak "
+"membutuhkan pengosongan manual."
 
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.EFFECT"
@@ -4477,6 +4541,8 @@ msgid ""
 "Gives Duplicants a place to <link=\"HYGIENE\">Hygienically</link> relieve "
 "themselves."
 msgstr ""
+"Memberikan Duplikat tempat buang air besar yang <link=\"HYGIENE\">Higenis</"
+"link>."
 
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.NAME"
