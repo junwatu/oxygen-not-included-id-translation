@@ -4547,29 +4547,35 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.NAME"
 msgid "<link=\"FLUSHTOILET\">Lavatory</link>"
-msgstr ""
+msgstr "<link=\"FLUSHTOILET\">Toilet</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.DESC"
 msgid ""
 "A gantry can be built over rocket pieces where tiles and ladders cannot."
 msgstr ""
+"Kerangka peluncuran dapat dibangun di atas potongan roket di mana ubin dan "
+"tangga tidak bisa."
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.EFFECT"
 msgid "Provides scaffolding across rocket modules to allow Duplicant access."
 msgstr ""
+"Menyediakan perancah di seluruh modul roket untuk memungkinkan akses "
+"Duplikat."
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.NAME"
 msgid "<link=\"GANTRY\">Gantry</link>"
-msgstr ""
+msgstr "<link=\"GANTRY\">Kerangka Peluncuran</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASBOTTLER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.DESC"
 msgid ""
 "Canisters allow Duplicants to manually delivery gases from place to place."
 msgstr ""
+"Tabung memungkinkan Duplikat untuk mengirimkan gas secara manual dari satu "
+"tempat ke tempat lain."
 
 #. STRINGS.BUILDINGS.PREFABS.GASBOTTLER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.EFFECT"
@@ -4577,11 +4583,13 @@ msgid ""
 "Automatically stores piped <link=\"ELEMENTSGAS\">Gases</link> into canisters "
 "for manual transport."
 msgstr ""
+"Secara otomatis menyalukan <link=\"ELEMENTSGAS\">Gas</link> ke tabung untuk "
+"transportasi manual."
 
 #. STRINGS.BUILDINGS.PREFABS.GASBOTTLER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.NAME"
 msgid "<link=\"GASBOTTLER\">Canister Filler</link>"
-msgstr ""
+msgstr "<link=\"GASBOTTLER\">Pengisi Tabung</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC"
@@ -4589,6 +4597,8 @@ msgid ""
 "Duplicants will fill cargo canisters with whatever resources they find "
 "during their space missions."
 msgstr ""
+"Duplikat akan mengisi tabung kargo dengan sumber daya apapun yang mereka "
+"temukan sepanjang misi luar angkasa mereka."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.EFFECT"
