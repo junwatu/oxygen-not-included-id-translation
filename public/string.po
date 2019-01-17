@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 "Last-Translator: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: id_ID\n"
@@ -4608,17 +4608,24 @@ msgid ""
 "\n"
 "Stored resources become available to the colony upon the rocket's return."
 msgstr ""
+"Memungkinkan Duplikat untuk menyimpan setiap sumber daya <link=\"ELEMENTSGAS"
+"\"> Gas</link> yang ditemukan selama misi luar angkasa.\n"
+"\n"
+"Sumber daya yang disimpan menjadi tersedia untuk koloni setelah roket "
+"kembali."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.NAME"
 msgid "<link=\"GASCARGOBAY\">Gas Cargo Canister</link>"
-msgstr ""
+msgstr "<link=\"GASCARGOBAY\">Kargo Tabung Gas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUIT.DESC"
 msgid ""
 "Gas pipes are used to connect the inputs and outputs of ventilated buildings."
 msgstr ""
+"Pipa gas digunakan untuk menghubungkan input dan output bangunan "
+"berventilasi."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUIT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUIT.EFFECT"
@@ -4628,17 +4635,23 @@ msgid ""
 "\n"
 "Can be run through tiles."
 msgstr ""
+"Membawa <link=\"ELEMENTSGAS\"> Gas</link> antara <link=\"GASPIPING"
+"\">Keluaran</link> dan <link=\"GASPIPING\">Pipa Masuk</link>.\n"
+"\n"
+"Bisa dijalankan melalui ubin."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUIT.NAME"
 msgid "<link=\"GASCONDUIT\">Gas Pipe</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUIT\">Pipa Gas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.DESC"
 msgid ""
 "Separate pipe systems prevent mingled contents from causing building damage."
 msgstr ""
+"Sistem pipa terpisah mencegah bercampurnya isi yang menyebabkan kerusakan "
+"bangunan."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.EFFECT"
@@ -4648,11 +4661,15 @@ msgid ""
 "\n"
 "Can be run through tiles."
 msgstr ""
+"Menjalankan satu <link=\"GASPIPING\">Pipa Gas</link> bagian di atas yang "
+"lain tanpa bergabung dengan mereka.\n"
+"\n"
+"Bisa dijalankan melalui ubin."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.NAME"
 msgid "<link=\"GASCONDUITBRIDGE\">Gas Bridge</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUITBRIDGE\">Jembatan Pipa</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.DESC"
@@ -4660,6 +4677,8 @@ msgid ""
 "Gas Pipe Germ Sensors are used to control automation behaviour in the "
 "presence of disease."
 msgstr ""
+"Sensor Kuman Gas Pipa digunakan untuk mengontrol perilaku otomatisasi dari "
+"datangnya penyakit."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.EFFECT"
@@ -4667,16 +4686,18 @@ msgid ""
 "Becomes<link=\"LOGIC\">Active</link> or on <link=\"LOGIC\">Standby</link> "
 "depending on quantity of the contained <link=\"DISEASE\">Germs</link>."
 msgstr ""
+"Menjadi <link=\"LOGIC\">Aktif</link> atau di <link=\"LOGIC\">Siaga</link> "
+"tergantung pada jumlah <link=\"DISEASE\"Kuman</link> yang terkandung."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT_DESC"
 msgid "Active/Standby based on the contained Germs"
-msgstr ""
+msgstr "Aktivasi/Siaga berdasarkan Kuman yang terkandung"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.NAME"
 msgid "<link=\"GASCONDUITDISEASESENSOR\">Gas Pipe Germ Sensor</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUITDISEASESENSOR\">Sensor Kuman Pipa Gas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC"
@@ -4684,6 +4705,8 @@ msgid ""
 "Gas Pipe Element Sensors can be used to detect the presence of a specific "
 "gas in a pipe"
 msgstr ""
+"Sensor Elemen PIap Gas bisa digunakan untuk mendeteksi kehadiran gas yang "
+"spesifik di pipa"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
@@ -4691,16 +4714,18 @@ msgid ""
 "Becomes <link=\"LOGIC\">Active</link> when the configured Gas Element is "
 "detected."
 msgstr ""
+"Menjadi <link=\"LOGIC\">Aktif</link> ketika Elemen Gas yang dikonfigurasi "
+"terdeteksi."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_DESC"
 msgid "Active/Standby based on the contained Gas"
-msgstr ""
+msgstr "Aktivasi/Siaga berdasarkan Gas yang terkandung"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.NAME"
 msgid "<link=\"GASCONDUITELEMENTSENSOR\">Gas Pipe Element Sensor</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUITELEMENTSENSOR\">Elemen Sensor Pipa Gas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.DESC"
@@ -4708,6 +4733,8 @@ msgid ""
 "Overflow valves can be used to prioritize which buildings should receive "
 "precious resources first."
 msgstr ""
+"Katup pelimpah dapat digunakan untuk memprioritaskan bangunan mana yang "
+"harus menerima sumber daya berharga terlebih dahulu."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.EFFECT"
@@ -4715,11 +4742,13 @@ msgid ""
 "Fills a secondary<link=\"ELEMENTSGAS\">Gas</link> output only when its "
 "primary output is blocked."
 msgstr ""
+"Mengisi output sekunder <link = \"ELEMENTSGAS\"> Gas </link> hanya jika "
+"output utamanya diblokir."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.NAME"
 msgid "<link=\"GASCONDUITOVERFLOW\">Gas Overflow Valve</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUITOVERFLOW\">Katup Pelimpah Gas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.DESC"
@@ -4727,6 +4756,8 @@ msgid ""
 "Priority flows ensure important buildings are filled first when on a system "
 "with other buildings."
 msgstr ""
+"Aliran prioritas memastikan bangunan-bangunan penting diisi terlebih dahulu "
+"ketika berada pada sistem dengan bangunan lain."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.EFFECT"
@@ -4734,11 +4765,13 @@ msgid ""
 "Diverts <link=\"ELEMENTSGAS\">Gas</link> to a secondary input when its "
 "primary input overflows."
 msgstr ""
+"Mengalihkan <link = \"ELEMENTSGAS\"> Gas </link> ke input sekunder saat "
+"input utamanya meluap."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.NAME"
 msgid "<link=\"GASCONDUITPREFERENTIALFLOW\">Priority Gas Flow</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUITPREFERENTIALFLOW\">Aliran Gas Prioritas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.DESC"
@@ -4746,6 +4779,8 @@ msgid ""
 "Radiant pipes pumping cold gas can be run through hot areas to help cool "
 "them down."
 msgstr ""
+"Pipa radiasi yang memompa gas dingin dapat dijalankan melalui area panas "
+"untuk membantu mendinginkannya."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT"
@@ -4755,11 +4790,13 @@ msgid ""
 "\n"
 "Can be run through tiles."
 msgstr ""
+"Membawa <link = \"ELEMENTSGAS\"> Gas </link>, memungkinkan pertukaran <link "
+"= \"HEAT\"> Temperatur </link> yang ekstrim dengan lingkungan sekitarnya."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.NAME"
 msgid "<link=\"GASCONDUITRADIANT\">Radiant Gas Pipe</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUITRADIANT\">Pipa Gas Radiasi</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.DESC"
@@ -4767,6 +4804,8 @@ msgid ""
 "Gas Pipe Thermo Sensors can disable buildings when contents reach a certain "
 "temperature."
 msgstr ""
+"Sensor Panas Pipa Gas dapat menonaktifkan bangunan ketika konten mencapai "
+"suhu tertentu."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT"
@@ -4775,6 +4814,9 @@ msgid ""
 "when the pipe contents <link=\"HEAT\">Temperature</link> enters the chosen "
 "range."
 msgstr ""
+"Menjadi <link = \"LOGIC\">Aktif</link> atau di <link = \"LOGIC\">Siaga</"
+"link> ketika <link = \"HEAT\">Suhu</link> konten pipa memasuki rentang yang "
+"dipilih."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_DESC"
@@ -4782,6 +4824,8 @@ msgid ""
 "Active/Standby based on the <link=\"HEAT\">Temperature</link> of the "
 "contained Gas"
 msgstr ""
+"Aktif/Siaga berdasarkan <link = \"HEAT\">Temperatur</link> dari Gas yang "
+"terkandung"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.NAME"
