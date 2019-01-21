@@ -4830,7 +4830,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.NAME"
 msgid "<link=\"GASCONDUITTEMPERATURESENSOR\">Gas Pipe Thermo Sensor</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUITTEMPERATURESENSOR\">Sensor Panas Pipa Gas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.DESC"
@@ -4838,6 +4838,8 @@ msgid ""
 "Gas filters send the selected filter gas into a special pipe, expelling "
 "everything else through a second output."
 msgstr ""
+"Gas filter mengirim gas filter yang dipilih ke dalam pipa khusus, membuang "
+"segala sesuatu melalui keluaran kedua."
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.EFFECT"
@@ -4845,21 +4847,23 @@ msgid ""
 "Sieves one <link=\"ELEMENTSGAS\">Gas</link> from the air, sending it into a "
 "dedicated <link=\"GASPIPING\">Pipe</link>."
 msgstr ""
+"Menyaring satu <link = \"ELEMENTSGAS\"> Gas </link> dari udara, "
+"mengirimkannya ke <link = \"GASPIPING\">Pipa</link> khusus."
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.ELEMENT_NOT_SPECIFIED
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.ELEMENT_NOT_SPECIFIED"
 msgid "Not Specified"
-msgstr ""
+msgstr "Tidak Ditentukan"
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.NAME"
 msgid "<link=\"GASFILTER\">Gas Filter</link>"
-msgstr ""
+msgstr "<link=\"GASFILTER\">Filter Gas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.STATUS_ITEM
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.STATUS_ITEM"
 msgid "Filters: {0}"
-msgstr ""
+msgstr "Filter: {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.DESC"
@@ -4867,6 +4871,8 @@ msgid ""
 "Automated piping saves time and resources by removing the need for Duplicant "
 "management."
 msgstr ""
+"Pipa otomatis menghemat waktu dan sumber daya dengan menghilangkan kebutuhan "
+"untuk manajemen Duplicant."
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT"
@@ -4874,11 +4880,13 @@ msgid ""
 "Automatically turns <link=\"ELEMENTSGAS\">Gas</link> flow on or off using "
 "<link=\"LOGIC\">Automation</link> technology."
 msgstr ""
+"Otomatis mengubah aliran <link=\"ELEMENTSGAS\">Gas</link> hidup atau mati "
+"menggunakan teknologi <link=\"LOGIC\">Automasi</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.NAME"
 msgid "<link=\"GASLOGICVALVE\">Gas Shutoff</link>"
-msgstr ""
+msgstr "<link=\"GASLOGICVALVE\">Pemati Gas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.DESC"
@@ -4886,6 +4894,8 @@ msgid ""
 "Mini pumps are useful for moving small quantities of gas with minimum power "
 "draw."
 msgstr ""
+"Pompa Mini berguna untuk menggerakkan sejumlah kecil gas dengan kekuatan "
+"tarikan minimum."
 
 #. STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.EFFECT"
@@ -4895,11 +4905,15 @@ msgid ""
 "\n"
 "Must be immersed in gas."
 msgstr ""
+"Menarik <link=\"ELEMENTSGAS\">Gas</link>dalam jumlah yang kecil yang "
+"berjalan melalui pipa <link=\"GASPIPING\"></link>.\n"
+"\n"
+"Mesti diselamkan ke dalam gas."
 
 #. STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.NAME"
 msgid "<link=\"GASMINIPUMP\">Mini Gas Pump</link>"
-msgstr ""
+msgstr "<link=\"GASMINIPUMP\">Pompa Gas Mini</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.DESC"
@@ -4907,6 +4921,8 @@ msgid ""
 "Building with airflow permeable tiles promotes better gas circulation within "
 "a colony."
 msgstr ""
+"Bangunan dengan ubin beraliaran udara permeabel akan meningkatkan sirkulasi "
+"gas yang lebih baik di dalam koloni."
 
 #. STRINGS.BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.EFFECT"
@@ -4916,11 +4932,15 @@ msgid ""
 "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> flow without obstructing <link="
 "\"ELEMENTSGAS\">Gas</link>."
 msgstr ""
+"Digunakan sebagai ubin lantai dan dinding untuk membangun kamar.\n"
+"\n"
+"Memblokir aliran <link = \"ELEMENTSLIQUID\">Cairan</link> tanpa menghalangi "
+"<link = \"ELEMENTSGAS\">Gas</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.NAME"
 msgid "<link=\"GASPERMEABLEMEMBRANE\">Airflow Tile</link>"
-msgstr ""
+msgstr "<link=\"GASPERMEABLEMEMBRANE\">Ubin Aliran Udara</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASPUMP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.DESC"
@@ -4928,6 +4948,8 @@ msgid ""
 "Piping a pump's intake to another building's output will send gas to that "
 "building."
 msgstr ""
+"Menyalurkan asupan pompa ke output bangunan lain akan mengirim gas ke gedung "
+"itu."
 
 #. STRINGS.BUILDINGS.PREFABS.GASPUMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.EFFECT"
@@ -4963,6 +4985,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.DESC"
 msgid ""
 "Valves control the amount of gas that moves through pipes, preventing waste."
 msgstr ""
+"Katup mengontrol jumlah gas yang bergerak melalui pipa, mencegah limbah."
 
 #. STRINGS.BUILDINGS.PREFABS.GASVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.EFFECT"
@@ -4979,7 +5002,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.GASVENT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENT.DESC"
 msgid "Vents are an exit point for gases from ventilation systems."
-msgstr ""
+msgstr "Ventilasi adalah titik keluar untuk gas dari sistem ventilasi."
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENT.EFFECT"
