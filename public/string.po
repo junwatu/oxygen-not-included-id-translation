@@ -4959,26 +4959,31 @@ msgid ""
 "\n"
 "Must be immersed in gas."
 msgstr ""
+"Menarik <link = \"ELEMENTSGAS\">Gas </link> kedalam dan melewatkannya "
+"melalui <link = \"GASPIPING\">Pipa</link>.\n"
+"\n"
+"Harus direndam dalam gas."
 
 #. STRINGS.BUILDINGS.PREFABS.GASPUMP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.NAME"
 msgid "<link=\"GASPUMP\">Gas Pump</link>"
-msgstr ""
+msgstr "<link=\"GASPUMP\">Pompa Gas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.DESC"
 msgid "Stores <link=\"ELEMENTSGAS\">Gas</link>."
-msgstr ""
+msgstr "Menyimpan <link=\"ELEMENTSGAS\">Gas</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.EFFECT"
 msgid "Stores the <link=\"ELEMENTSGAS\">Gas</link> resources of your choosing."
 msgstr ""
+"Menyimpan sumber daya <link=\"ELEMENTSGAS\">Gas</link> yang kamu pilih."
 
 #. STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.NAME"
 msgid "<link=\"GASRESERVOIR\">Gas Reservoir</link>"
-msgstr ""
+msgstr "<link=\"GASRESERVOIR\">Reservoir Gas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.DESC"
@@ -4993,11 +4998,13 @@ msgid ""
 "Controls the <link=\"ELEMENTSGAS\">Gas</link> volume permitted through <link="
 "\"GASPIPING\">Pipes</link>."
 msgstr ""
+"Mengontrol volume <link = \"ELEMENTSGAS\"> Gas </link> yang diizinkan "
+"melalui <link = \"GASPIPING\">Pipa Pipa</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.NAME"
 msgid "<link=\"GASVALVE\">Gas Valve</link>"
-msgstr ""
+msgstr "<link=\"GASVALVE\">Katup Gas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENT.DESC"
@@ -5010,11 +5017,13 @@ msgid ""
 "Releases <link=\"ELEMENTSGAS\">Gas</link> from <link=\"GASPIPING\">Gas "
 "Pipes</link>."
 msgstr ""
+"Melepaskan <link=\"ELEMENTSGAS\">Gas</link> dari <link=\"GASPIPING\">Pipa "
+"Pipa Gas</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENT.NAME"
 msgid "<link=\"GASVENT\">Gas Vent</link>"
-msgstr ""
+msgstr "<link=\"GASVENT\">Ventilasi Gas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.DESC"
@@ -5022,6 +5031,8 @@ msgid ""
 "High pressure Vents can exhaust gas into more highly pressurized "
 "environments."
 msgstr ""
+"Ventilasi bertekanan tinggi dapat membuang gas ke dalam lingkungan "
+"bertekanan yang lebih tinggi."
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.EFFECT"
@@ -5029,11 +5040,13 @@ msgid ""
 "Releases <link=\"ELEMENTSGAS\">Gas</link> from <link=\"GASPIPING\">Gas "
 "Pipes</link> into high pressure locations."
 msgstr ""
+"Melepaskan <link=\"ELEMENTSGAS\">Gas</link> dari <link=\"GASPIPING\">Pipa "
+"Pida Gas</link> ke lokasi bertekanan tinggi."
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.NAME"
 msgid "<link=\"GASVENTHIGHPRESSURE\">High Pressure Gas Vent</link>"
-msgstr ""
+msgstr "<link = \"GASVENTHIGHPRESSURE\">Ventilasi Gas Tekanan Tinggi</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.DESC"
@@ -5041,6 +5054,8 @@ msgid ""
 "Coal generators produce more energy than manual generators, but emit heat "
 "and exhaust."
 msgstr ""
+"Generator batubara menghasilkan energi lebih dari manual Generator, tetapi "
+"mengeluarkan panas dan asap."
 
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.EFFECT"
@@ -5050,21 +5065,25 @@ msgid ""
 "\n"
 "Produces <link=\"CARBONDIOXIDE\">Carbon Dioxide</link>."
 msgstr ""
+"Mengubah <link = \"CARBON\">Batubara</link> menjadi <link = \"POWER\"Daya</"
+"link> listrik.\n"
+"\n"
+"Menghasilkan <link = \"CARBONDIOXIDE\">Karbon Dioksida</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.NAME"
 msgid "<link=\"GENERATOR\">Coal Generator</link>"
-msgstr ""
+msgstr "<link=\"GENERATOR\">Generator Batubara</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.OVERPRODUCTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.OVERPRODUCTION"
 msgid "{Generator} overproduction"
-msgstr ""
+msgstr "{Generator} melebihi produksi"
 
 #. STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.DESC"
 msgid "Omniprinters are incapable of printing organic matter."
-msgstr ""
+msgstr "Omniprinters tidak mampu mencetak bahan organik."
 
 #. STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.EFFECT"
@@ -5072,11 +5091,13 @@ msgid ""
 "Converts <link=\"RAWMINERAL\">Raw Mineral</link> into unique materials and "
 "objects."
 msgstr ""
+"Mengubah <link=\"RAWMINERAL\">Mineral Kasar</link> menjadi material dan "
+"obejk yang unik."
 
 #. STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.NAME"
 msgid "<link=\"GENERICFABRICATOR\">Omniprinter</link>"
-msgstr ""
+msgstr "<link=\"GENERICFABRICATOR\">Omniprinter</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GENESHUFFLER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENESHUFFLER.DESC"
@@ -5085,16 +5106,19 @@ msgid ""
 "\n"
 "There is a chair attached to the device with room for one person."
 msgstr ""
+"Otak sintetis yang besar, ditangguhkan dalam larutan.\n"
+"\n"
+"Ada kursi yang melekat pada perangkat dengan kamar untuk satu orang."
 
 #. STRINGS.BUILDINGS.PREFABS.GENESHUFFLER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENESHUFFLER.NAME"
 msgid "Neural Vacillator"
-msgstr ""
+msgstr "Vacillator Saraf"
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.DESC"
 msgid "Glass can be used to construct window tiles."
-msgstr ""
+msgstr "Kaca dapat digunakan untuk membangun jendela ubin."
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.EFFECT"
@@ -5107,16 +5131,23 @@ msgid ""
 "\n"
 "Duplicants will not fabricate items unless recipes are queued."
 msgstr ""
+"Menghasilkan <link = \"MOLTENGLASS\">Kaca Cair</link> dari <link = \"SAND"
+"\">Pasir</link> mentah.\n"
+"\n"
+"Mengeluarkan <link = \"ELEMENTSLIQUID\">Cairan</link> <link = \"HEAT\"> Suhu "
+"Tinggi </link>.\n"
+"\n"
+"Duplikat tidak akan membuat barang kecuali resep diantrekan."
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.NAME"
 msgid "<link=\"GLASSFORGE\">Glass Forge</link>"
-msgstr ""
+msgstr "<link=\"GLASSFORGE\">Penempa Kaca</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.RECIPE_DESCRIPTION"
 msgid "Extracts pure {0} from {1}."
-msgstr ""
+msgstr "Ekstrak murni {0} dari {1}."
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSTILE.DESC"
@@ -5124,6 +5155,8 @@ msgid ""
 "Glass tiles provide a barrier against liquid and gas and are completely "
 "transparent."
 msgstr ""
+"Ubin kaca menyediakan penghalang terhadap cairan dan gas dan benar-benar "
+"transparan."
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSTILE.EFFECT"
@@ -5133,6 +5166,10 @@ msgid ""
 "Allows <link=\"LIGHT\">Light</link> and <link=\"DECOR\">Decor Values</link> "
 "to pass through."
 msgstr ""
+"Digunakan sebagai ubin lantai dan dinding ubin membangun kamar.\n"
+"\n"
+"Memungkinkan <link=\"LIGHT\">Cahaya</link> dan <link=\"DECOR\">Hiasan "
+"Bernilai</link> untuk lewat."
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSTILE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSTILE.NAME"
