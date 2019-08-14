@@ -62397,6 +62397,7 @@ msgid "Aridio"
 msgstr ""
 
 #. STRINGS.WORLDS.FOREST_LUSH.DESCRIPTION
+#, fuzzy
 msgctxt "STRINGS.WORLDS.FOREST_LUSH.DESCRIPTION"
 msgid ""
 "A lush location rich in wildlife and life-sustaining resources.\n"
@@ -62406,6 +62407,12 @@ msgid ""
 "resources should afford excellent long-term growth.</smallcaps>\n"
 "\n"
 msgstr ""
+"Lokasi subur yang kaya akan satwa liar dan sumber daya yang menopang "
+"kehidupan.\n"
+"\n"
+"<smallcaps>Membangun pijakan di Verdante akan menantang karena berkurangnya "
+"makanan dan pilihan oksigen. Namun, sumber daya hayati dan mineral berlimpah "
+"harus mampu pertumbuhan jangka panjang yang sangat baik.</smallcaps>\n"
 
 #. STRINGS.WORLDS.FOREST_LUSH.NAME
 msgctxt "STRINGS.WORLDS.FOREST_LUSH.NAME"
@@ -62413,11 +62420,14 @@ msgid "Verdante"
 msgstr ""
 
 #. STRINGS.WORLDS.HELICONA.DESCRIPTION
+#, fuzzy
 msgctxt "STRINGS.WORLDS.HELICONA.DESCRIPTION"
 msgid ""
 "Due to its highly eliptical orbit around its host star, this rock is cold. "
 "Oh so very cold."
 msgstr ""
+"Karena orbit yang sangat Eliptical di sekitar bintang tuan rumah, batu ini "
+"adalah dingin. Oh begitu sangat dingin."
 
 #. STRINGS.WORLDS.HELICONA.NAME
 msgctxt "STRINGS.WORLDS.HELICONA.NAME"
@@ -62425,6 +62435,7 @@ msgid "Helicona"
 msgstr ""
 
 #. STRINGS.WORLDS.OASIS.DESCRIPTION
+#, fuzzy
 msgctxt "STRINGS.WORLDS.OASIS.DESCRIPTION"
 msgid ""
 "A desolate location with a cache of life-sustaining water trapped beneath "
@@ -62435,6 +62446,12 @@ msgid ""
 "challenge should present great industrial opportunities.</smallcaps>\n"
 "\n"
 msgstr ""
+"Sebuah lokasi terpencil dengan cache kehidupan-penopang air terperangkap di "
+"bawah permukaan.\n"
+"\n"
+"<smallcaps>Gurun bawah tanah yang luas akan menimbulkan ancaman suhu dan "
+"ketegangan sumber daya koloni di Oasisse. Namun, bertahan tantangan harus "
+"menyajikan peluang industri besar.</smallcaps>\n"
 
 #. STRINGS.WORLDS.OASIS.NAME
 msgctxt "STRINGS.WORLDS.OASIS.NAME"
@@ -62442,6 +62459,7 @@ msgid "Oasisse"
 msgstr ""
 
 #. STRINGS.WORLDS.OCEANIA.DESCRIPTION
+#, fuzzy
 msgctxt "STRINGS.WORLDS.OCEANIA.DESCRIPTION"
 msgid ""
 "A location with vast quantities of unpotable salt water.\n"
@@ -62451,6 +62469,11 @@ msgid ""
 "usage should lead to a successful colony.</smallcaps>\n"
 "\n"
 msgstr ""
+"Lokasi dengan jumlah besar air garam unpotable.\n"
+"\n"
+"<smallcaps>Oseania cukup stabil dan kaya sumber daya, tetapi sebagian besar "
+"daerah ditutupi di laut air asin. Ekspansi dan penggunaan sumber daya yang "
+"cermat harus mengarah pada koloni yang sukses.</smallcaps>\n"
 
 #. STRINGS.WORLDS.OCEANIA.NAME
 msgctxt "STRINGS.WORLDS.OCEANIA.NAME"
@@ -62458,6 +62481,7 @@ msgid "Oceania"
 msgstr ""
 
 #. STRINGS.WORLDS.SANDSTONE_DEFAULT.DESCRIPTION
+#, fuzzy
 msgctxt "STRINGS.WORLDS.SANDSTONE_DEFAULT.DESCRIPTION"
 msgid ""
 "A promising location with a balanced variety of resources.\n"
@@ -62467,6 +62491,11 @@ msgid ""
 "colony.</smallcaps>\n"
 "\n"
 msgstr ""
+"Lokasi yang menjanjikan dengan berbagai sumber daya yang seimbang.\n"
+"\n"
+"<smallcaps>Terra memenuhi semua persyaratan untuk kehidupan Duplicant dan "
+"tidak memiliki kejutan. Ini adalah lokasi yang ideal untuk usaha pertama "
+"mendirikan koloni.</smallcaps>\n"
 
 #. STRINGS.WORLDS.SANDSTONE_DEFAULT.NAME
 #, fuzzy
@@ -62477,6 +62506,7 @@ msgid "Terra"
 msgstr "Sangat Buruk"
 
 #. STRINGS.WORLDS.SANDSTONE_FROZEN.DESCRIPTION
+#, fuzzy
 msgctxt "STRINGS.WORLDS.SANDSTONE_FROZEN.DESCRIPTION"
 msgid ""
 "A frigid location marked by inhospitably low temperatures throughout.\n"
@@ -62486,6 +62516,11 @@ msgid ""
 "cool environment could lead to thriving industry.</smallcaps>\n"
 "\n"
 msgstr ""
+"Lokasi dingin ditandai dengan inhospitably suhu rendah di seluruh.\n"
+"\n"
+"<smallcaps>Suhu rendah RIME akan membuat menemukan air dan mendirikan "
+"peternakan atau peternakan bermasalah. Namun, spektrum luas mineral dan "
+"lingkungan yang sejuk dapat menyebabkan industri berkembang.</smallcaps>\n"
 
 #. STRINGS.WORLDS.SANDSTONE_FROZEN.NAME
 msgctxt "STRINGS.WORLDS.SANDSTONE_FROZEN.NAME"
@@ -62555,6 +62590,7 @@ msgid "The Rock"
 msgstr ""
 
 #. STRINGS.WORLDS.VOLCANIC.DESCRIPTION
+#, fuzzy
 msgctxt "STRINGS.WORLDS.VOLCANIC.DESCRIPTION"
 msgid ""
 "A location rife with molten lava pockets and intense heat.\n"
@@ -62564,11 +62600,16 @@ msgid ""
 "success.</smallcaps>\n"
 "\n"
 msgstr ""
+"Sebuah lokasi penuh dengan kantong lava cair dan panas intens.\n"
+"\n"
+"<smallcaps>Gunung berapi akan sempurna jika bukan karena Gunung berapi. "
+"Menggali dengan cermat dan mengelola suhu di koloni kita akan menjadi "
+"penting bagi keberhasilan.</smallcaps>\n"
 
 #. STRINGS.WORLDS.VOLCANIC.NAME
 msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
-msgstr ""
+msgstr "Gunung berapi"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.TOOLTIP"
 #~ msgid "Awaiting delivery of selected bait"
