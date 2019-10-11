@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -29,18 +29,13 @@ msgid "Access Restrictions"
 msgstr "Pembatasan Akses"
 
 #. STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.ACTIVE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.ACTIVE.TOOLTIP"
-#| msgid ""
-#| "Some Duplicants are prohibited from passing through this door by the "
-#| "current access settings"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.ACTIVE.TOOLTIP"
 msgid ""
 "Some Duplicants are prohibited from passing through this door by the current "
 "<style=\"KKeyword\">Access Permissions</style>"
 msgstr ""
-"Beberapa Duplikat dilarang melewati pintu ini berdasarkan pengaturan akses "
-"saat ini"
+"Beberapa Duplikat dilarang melewati pintu ini berdasarkan <style = \"KKeyword"
+"\">pengaturan akses</style> saat ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.OFFLINE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.OFFLINE.NAME"
@@ -48,12 +43,6 @@ msgid "Access Control Offline"
 msgstr "Kontrol Akses Offline"
 
 #. STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.OFFLINE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.OFFLINE.TOOLTIP"
-#| msgid ""
-#| "This door has granted Emergency Access Permissions\n"
-#| "------------------\n"
-#| "All Duplicants are permitted to pass through it until power is restored"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.OFFLINE.TOOLTIP"
 msgid ""
 "This door has granted Emergency <style=\"KKeyword\">Access Permissions</"
@@ -62,25 +51,20 @@ msgid ""
 "All Duplicants are permitted to pass through it until <style=\"KKeyword"
 "\">Power</style> is restored"
 msgstr ""
-"Pintu ini telah memberikan izin akses darurat\n"
+"Pintu ini telah memberikan izin <style=\"KKeyword\">akses darurat</style>\n"
 "------------------\n"
-"Semua Duplikat diizinkan untuk lewat sampai listrik hidup kembali"
+"Semua Duplikat diizinkan untuk lewat sampai <style=\"KKeyword\">daya "
+"listrik</style> hidup kembali"
 
 #. STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NAME"
-#| msgid "Damage: Tantrum"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NAME"
 msgid "Damage: Duplicant Tantrum"
-msgstr "Kerusakan: Ledakan Emosi"
+msgstr "Kerusakan: Amukan Duplikat"
 
 #. STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NOTIFICATION
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NOTIFICATION"
-#| msgid "Building Damage: Tantrum"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NOTIFICATION"
 msgid "Building Damage: Duplicant Tantrum"
-msgstr "Kerusakan Bangunan: Ledakan Emosi"
+msgstr "Kerusakan Bangunan: Amukan Duplikat"
 
 #. STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NOTIFICATION_TOOLTIP"
@@ -124,16 +108,13 @@ msgid "Assigned to: {0}"
 msgstr "Ditugaskan untuk: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ASSIGNEDTOROOM.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ASSIGNEDTOROOM.TOOLTIP"
-#| msgid "Any Duplicant assigned to this room can use this amenity"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ASSIGNEDTOROOM.TOOLTIP"
 msgid ""
 "Any Duplicant assigned to this <style=\"KKeyword\">Room</style> can use this "
 "amenity"
 msgstr ""
-"Setiap Duplicant yang ditugaskan ke ruangan ini dapat menggunakan kemudahan "
-"ini"
+"Setiap Duplicant yang ditugaskan ke <style=\"KKeyword\">ruangan</style> ini "
+"dapat menggunakan kemudahan ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGARTING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGARTING.NAME"
@@ -151,12 +132,9 @@ msgid "Awaiting Bait"
 msgstr "Menunggu umpan"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.TOOLTIP"
-#| msgid "Awaiting delivery of selected seed"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.TOOLTIP"
 msgid "Awaiting delivery of selected <style=\"KKeyword\">Bait</style>"
-msgstr "Menunggu pengiriman benih terpilih"
+msgstr "Menunggu pengiriman <style=\"KKeyword\">umpan</style> terpilih"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.NAME"
@@ -164,13 +142,12 @@ msgid "Requires Flipping"
 msgstr "Membutuhkan Pembalikkan"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.TOOLTIP"
-#| msgid "Compost must be flipped periodically to produce fertilizer"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.TOOLTIP"
 msgid ""
 "Compost must be flipped periodically to produce <link=\"DIRT\">Dirt</link>"
-msgstr "Kompos harus dibalik secara berkala untuk menghasilkan pupuk"
+msgstr ""
+"Kompos harus dibalik secara berkala untuk menghasilkan <link=\"DIRT\">tanah</"
+"link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGEGGDELIVERY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGEGGDELIVERY.NAME"
@@ -178,12 +155,9 @@ msgid "Awaiting Delivery"
 msgstr "Menunggu pengiriman"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGEGGDELIVERY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.TOOLTIP"
-#| msgid "Awaiting delivery of selected seed"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGEGGDELIVERY.TOOLTIP"
 msgid "Awaiting delivery of selected <style=\"KKeyword\">Egg</style>"
-msgstr "Menunggu pengiriman benih terpilih"
+msgstr "Menunggu pengiriman <style=\"KKeyword\">telur</style> terpilih"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.NAME"
@@ -191,12 +165,9 @@ msgid "Awaiting Fuel: {0}"
 msgstr "Menunggu Bahan Bakar: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.TOOLTIP"
-#| msgid "This building requires {1} of {0} to operate"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.TOOLTIP"
 msgid "This building requires <b>{1}</b> of {0} to operate"
-msgstr "Bangunan ini membutuhkan {1} dari {0} untuk beroperasi"
+msgstr "Bangunan ini membutuhkan <b>{1}</b> dari {0} untuk beroperasi"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.NAME"
@@ -204,12 +175,9 @@ msgid "Awaiting Delivery"
 msgstr "Menunggu Pengiriman"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.TOOLTIP"
-#| msgid "Awaiting delivery of selected seed"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.TOOLTIP"
 msgid "Awaiting delivery of selected <style=\"KKeyword\">Seed</style>"
-msgstr "Menunggu pengiriman benih terpilih"
+msgstr "Menunggu pengiriman <style=\"KKeyword\">benih</style> terpilih"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGWASTE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGWASTE.NAME"
@@ -224,15 +192,12 @@ msgstr "Lebih banyak bahan limbah diperlukan untuk memulai proses pengomposan"
 #. STRINGS.BUILDING.STATUSITEMS.BAITED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BAITED.NAME"
 msgid "{0} Bait"
-msgstr ""
+msgstr "[0] Umpan"
 
 #. STRINGS.BUILDING.STATUSITEMS.BAITED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE.TOOLTIP"
-#| msgid "This turbine is running at {0}RPM"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BAITED.TOOLTIP"
 msgid "This lure is baited with {0}"
-msgstr "Turbin ini sedang berjalan di {0} RPM"
+msgstr "Pemikat ini diberi umpan dengan {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.NAME"
@@ -250,18 +215,14 @@ msgid "Auto-Bottle: On"
 msgstr "Boto-Auto: Hidup"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.TOOLTIP"
-#| msgid ""
-#| "Duplicants may specifically fetch liquid from Pitcher Pumps to bring to "
-#| "this location"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.TOOLTIP"
 msgid ""
 "Duplicants may specifically fetch <style=\"KKeyword\">Liquid</style> from a "
 "<link=\"LIQUIDPUMPINGSTATION\">Pitcher Pump</link> to bring to this location"
 msgstr ""
-"Duplikat secara khusus dapat mengambil cairan dari Pompa Tangan untuk dibawa "
-"ke lokasi ini"
+"Duplikat secara khusus dapat mengambil <style=\"KKeyword\">cairan</style> "
+"dari <link=\"LIQUIDPUMPINGSTATION\">Pompa Tangan</link> untuk dibawa ke "
+"lokasi ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.NAME"
@@ -269,19 +230,15 @@ msgid "Auto-Bottle: Off"
 msgstr "Botol-Auto: Mati"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.TOOLTIP"
-#| msgid ""
-#| "Duplicants may not specifically fetch liquid from Pitcher Pumps to bring "
-#| "to this location"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.TOOLTIP"
 msgid ""
 "Duplicants may not specifically fetch <style=\"KKeyword\">Liquid</style> "
 "from a <link=\"LIQUIDPUMPINGSTATION\">Pitcher Pump</link> to bring to this "
 "location"
 msgstr ""
-"Duplikat mungkin tidak secara khusus mengambil cairan dari Pompa Tangan "
-"untuk dibawa ke lokasi ini"
+"Duplikat mungkin tidak secara khusus mengambil <style=\"KKeyword\">cairan</"
+"style> dari <link=\"LIQUIDPUMPINGSTATION\">Pompa Tangan</link> untuk dibawa "
+"ke lokasi ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.BROKEN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BROKEN.NAME"
@@ -289,30 +246,20 @@ msgid "Broken"
 msgstr "Rusak"
 
 #. STRINGS.BUILDING.STATUSITEMS.BROKEN.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.BROKEN.TOOLTIP"
-#| msgid ""
-#| "Broken\n"
-#| "------------------\n"
-#| "This building received damage from {DamageInfo}\n"
-#| "\n"
-#| "It will not function until it receives repairs"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BROKEN.TOOLTIP"
 msgid ""
 "This building received damage from <b>{DamageInfo}</b>\n"
 "\n"
 "It will not function until it receives repairs"
 msgstr ""
-"Patah---Bangunan ini menerima kerusakan dari {DamageInfo} dan tidak akan "
-"berfungsi sampai menerima perbaikan"
+"Bangunan ini menerima kerusakan dari <b> {DamageInfo} </b>\n"
+"\n"
+"Ini tidak akan berfungsi sampai menerima perbaikan"
 
 #. STRINGS.BUILDING.STATUSITEMS.BUILDING_DEPRECATED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.NAME"
-#| msgid "Building Disabled"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BUILDING_DEPRECATED.NAME"
 msgid "Building Deprecated"
-msgstr "Bangunan Dinonaktifkan"
+msgstr "Bangunan sudah usang"
 
 #. STRINGS.BUILDING.STATUSITEMS.BUILDING_DEPRECATED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BUILDING_DEPRECATED.TOOLTIP"
@@ -320,6 +267,8 @@ msgid ""
 "This building is from an older version of the game and its use is not "
 "intended"
 msgstr ""
+"Bangunan ini dari versi game yang lebih lama dan penggunaannya tidak "
+"diharapkan"
 
 #. STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.NAME"
@@ -327,14 +276,13 @@ msgid "Building Disabled"
 msgstr "Bangunan Dinonaktifkan"
 
 #. STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.TOOLTIP"
-#| msgid "Press <color=#F44A47>[ENTER]</color> to resume use"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.TOOLTIP"
 msgid ""
 "Press <style=\"KKeyword\">Enable Building</style> <b><color=#F44A4A>[ENTER]</"
 "b></color> to resume use"
-msgstr "Tekan <color=#F44A47>[ENTER]</color> untuk melanjutkan penggunaan"
+msgstr ""
+"Tekan <style = \"Kata Kunci\">Bangunan Diaktifkan</style> "
+"<color=#F44A47>[ENTER]</color> untuk melanjutkan penggunaan"
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.NAME"
@@ -342,12 +290,9 @@ msgid "Consuming Fuel: {0}"
 msgstr "Memakai Bahan Bakar: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.TOOLTIP"
-#| msgid "{0} fuel remaining"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.TOOLTIP"
 msgid "<b>{0}</b> fuel remaining"
-msgstr "{0} bahan bakar yang tersisa"
+msgstr "<b>{0}</b> bahan bakar tersisa"
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.NAME"
@@ -355,12 +300,9 @@ msgid "Fueled: {0}"
 msgstr "Bahan Bakar: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.TOOLTIP"
-#| msgid "{0} fuel remaining"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.TOOLTIP"
 msgid "<b>{0}</b> fuel remaining"
-msgstr "{0} bahan bakar yang tersisa"
+msgstr "<b>{0}</b> bahan bakar tersisa"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.NAME"
@@ -368,18 +310,13 @@ msgid "Auto-Canister: On"
 msgstr "Tabung-Auto: Hidup"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.TOOLTIP"
-#| msgid ""
-#| "Duplicants may specifically fetch gas from Canister Fillers to bring to "
-#| "this location"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.TOOLTIP"
 msgid ""
 "Duplicants may specifically fetch <style=\"KKeyword\">Gas</style> from a "
 "<link=\"GASBOTTLER\">Canister Filler</link> to bring to this location"
 msgstr ""
-"Duplicants mungkin secara khusus dapat mengambil gas dari tabung pengisi "
-"untuk dibawa ke lokasi ini"
+"Duplikat mungkin secara spesifik mengambil <style=\"KKeyword\">Gas</style> "
+"dari <link=\"GASBOTTLER\">Pengisi Tabung</link> untuk dibawa ke lokasi ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.NAME"
@@ -387,18 +324,14 @@ msgid "Auto-Canister: Off"
 msgstr "Tabung-Auto: Mati"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.TOOLTIP"
-#| msgid ""
-#| "Duplicants may not specifically fetch gas from Canister Fillers to bring "
-#| "to this location"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.TOOLTIP"
 msgid ""
 "Duplicants may not specifically fetch <style=\"KKeyword\">Gas</style> from a "
 "<link=\"GASBOTTLER\">Canister Filler</link> to bring to this location"
 msgstr ""
-"Duplicants mungkin tidak secara khusus mengambil gas dari tabung pengisi "
-"untuk membawa ke lokasi ini"
+"Duplikat mungkin tidak secara spesifik mengambil <style=\"KKeyword\">Gas</"
+"style> dari <link=\"GASBOTTLER\">Pengisi Tabung</link> untuk dibawa ke "
+"lokasi ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.NAME"
@@ -406,13 +339,11 @@ msgid "Minimum Temperature Reached"
 msgstr "Suhu Minimum Tercapai"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.TOOLTIP"
-#| msgid "This building cannot cool the surrounding environment below {0}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.TOOLTIP"
 msgid "This building cannot cool the surrounding environment below <b>{0}</b>"
 msgstr ""
-"Bangunan ini tidak bisa mendinginkan lingkungan di sekitarnya di bawah {0}"
+"Bangunan ini tidak bisa mendinginkan lingkungan di sekitarnya di bawah <b>{0}"
+"</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHANGEDOORCONTROLSTATE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHANGEDOORCONTROLSTATE.NAME"
@@ -440,87 +371,63 @@ msgid "Clearance: Permitted"
 msgstr "Ijin: Diperbolehkan"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_CLOSED
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_CLOSED"
-#| msgid "Automated Checkpoint is Active, allowing Duplicants to pass"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_CLOSED"
 msgid ""
 "Automated Checkpoint is receiving a <b><color=#57b95e>Green Signal</b></"
 "color>, allowing Duplicants to pass"
-msgstr "Cekpoin Otomatis adalah aktif, mnegijikan Duplikat untuk lewat"
+msgstr ""
+"Titik Pemeriksaan Otomatis menerima <b><color=#57b95e>Sinyal Hijau</b></"
+"color>, yang memungkinkan Duplikat untuk lewat"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_DISCONNECTED
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS."
-#| "LOGIC_CONTROLLED_DISCONNECTED"
-#| msgid "This Checkpoint has not been connected to an automation grid"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS."
 "LOGIC_CONTROLLED_DISCONNECTED"
 msgid ""
 "This Checkpoint has not been connected to an <style=\"KKeyword\">Automation</"
 "style> grid"
-msgstr "Pemeriksaan ini tidak terhubung ke grid otomatis"
+msgstr ""
+"Pos Pemeriksaan ini belum terhubung ke kotak <style=\"KKeyword"
+"\">Otomatisasi</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_OPEN
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_OPEN"
-#| msgid ""
-#| "Automated Checkpoint is on Standby, preventing Duplicants from passing"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_OPEN"
 msgid ""
 "Automated Checkpoint is receiving a <b><color=#f44a47>Red Signal</b></"
 "color>, preventing Duplicants from passing"
-msgstr "Cekpoin Otomatis adalah siaga, mencegah Duplikat untuk lewat"
+msgstr ""
+"Pos pemeriksaan otomatis menerima <b><color=#f44a47>Sinyal Merah</b></"
+"color>, mencegah duplikat lewat"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.NAME"
-#| msgid "Medical building outside Med Bay"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.NAME"
 msgid "Medical building outside Hospital"
 msgstr "Bangunan medis diluar Med Bay"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.TOOLTIP"
-#| msgid ""
-#| "Rebuild this medical equipment in a Med Bay to more effectively "
-#| "quarantine sick Duplicants"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.TOOLTIP"
 msgid ""
 "Rebuild this medical equipment in a <style=\"KKeyword\">Hospital</style> to "
 "more effectively quarantine sick Duplicants"
 msgstr ""
-"Bangun kembali peralatan medis di Med Bay untuk lebih efektif dalam "
-"mengkarantina Duplikat yang sakir"
+"Bangun kembali peralatan medis ini di <style=\"KKeyword\">Med Bay</style> "
+"untuk lebih efektif dalam mengkarantina Duplikat yang sakir"
 
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDROLEPERK.NAME"
-#| msgid "Colony Lacks {Roles}s"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.NAME"
 msgid "Colony Lacks {Skills} Skill"
-msgstr "Koloni kekurangan {Roles} s"
+msgstr "Koloni kekurangan bakat {Skills}"
 
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDROLEPERK.TOOLTIP"
-#| msgid ""
-#| "Open the Jobs Panel <color=#F44A47><b>(L)</b></color> and assign a "
-#| "Duplicant to the {Roles} position to use this building"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP"
 msgid ""
 "Open the <b>Skills Panel</b> <b><color=#F44A4A>[L]</b></color> and teach a "
 "Duplicant the {Skills} Skill to use this"
 msgstr ""
-"Buka Panel Kerja <color=#F44A47><b>(L)</b></color> dan tugaskan Duplikat di "
-"posisi {Roles} untuk menggunakan bangunan ini"
+"Buka <b>Panel Bakat</b> <b><color=#F44A4A>[L]</b></color> dan ajarkan "
+"Duplikat bakat {Roles} untuk menggunakan ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME"
@@ -530,7 +437,7 @@ msgstr "PIpa Terblokir"
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.TOOLTIP"
 msgid "Output <style=\"KKeyword\">Pipe</style> is blocked"
-msgstr ""
+msgstr "<style=\"KKeyword\">Pipa</style> Keluaran diblokir"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.NAME"
@@ -607,20 +514,16 @@ msgid "Gas Too Cold"
 msgstr "Gas Terlalu Dingin"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDGAS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDGAS.TOOLTIP"
-#| msgid ""
-#| "This building cannot cool incoming pipe contents below {0}\n"
-#| "\n"
-#| "Current Pipe Contents: {0}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDGAS.TOOLTIP"
 msgid ""
 "This building cannot cool incoming pipe contents below <b>{0}</b>\n"
 "\n"
 "Current Pipe Contents: {0}"
 msgstr ""
-"Bangunan ini tidak dapat mendinginkan  isi pipa di bawah {0} Isi Pipa Saat "
-"Ini: {0}"
+"Bangunan ini tidak dapat mendinginkan isi pipa yang masuk di bawah <b>{0}</"
+"b>\n"
+"\n"
+"Isi Pipa Saat Ini: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDLIQUID.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDLIQUID.NAME"
@@ -628,20 +531,16 @@ msgid "Liquid Too Cold"
 msgstr "Cairan Terlalu Dingin"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDLIQUID.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDLIQUID.TOOLTIP"
-#| msgid ""
-#| "This building cannot cool incoming pipe contents below {0}\n"
-#| "\n"
-#| "Current Pipe Contents: {0}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDLIQUID.TOOLTIP"
 msgid ""
 "This building cannot cool incoming pipe contents below <b>{0}</b>\n"
 "\n"
 "Current Pipe Contents: {0}"
 msgstr ""
-"Bangunan ini tidak dapat mendinginkan isi pipa di bawah {0} Isi Pipa Saat "
-"Ini: {0}"
+"Bangunan ini tidak dapat mendinginkan isi pipa yang masuk di bawah <b>{0}</"
+"b>\n"
+"\n"
+"Isi Pipa Saat Ini: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTENV.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTENV.NAME"
@@ -649,14 +548,6 @@ msgid "Gas Too Hot"
 msgstr "Gas Terlalu Panas"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTENV.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTENV.TOOLTIP"
-#| msgid ""
-#| "Incoming pipe contents cannot be cooled more than {2} below the "
-#| "surrounding environment\n"
-#| "\n"
-#| "Environment: {0}\n"
-#| "Current Pipe Contents: {1}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTENV.TOOLTIP"
 msgid ""
 "Incoming pipe contents cannot be cooled more than <b>{2}</b> below the "
@@ -665,8 +556,11 @@ msgid ""
 "Environment: {0}\n"
 "Current Pipe Contents: {1}"
 msgstr ""
-"Isi pipa yang masuk  tidak dapat didinginkan lebih dari (2) di bawah "
-"lingkungan sekitarnya Lingkungan: {0} Isi Pipa Saat Ini: {1}"
+"Isi pipa yang masuk tidak dapat didinginkan lebih dari <b>[2]</b> di bawah "
+"lingkungan sekitarnya\n"
+"\n"
+"Lingkungan: {0}\n"
+"Isi Pipa Saat Ini: {1}"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTLIQUID.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTLIQUID.NAME"
@@ -674,14 +568,6 @@ msgid "Liquid Too Hot"
 msgstr "Cairan Terlalu Panas"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTLIQUID.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTLIQUID.TOOLTIP"
-#| msgid ""
-#| "Incoming pipe contents cannot be cooled more than {2} below the "
-#| "surrounding environment\n"
-#| "\n"
-#| "Environment: {0}\n"
-#| "Current Pipe Contents: {1}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTLIQUID.TOOLTIP"
 msgid ""
 "Incoming pipe contents cannot be cooled more than <b>{2}</b> below the "
@@ -690,8 +576,11 @@ msgid ""
 "Environment: {0}\n"
 "Current Pipe Contents: {1}"
 msgstr ""
-"Isi pipa yang masuk  tidak dapat didinginkan lebih dari (2) di bawah "
-"lingkungan sekitarnya Lingkungan: {0} Isi Pipa Saat Ini: {1}"
+"Isi pipa yang masuk tidak dapat didinginkan lebih dari <b>[2]</b> di bawah "
+"lingkungan sekitarnya\n"
+"\n"
+"Lingkungan: {0}\n"
+"Isi Pipa Saat Ini: {1}"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.NEEDSBAIT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.NEEDSBAIT.NAME"
@@ -709,14 +598,13 @@ msgid "Set"
 msgstr "Set"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.READY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.READY.TOOLTIP"
-#| msgid "This trap has been set and is ready to catch a critter"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.READY.TOOLTIP"
 msgid ""
 "This trap has been set and is ready to catch a <style=\"KKeyword\">Critter</"
 "style>"
-msgstr "Perangkap ini telah ditetapkan dan siap untuk menangkap makhluk"
+msgstr ""
+"Perangkap ini telah ditetapkan dan siap untuk menangkap <style=\"KKeyword"
+"\">Makhluk</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.SPRUNG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.SPRUNG.NAME"
@@ -734,9 +622,6 @@ msgid "Auto"
 msgstr "Otomatis"
 
 #. STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.LOCKED
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.CLOSED"
-#| msgid "Locked"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.LOCKED"
 msgid "Locked"
 msgstr "Terkunci"
@@ -767,9 +652,6 @@ msgstr ""
 "Terbuka: Pintu ini akan tetap terbuka"
 
 #. STRINGS.BUILDING.STATUSITEMS.DESALINATORNEEDSEMPTYING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.NAME"
-#| msgid "Requires Emptying"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DESALINATORNEEDSEMPTYING.NAME"
 msgid "Requires Emptying"
 msgstr "Memerlukan Pengosongan"
@@ -782,21 +664,19 @@ msgid ""
 "------------------\n"
 "A Duplicant must empty it for operation to continue."
 msgstr ""
+"Bangunan ini penuh dengan <link=\"SALT\">Garam</link> dan tidak bisa lagi "
+"beroperasi.\n"
+"------------------\n"
+"Duplikat harus mengosongkannya agar operasi dapat dilanjutkan."
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
 msgid "Scan Quality: {Quality}"
 msgstr "Kualitas Pindai: {Quality}"
 
+# cek di bagian [Quality], pembacaan kalimat sudah pas atau tidak
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.TOOLTIP
 #, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.TOOLTIP"
-#| msgid ""
-#| "This scanner dish is currently scanning at {Quality} effectiveness\n"
-#| "\n"
-#| "Decreased scan quality may be due to:\n"
-#| "    • Interference from nearby heavy machinery\n"
-#| "    • Rock or tile obstructing the dish's line of sight on space"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.TOOLTIP"
 msgid ""
 "This scanner dish is currently scanning at <b>{Quality}</b> effectiveness\n"
@@ -805,9 +685,11 @@ msgid ""
 "    • Interference from nearby heavy machinery\n"
 "    • Rock or tile obstructing the dish's line of sight on space"
 msgstr ""
-"Piringan scan saat ini memindai pada efektivitas {Quality} Pengurangan "
-"kualitas scan mungkin karena: • Gangguan dari mesin-mesin berat terdekat • "
-"Batu atau ubin yang menghalangi garis pandang piring di dalam ruang"
+"Hidangan pemindai ini sedang memindai dengan efektivitas <b>{Quality}</b>\n"
+"\n"
+"Penurunan kualitas pemindaian mungkin disebabkan oleh:\n"
+"     • Gangguan dari alat berat terdekat\n"
+"     • Batu atau ubin menghalangi garis pandang antena di ruang angkasa"
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.NAME"
@@ -822,23 +704,18 @@ msgstr "Scanner ini saat ini sedang menjelajahi ruang untuk hal-hal menarik"
 #. STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESSKILLPERK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESSKILLPERK.NAME"
 msgid "Skill-Required Dig"
-msgstr ""
+msgstr "Dibutuhkan-Bakat Menggali"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESSKILLPERK.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.TOOLTIP"
-#| msgid ""
-#| "Only Duplicants trained in one of the following jobs can mine this "
-#| "material:\n"
-#| "{Roles}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESSKILLPERK.TOOLTIP"
 msgid ""
 "Only Duplicants with one of the following <style=\"KKeyword\">Skills</style> "
 "can mine this material:\n"
 "{Skills}"
 msgstr ""
-"Hanya Duplikat terlatih dalam salah satu pekerjaan berikut dapat menambang "
-"bahan ini: {Roles}"
+"Hanya Duplikat dengan salah satu <style=\"KKeyword\">Bakat</style> berikut "
+"yang dapat menambang bahan ini:\n"
+"{Skills}"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGUNREACHABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGUNREACHABLE.NAME"
@@ -871,23 +748,18 @@ msgid "Use Direction: {Direction}"
 msgstr "Pakai Arah: {Direction}"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP"
-#| msgid ""
-#| "Duplicants will only use this building when walking by it. Currently "
-#| "allowed direction: {Direction}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP"
 msgid ""
 "Duplicants will only use this building when walking by it. Currently allowed "
 "direction: <b>{Direction}</b>"
 msgstr ""
 "Duplikat hanya akan menggunakan bangunan ini ketika berjalan melewatinya. "
-"Saat ini arah yang diperbolehkan: {Direction}"
+"Arahan yang diizinkan saat ini: <b> {Direction} </b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.DISEMBARKINGDUPLICANT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DISEMBARKINGDUPLICANT.NAME"
 msgid "Waiting To Disembark"
-msgstr ""
+msgstr "Menunggu Untuk Turun"
 
 #. STRINGS.BUILDING.STATUSITEMS.DISEMBARKINGDUPLICANT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DISEMBARKINGDUPLICANT.TOOLTIP"
@@ -895,6 +767,8 @@ msgid ""
 "The Duplicant inside this rocket can't come out until the <link=\"GANTRY"
 "\">Gantry</link> is extended"
 msgstr ""
+"Duplikat di dalam roket ini tidak bisa keluar sampai <link=\"GANTRY\">Tempat "
+"Kerangka Peluncuran</link> diperpanjang"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.NAME"
@@ -902,10 +776,6 @@ msgid "Consuming {ElementTypes}: {FlowRate}"
 msgstr "Mengkonsumsi {ElementTypes}: {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.TOOLTIP"
-#| msgid ""
-#| "This building is utilizing ambient {ElementTypes} from the environment"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.TOOLTIP"
 msgid "This object is utilizing ambient {ElementTypes} from the environment"
 msgstr "Bangunan ini memanfaatkan ambient {ElementTypes} dari lingkungan"
@@ -916,16 +786,13 @@ msgid "Using {ElementTypes}: {FlowRate}"
 msgstr "Menggunakan {ElementTypes}: {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTERINPUT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTERINPUT.TOOLTIP"
-#| msgid ""
-#| "This building is using {ElementTypes} from storage at a rate of {FlowRate}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTERINPUT.TOOLTIP"
 msgid ""
 "This building is using {ElementTypes} from storage at a rate of <style="
 "\"consumed\">{FlowRate}</style>"
 msgstr ""
-"Bangunan ini menggunakan {ElementTypes} dari penyimpanan sebanyak {FlowRate}"
+"Bangunan ini menggunakan {ElementTypes} dari penyimpanan sebanyak <style="
+"\"consumed\">{FlowRate}</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.NAME"
@@ -933,14 +800,13 @@ msgid "Emitting {ElementTypes}: {FlowRate}"
 msgstr "Memancarkan {Element Types}: {Flow Rate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.TOOLTIP"
-#| msgid "This building is releasing {ElementTypes} at a rate of {FlowRate}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.TOOLTIP"
 msgid ""
 "This building is releasing {ElementTypes} at a rate of <style=\"produced"
 "\">{FlowRate}</style>"
-msgstr "Bangunan ini melepaskan {ElementTypes} sebanyak {FlowRate}"
+msgstr ""
+"Bangunan ini melepaskan {ElementTypes} sebanyak <style=\"produced"
+"\">{FlowRate}</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.NAME"
@@ -948,14 +814,13 @@ msgid "Emitting {ElementTypes}: {FlowRate}"
 msgstr "Memancarkan {Element Types}: {Flow Rate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.TOOLTIP"
-#| msgid "This object is releasing {ElementTypes} at a rate of {FlowRate}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.TOOLTIP"
 msgid ""
 "This object is releasing {ElementTypes} at a rate of <style=\"produced"
 "\">{FlowRate}</style>"
-msgstr "Objek ini melepaskan {ElementTypes} sebanyak {FlowRate}"
+msgstr ""
+"Objek ini melepaskan {ElementTypes} sebanyak <style=\"produced\">{FlowRate}</"
+"style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGCO2.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGCO2.NAME"
@@ -968,6 +833,8 @@ msgid ""
 "Producing <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> at <style=\"produced"
 "\">{FlowRate}</style>"
 msgstr ""
+"Memproduksi <link=\"CARBONDIOXIDE\">Karbon Dioksida</link> di <style="
+"\"produced\">{FlowRate}</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.NAME"
@@ -975,12 +842,9 @@ msgid "Emitting {ElementType}: {FlowRate}"
 msgstr "Memancarkan {Element Types}: {Flow Rate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.TOOLTIP"
-#| msgid "Producing {ElementType} at {FlowRate}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.TOOLTIP"
 msgid "Producing {ElementType} at <style=\"produced\">{FlowRate}</style>"
-msgstr "Memproduksi {ElementType} di {FlowRate}"
+msgstr "Memproduksi {ElementType} di <style=\"produced\">{FlowRate}</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.NAME"
@@ -988,12 +852,9 @@ msgid "Emitting {Element}: {FlowRate}"
 msgstr "Memancarkan {Element Types}: {Flow Rate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.TOOLTIP"
-#| msgid "Producing {Element} at a rate of {FlowRate}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.TOOLTIP"
 msgid "Producing {Element} at a rate of <style=\"produced\">{FlowRate}</style>"
-msgstr "Memproduksi {ElementType} di {FlowRate}"
+msgstr "Memproduksi {Element} sebanyak <style=\"produced\">{FlowRate}</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.NAME"
@@ -1001,18 +862,13 @@ msgid "Emitting Light"
 msgstr "Memancarkan Cahaya"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.TOOLTIP"
-#| msgid ""
-#| "Open the Light Overlay [{LightGridOverlay}] to view this light's "
-#| "visibility radius"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.TOOLTIP"
 msgid ""
 "Open the <b>Light Overlay</b> <b><color=#F44A4A>[{LightGridOverlay}]</b></"
 "color> to view this light's visibility radius"
 msgstr ""
-"Membuka cahaya Overlay [{LightGridOverlay}] untuk melihat radius visibilitas "
-"dari cahaya ini"
+"Buka <b>Lapisan Cahaya</b> <b><color=#F44A4A>[{LightGridOverlay}]</color></"
+"b> untuk melihat radius visibilitas dari cahaya ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGOXYGENAVG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGOXYGENAVG.NAME"
@@ -1020,14 +876,13 @@ msgid "Emitting <link=\"OXYGEN\">Oxygen</link>: {FlowRate}"
 msgstr "Memancarkan <link=\"OXYGEN\">Oxygen</link>: {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGOXYGENAVG.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGOXYGENAVG.NAME"
-#| msgid "Emitting <link=\"OXYGEN\">Oxygen</link>: {FlowRate}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGOXYGENAVG.TOOLTIP"
 msgid ""
 "Producing <link=\"OXYGEN\">Oxygen</link> at a rate of <style=\"produced"
 "\">{FlowRate}</style>"
-msgstr "Memancarkan <link=\"OXYGEN\">Oxygen</link>: {FlowRate}"
+msgstr ""
+"Memproduksi <link=\"OXYGEN\">Oksigen</link> sebanyak <style=\"produced"
+"\">{FlowRate}</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMPTYPUMPINGSTATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMPTYPUMPINGSTATION.NAME"
@@ -1035,13 +890,12 @@ msgid "Empty"
 msgstr "Kosong"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMPTYPUMPINGSTATION.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.EMPTYPUMPINGSTATION.TOOLTIP"
-#| msgid "This pumping station cannot access any liquid"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMPTYPUMPINGSTATION.TOOLTIP"
 msgid ""
 "This pumping station cannot access any <style=\"KKeyword\">Liquid</style>"
-msgstr "Stasiun pompa ini tidak dapat mengakses cairan apa pun"
+msgstr ""
+"Stasiun pompa ini tidak dapat mengakses <style=\"KKeyword\">Cairan</style> "
+"apa pun"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.NAME"
@@ -1049,28 +903,19 @@ msgid "Awaiting Coolant"
 msgstr "Menunggu Pendingin"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.TOOLTIP"
-#| msgid "{1} of {0} must be present in storage to begin production"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.TOOLTIP"
 msgid "<b>{1}</b> of {0} must be present in storage to begin production"
-msgstr "{1} dari {0} harus ada dalam penyimpanan untuk memulai produksi"
+msgstr "<b>{1}</b> dari {0} harus ada dalam penyimpanan untuk memulai produksi"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENOUGH_FUEL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.NAME"
-#| msgid "Awaiting Fuel: {0}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENOUGH_FUEL.NAME"
 msgid "Awaiting Fuel"
-msgstr "Menunggu Bahan Bakar: {0}"
+msgstr "Menunggu Bahan Bakar"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENOUGH_FUEL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.TOOLTIP"
-#| msgid "{1} of {0} must be present in storage to begin production"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENOUGH_FUEL.TOOLTIP"
 msgid "<b>{1}</b> of {0} must be present in storage to begin production"
-msgstr "{1} dari {0} harus ada dalam penyimpanan untuk memulai produksi"
+msgstr "<b>{1}</b> dari {0} harus ada dalam penyimpanan untuk memulai produksi"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME"
@@ -1108,12 +953,9 @@ msgid "Countdown: {0}"
 msgstr "Hitung mundur: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.COUNTDOWN.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.COUNTDOWN.TOOLTIP"
-#| msgid "{0} seconds until detonation"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.COUNTDOWN.TOOLTIP"
 msgid "<b>{0}</b> seconds until detonation"
-msgstr "{0} detik sebelum detonasi"
+msgstr "<b>{0}</b> detik hingga ledakan"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.DUPE_DANGER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.DUPE_DANGER.NAME"
@@ -1158,28 +1000,22 @@ msgstr "Bangunan ini tidak digunakan lagi"
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.NAME"
 msgid "Waiting For Materials"
-msgstr ""
+msgstr "Menunggu Material"
 
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.TOOLTIP"
 msgid "Fabrication will begin once materials have been deliverd"
-msgstr ""
+msgstr "Fabrikasi akan dimulai setelah bahan dikirim"
 
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATORIDLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.NAME"
-#| msgid "No Fabrications Queued"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATORIDLE.NAME"
 msgid "No Fabrications Queued"
-msgstr "Tidak ada antrian produksi"
+msgstr "Tidak Ada Fabrikasi yang Antri"
 
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATORIDLE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.TOOLTIP"
-#| msgid "Select a recipe to begin fabrication"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATORIDLE.TOOLTIP"
 msgid "Select a recipe to begin fabrication"
-msgstr "Pilih resep untuk memulai produksi"
+msgstr "Pilih resep untuk memulai pembuatan fabrikasi"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLOODED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.NAME"
@@ -1227,14 +1063,13 @@ msgid "Unreachable food"
 msgstr "Makanan tidak dapat dicapai"
 
 #. STRINGS.BUILDING.STATUSITEMS.FOOD_CONTAINERS_OUTSIDE_RANGE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.FOOD_CONTAINERS_OUTSIDE_RANGE.TOOLTIP"
-#| msgid "Recuperating Duplicants must have food available within {0} cells"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FOOD_CONTAINERS_OUTSIDE_RANGE.TOOLTIP"
 msgid ""
 "Recuperating Duplicants must have <style=\"KKeyword\">Food</style> available "
 "within <b>{0}</b> cells"
-msgstr "Pemulihan Duplikat harus memiliki makanan yang tersedia dalam {0} sel"
+msgstr ""
+"Pemulihan Duplikat harus memiliki <style=\"KKeyword\">Makanan</style> yang "
+"tersedia dalam <b>{0}</b> sel"
 
 #. STRINGS.BUILDING.STATUSITEMS.GANTRY.AUTOMATION_CONTROL
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GANTRY.AUTOMATION_CONTROL"
@@ -1262,12 +1097,9 @@ msgid "Empty Pipe"
 msgstr "Pipa Kosong"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.TOOLTIP"
-#| msgid "There is no gas in this pipe"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.TOOLTIP"
 msgid "There is no <style=\"KKeyword\">Gas</style> in this pipe"
-msgstr "Tidak ada gas didalam pipa"
+msgstr "Tidak ada <style=\"KKeyword\">Gas</style> di pipa ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASPIPEOBSTRUCTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEOBSTRUCTED.NAME"
@@ -1285,15 +1117,13 @@ msgid "Gas Vent Obstructed"
 msgstr "Ventilasi Gas Tersumbat"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASVENTOBSTRUCTED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.GASVENTOBSTRUCTED.TOOLTIP"
-#| msgid "A pipe has been obstructed and is preventing gas flow to this vent"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASVENTOBSTRUCTED.TOOLTIP"
 msgid ""
 "A <style=\"KKeyword\">Pipe</style> has been obstructed and is preventing gas "
 "flow to this vent"
 msgstr ""
-"Sebuah pipa telah tersumbat dan menghalangi gas keluar dari ventilasi ini"
+"<style=\"KKeyword\">Pipa</style> telah terhalang dan mencegah aliran gas ke "
+"lubang ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASVENTOVERPRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASVENTOVERPRESSURE.NAME"
@@ -1301,12 +1131,6 @@ msgid "Gas Vent Overpressure"
 msgstr "Ventilasi Gas Berlebih"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASVENTOVERPRESSURE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.GASVENTOVERPRESSURE.TOOLTIP"
-#| msgid ""
-#| "High air or liquid pressure in this area is preventing further liquid "
-#| "emission\n"
-#| "Reduce pressure by pumping gas away or clearing more space"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASVENTOVERPRESSURE.TOOLTIP"
 msgid ""
 "High <style=\"KKeyword\">Gas</style> or <style=\"KKeyword\">Liquid</style> "
@@ -1315,9 +1139,11 @@ msgid ""
 "Reduce pressure by pumping <style=\"KKeyword\">Gas</style> away or clearing "
 "more space"
 msgstr ""
-"Tekanan udara atau cair yang tinggi di area ini mencegah emisi cairan lebih "
-"lanjut\n"
-"Kurangi tekanan dengan memompa gas keluar atau buat lebih banyak ruang"
+"Tekanan <style=\"KKeyword\">Gas</style> atau <style=\"KKeyword\">Cairan</"
+"style> yang tinggi di area ini mencegah emisi <style=\"KKeyword\">Gas</"
+"style> lebih lanjut\n"
+"Kurangi tekanan dengan memompa <style=\"KKeyword\">Gas</style> keluar atau "
+"buat lebih banyak ruang"
 
 #. STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.NAME"
@@ -1325,20 +1151,14 @@ msgid "Generator Idle"
 msgstr "Generator Mengangur"
 
 #. STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.TOOLTIP"
-#| msgid "This power source is idle"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.TOOLTIP"
 msgid "This <style=\"KKeyword\">Power</style> source is idle"
-msgstr "Sumber listrik ini tidak digunakan"
+msgstr "<style=\"KKeyword\">Sumber Daya</style> ini tidak digunakan"
 
 #. STRINGS.BUILDING.STATUSITEMS.GENESHUFFLECOMPLETED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.GENESHUFFLECOMPLETED.NAME"
-#| msgid "Neural vacillation complete"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GENESHUFFLECOMPLETED.NAME"
 msgid "Vacillation Complete"
-msgstr "Vaksinasi saraf telah selesai"
+msgstr "Vaksinasi Selesai"
 
 #. STRINGS.BUILDING.STATUSITEMS.GENESHUFFLECOMPLETED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GENESHUFFLECOMPLETED.TOOLTIP"
@@ -1374,15 +1194,6 @@ msgid "Requires Emptying"
 msgstr "Memerlukan Pengosongan"
 
 #. STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP"
-#| msgid ""
-#| "This <link=\"ALGAEHABITAT\">Algae Terrarium</link> needs to be emptied of "
-#| "<link=\"DIRTYWATER\">Polluted Water</link>\n"
-#| "------------------\n"
-#| "<link=\"BOTTLEEMPTIER\">Bottle Emptier</link>s can be used to transport "
-#| "and dispose of <link=\"DIRTYWATER\">Polluted Water</link> in designated "
-#| "areas"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP"
 msgid ""
 "This <link=\"ALGAEHABITAT\">Algae Terrarium</link> needs to be emptied of "
@@ -1391,11 +1202,12 @@ msgid ""
 "<link=\"BOTTLEEMPTIER\">Bottle Emptiers</link> can be used to transport and "
 "dispose of <link=\"DIRTYWATER\">Contaminated Water</link> in designated areas"
 msgstr ""
-"Ini <link=\"ALGAEHABITAT\"> Ganggang Terarium</link> harus dikosongkan dari "
+"<link=\"ALGAEHABITAT\"> Ganggang Terarium</link> ini harus dikosongkan dari "
 "<link=\"DIRTYWATER\">Air Terpolusi</link>\n"
-"---\n"
-"<link=\"BOTTLEEMPTIER\">Pengosong Botol</link> digunakan untuk mengirim dan "
-"membuang <link=\"DIRTYWATER\">Air Terplusi</link> di wilayah tertentu"
+"------------------\n"
+"<link=\"BOTTLEEMPTIER\">Pengosong Botol</link> dapat digunakan untuk "
+"mengirim dan membuang <link=\"DIRTYWATER\">Air Terplusi</link> di wilayah "
+"tertentu"
 
 #. STRINGS.BUILDING.STATUSITEMS.HASGANTRY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HASGANTRY.NAME"
@@ -1403,12 +1215,9 @@ msgid "Has Gantry"
 msgstr "Memiliki tempat kerangka peluncuran"
 
 #. STRINGS.BUILDING.STATUSITEMS.HASGANTRY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.CONSTRUCTIONUNREACHABLE.TOOLTIP"
-#| msgid "Duplicants cannot reach this construction site"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HASGANTRY.TOOLTIP"
 msgid "Duplicants may now enter this section of the rocket"
-msgstr "Duplicants tidak dapat mencapai situs konstruksi ini"
+msgstr "Duplikat sekarang dapat memasuki bagian roket ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME"
@@ -1416,12 +1225,10 @@ msgid "Max Temperature Reached"
 msgstr "Suhu Maksimum Tercapai"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.TOOLTIP"
-#| msgid "This building cannot heat the surrounding environment beyond {0}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.TOOLTIP"
 msgid "This building cannot heat the surrounding environment beyond <b>{0}</b>"
-msgstr "Bangunan ini tidak dapat memanaskan lingkungan sekitarnya melebihi {0}"
+msgstr ""
+"Bangunan ini tidak dapat memanaskan lingkungan sekitarnya melebihi <b>{0}</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_GAS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_GAS.NAME"
@@ -1429,18 +1236,13 @@ msgid "Low Air Pressure"
 msgstr "Tekanan Udara Rendah"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_GAS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_GAS.TOOLTIP"
-#| msgid ""
-#| "A minimum atmospheric pressure of {TargetPressure} is needed for this "
-#| "building to heat up"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_GAS.TOOLTIP"
 msgid ""
 "A minimum atmospheric pressure of <b>{TargetPressure}</b> is needed for this "
 "building to heat up"
 msgstr ""
-"Tekanan atmosfer minimal {TargetPressure} diperlukan untuk memanaskan gedung "
-"ini"
+"Tekanan atmosfer minimal <b>{TargetPressure}</b> diperlukan untuk memanaskan "
+"gedung ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_LIQUID.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_LIQUID.NAME"
@@ -1448,14 +1250,13 @@ msgid "Not Submerged In Liquid"
 msgstr "Tida Terendam Di Dalam Cairan"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_LIQUID.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_LIQUID.TOOLTIP"
-#| msgid "This building must be submerged in liquid to function"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_LIQUID.TOOLTIP"
 msgid ""
 "This building must be submerged in <style=\"KKeyword\">Liquid</style> to "
 "function"
-msgstr "Bangunan ini harus terendam dalam cairan agar berfungsi"
+msgstr ""
+"Bangunan ini harus terendam dalam <style=\"KKeyword\">Cairan</style> agar "
+"berfungsi"
 
 #. STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.NAME"
@@ -1479,21 +1280,16 @@ msgid "Incubating: {Percent}"
 msgstr "Inkubasi: {Percent}"
 
 #. STRINGS.BUILDING.STATUSITEMS.INCUBATORPROGRESS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.INCUBATORPROGRESS.TOOLTIP"
-#| msgid ""
-#| "This egg incubating cozily\n"
-#| "------------------\n"
-#| "It will hatch when Incubation reaches 100%"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INCUBATORPROGRESS.TOOLTIP"
 msgid ""
 "This <style=\"KKeyword\">Egg</style> incubating cozily\n"
 "------------------\n"
 "It will hatch when <style=\"KKeyword\">Incubation</style> reaches <b>100%</b>"
 msgstr ""
-"Telur ini menginkubasi dengan nyaman\n"
+"<style=\"KKeyword\">Telur</style> ini menginkubasi dengan nyaman\n"
 "------------------\n"
-"dan akan menetas ketika Inkubasi mencapai 100%"
+"Ini akan menetas ketika <style = \"KKeyword\"> Inkubasi </style> mencapai "
+"<b> 100% </b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME"
@@ -1505,28 +1301,39 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.TOOLTIP"
 msgid "Cannot construct building in this location"
 msgstr "Tidak dapat membangun bangunan di lokasi ini"
 
+# Revisi (?)
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NAME
+#, fuzzy
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NAME"
 msgid "Invalid Port Overlap"
-msgstr ""
+msgstr "Tumpang tindih Port Tidak Valid"
 
+# Revisi (?)
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NOTIFICATION_NAME
+#, fuzzy
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NOTIFICATION_NAME"
 msgid "Building has overlapping ports"
-msgstr ""
+msgstr "Bangunan memiliki port yang tumpang tindih"
 
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NOTIFICATION_TOOLTIP"
 msgid "These buildings must be rebuilt with non-overlapping ports:"
 msgstr ""
+"Bangunan ini harus dibangun kembali dengan pelabuhan yang tidak tumpang "
+"tindih:"
 
+# Revisi (?)
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.TOOLTIP
+#, fuzzy
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.TOOLTIP"
 msgid ""
 "Ports on this building overlap those on another building\n"
 "------------------\n"
 "This building must be rebuilt in a valid location"
 msgstr ""
+"Port di gedung ini tumpang tindih dengan yang ada di gedung lain\n"
+"------------------\n"
+"Bangunan ini harus dibangun kembali di lokasi yang valid"
 
 #. STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.NAME"
@@ -1534,14 +1341,12 @@ msgid "<link=\"POWER\">Power</link> Available: {JoulesAvailable}"
 msgstr "<link=\"POWER\">Daya</link> Tersedia: {JoulesAvailable}"
 
 #. STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.TOOLTIP"
-#| msgid "{JoulesAvailable} of stored power available for use"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.TOOLTIP"
 msgid ""
 "<b>{JoulesAvailable}</b> of stored <style=\"KKeyword\">Power</style> "
 "available for use"
-msgstr "{JoulesAvailable} daya tersimpan dapat digunakan"
+msgstr ""
+"{JoulesAvailable} <style=\"KKeyword\">Daya</style> tersimpan dapat digunakan"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.NAME"
@@ -1549,12 +1354,9 @@ msgid "Empty Pipe"
 msgstr "Pipa Kosong"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.TOOLTIP"
-#| msgid "There is no liquid in this pipe"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.TOOLTIP"
 msgid "There is no <style=\"KKeyword\">Liquid</style> in this pipe"
-msgstr "Tidak ada cairan di pipa ini"
+msgstr "Tidak ada <style=\"KKeyword\">Cairan</style> di pipa ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEOBSTRUCTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEOBSTRUCTED.NAME"
@@ -1572,16 +1374,13 @@ msgid "Liquid Vent Obstructed"
 msgstr "Ventilasi Cairan Tersumbat"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.TOOLTIP"
-#| msgid ""
-#| "A pipe has been obstructed and is preventing liquid flow to this vent"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.TOOLTIP"
 msgid ""
 "A <style=\"KKeyword\">Pipe</style> has been obstructed and is preventing "
 "liquid flow to this vent"
 msgstr ""
-"Sebuah pipa telah tersumbat dan menghalangi gas keluar dari ventilasi ini"
+"<style=\"KKeyword\">Pipa</style> telah terhalang dan mencegah aliran cairan "
+"ke lubang ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOVERPRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOVERPRESSURE.NAME"
@@ -1589,12 +1388,6 @@ msgid "Liquid Vent Overpressure"
 msgstr "Ventilasi Gas Berlebih"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOVERPRESSURE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOVERPRESSURE.TOOLTIP"
-#| msgid ""
-#| "High air or liquid pressure in this area is preventing further liquid "
-#| "emission\n"
-#| "Reduce pressure by pumping liquid away or clearing more space"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOVERPRESSURE.TOOLTIP"
 msgid ""
 "High <style=\"KKeyword\">Gas</style> or <style=\"KKeyword\">Liquid</style> "
@@ -1603,9 +1396,11 @@ msgid ""
 "Reduce pressure by pumping <style=\"KKeyword\">Liquid</style> away or "
 "clearing more space"
 msgstr ""
-"Tekanan udara atau cair yang tinggi di area ini mencegah emisi cairan lebih "
-"lanjut\n"
-"Kurangi tekanan dengan memompa gas keluar atau buat lebih banyak ruang"
+"Tekanan <style=\"KKeyword\">Gas</style> atau <style=\"KKeyword\">Cairan</"
+"style> yang tinggi di area ini mencegah emisi <style=\"KKeyword\">Cairan</"
+"style> lebih lanjut\n"
+"Kurangi tekanan dengan memompa <style=\"KKeyword\">Cairan</style> keluar "
+"atau buat lebih banyak ruang"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGIC.LOGIC_CONTROLLED_DISABLED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGIC.LOGIC_CONTROLLED_DISABLED"
@@ -1623,13 +1418,6 @@ msgid "Feedback Loop"
 msgstr "Umpan Balik"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGIC_FEEDBACK_LOOP.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGIC_FEEDBACK_LOOP.TOOLTIP"
-#| msgid ""
-#| "Feedback loops prevent automation grids from functioning\n"
-#| "\n"
-#| "Feedback loops occur when the Output of an automated building connects "
-#| "back to its own Input through the Automation grid"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGIC_FEEDBACK_LOOP.TOOLTIP"
 msgid ""
 "Feedback loops prevent automation grids from functioning\n"
@@ -1638,54 +1426,57 @@ msgid ""
 "automated building connects back to its own <style=\"KKeyword\">Input</"
 "style> through the Automation grid"
 msgstr ""
-"Loop umpan balik mencegah grid otomatisasi berfungsi\n"
+"Putaran umpan balik mencegah jaringan otomasi berfungsi\n"
 "\n"
-"Loop umpan balik terjadi ketika Keluaran dari sebuah bangunan otomatis "
-"menghubungkan kembali ke Masukan sendiri melalui otomatisasi grid"
+"Putaran umpan balik terjadi ketika <style=\"KKeyword\">Hasil</style> dari "
+"bangunan otomatis menghubungkan kembali ke <style=\"KKeyword\">Pemasukan</"
+"style>nya sendiri melalui kotak Otomasi"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSACTIVE.NAME"
 msgid "Sending a <b><color=#57b95e>Green Signal</b></color>"
-msgstr ""
+msgstr "Mengirim <b><color=#57b95e>Sinyal Hijau</b></color>"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSACTIVE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSACTIVE.TOOLTIP"
 msgid ""
 "This sensor is currently sending a <b><color=#57b95e>Green Signal</b></color>"
-msgstr ""
+msgstr "Sensor ini sedang mengirim <b><color=#57b95e>Sinyal Hijau</b></color>"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSINACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSINACTIVE.NAME"
 msgid "Sending a <b><color=#f44a47>Red Signal</b></color>"
-msgstr ""
+msgstr "Mengirim <b><color=#f44a47>Sinyal Merah</b></color>"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSINACTIVE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSINACTIVE.TOOLTIP"
 msgid ""
 "This sensor is currently sending <b><color=#f44a47>Red Signal</b></color>"
-msgstr ""
+msgstr "Sensor ini sedang mengirim <b><color=#f44a47>Sinyal Merah</b></color>"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICSWITCHSTATUSACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSWITCHSTATUSACTIVE.NAME"
 msgid "Sending a <b><color=#57b95e>Green Signal</b></color>"
-msgstr ""
+msgstr "Mengirim <b><color=#57b95e>Sinyal Hijau</b></color>"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICSWITCHSTATUSACTIVE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSWITCHSTATUSACTIVE.TOOLTIP"
 msgid ""
 "This switch is currently sending a <b><color=#57b95e>Green Signal</b></color>"
 msgstr ""
+"Saklar ini saat ini mengirim <b><color=#57b95e>Sinyal Hijau</b></color>"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICSWITCHSTATUSINACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSWITCHSTATUSINACTIVE.NAME"
 msgid "Sending a <b><color=#f44a47>Red Signal</b></color>"
-msgstr ""
+msgstr "Mengirim <b><color=#f44a47>Sinyal Merah</b></color>"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICSWITCHSTATUSINACTIVE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSWITCHSTATUSINACTIVE.TOOLTIP"
 msgid ""
 "This switch is currently sending a <b><color=#f44a47>Red Signal</b></color>"
 msgstr ""
+"Saklar ini saat ini mengirim <b><color=#f44a47>Sinyal Merah</b></color>"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOOKINGGREAT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOOKINGGREAT.NAME"
@@ -1735,15 +1526,13 @@ msgid "Powering"
 msgstr "Menyalakan"
 
 #. STRINGS.BUILDING.STATUSITEMS.MANUALGENERATORRELEASINGENERGY.TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.MANUALGENERATORRELEASINGENERGY.TOOLTIP"
-#| msgid "This generator is supplying energy to power consumers"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MANUALGENERATORRELEASINGENERGY.TOOLTIP"
 msgid ""
 "This generator is supplying energy to <style=\"KKeyword\">Power</style> "
 "consumers"
-msgstr "Generator ini memasok energi untuk konsumen listrik"
+msgstr ""
+"Generator ini memasok energi untuk konsumen <style=\"KKeyword\">Listrik</"
+"style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.MANUALLYCONTROLLED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MANUALLYCONTROLLED.NAME"
@@ -1812,20 +1601,14 @@ msgid "This building will soon require materials that are unavailable"
 msgstr "Gedung ini akan segera membutuhkan material yang tidak lagi tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.NAME"
-#| msgid "Melting Down"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.NAME"
 msgid "Breaking Down"
-msgstr "Meleleh"
+msgstr "Hancur"
 
 #. STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.NOTIFICATION_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.NOTIFICATION_NAME"
-#| msgid "Building meltdown"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.NOTIFICATION_NAME"
 msgid "Building break down"
-msgstr "Bangunan meleleh"
+msgstr "Bangunan hancur"
 
 #. STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.NOTIFICATION_TOOLTIP"
@@ -1838,21 +1621,11 @@ msgid "This building is collapsing"
 msgstr "Bangunan ini runtuh"
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.NAME"
-#| msgid "Missing Gantry"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.NAME"
 msgid "Missing Tile"
-msgstr "Kehilangan Kerangka Peluncuran"
+msgstr "Kehilangan Ubin"
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.TOOLTIP"
-#| msgid ""
-#| "Build Tiles beneath this building\n"
-#| "------------------\n"
-#| "Tiles can be found in the <color=#833A5FFF>Base Tab</color> "
-#| "<color=#F44A47>[1]</color> of the Build Menu"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.TOOLTIP"
 msgid ""
 "Build <link=\"TILE\">Tile</link> beneath this building\n"
@@ -1860,10 +1633,10 @@ msgid ""
 "Tile can be found in the <b>Base Tab</b> <b><color=#F44A4A>[1]</b></color> "
 "of the Build Menu"
 msgstr ""
-"Bangun Ubin di bawah gedung ini\n"
+"Bangun <link=\"TILE\">Ubin</link> di bawah gedung ini\n"
 "------------------\n"
-"Ubin dapat ditemukan di <color=#833A5FFF>Tab Dasar</color> "
-"<color=#F44A47>[1]</color> dari Daftar Bangunan"
+"Ubin dapat ditemukan di <b>Tab Dasar</b> <b><color=#F44A47>[1]</color></b> "
+"dari Daftar Bangunan"
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.NAME"
@@ -1871,11 +1644,6 @@ msgid "Missing Gantry"
 msgstr "Kehilangan Kerangka Peluncuran"
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.TOOLTIP"
-#| msgid ""
-#| "A <link=\"GANTRY\">Gantry</link> must be built below a <link="
-#| "\"COMMANDMODULE\">Command Capsule</link> for an astronaut to access it"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.TOOLTIP"
 msgid ""
 "A <link=\"GANTRY\">Gantry</link> must be built below <link=\"COMMANDMODULE"
@@ -1883,7 +1651,8 @@ msgid ""
 "link> for Duplicants access"
 msgstr ""
 "<link=\"GANTRY\">Kerangka Peluncuran</link> harus dibangun di bawah <link="
-"\"COMMANDMODULE\">Kapsul Perintah</link> untuk bisa di akses oleh astronot"
+"\"COMMANDMODULE\">Kapsul Perintah</link> dan <link=\"TOURISTMODULE\">Modul "
+"Melihat-lihat</link> untuk akses Duplikat"
 
 #. STRINGS.BUILDING.STATUSITEMS.MOPUNREACHABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MOPUNREACHABLE.NAME"
@@ -1906,6 +1675,8 @@ msgid ""
 "Collect <style=\"KKeyword\">Eggs</style> from <link=\"CREATURES\">Critters</"
 "link> to incubate"
 msgstr ""
+"Kumpulkan <style=\"KKeyword\">Telur</style> dari <link=\"CREATURES"
+"\">Makhluk</link> untuk diinkubasi"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDGASIN.LINE_ITEM
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDGASIN.LINE_ITEM"
@@ -1927,6 +1698,8 @@ msgid ""
 "This building's <style=\"KKeyword\">Gas Intake</style> does not have a <link="
 "\"GASCONDUIT\">Gas Pipe</link> connected"
 msgstr ""
+"<style=\"KKeyword\">Asupan Gas</style> gedung ini tidak memiliki <link="
+"\"GASCONDUIT\">Pipa Gas</link> yang terhubung"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDGASOUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDGASOUT.NAME"
@@ -1939,6 +1712,8 @@ msgid ""
 "This building's <style=\"KKeyword\">Gas Output</style> does not have a <link="
 "\"GASCONDUIT\">Gas Pipe</link> connected"
 msgstr ""
+"<style=\"KKeyword\">Keluaran Gas</style> gedung ini tidak memiliki <link="
+"\"GASCONDUIT\">Pipa Gas</link> yang terhubung"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.LINE_ITEM
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.LINE_ITEM"
@@ -1960,11 +1735,13 @@ msgid ""
 "This building's <style=\"KKeyword\">Liquid Intake</style> does not have a "
 "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link> connected"
 msgstr ""
+"<style=\"KKeyword\">Cairan Masuk</style> gedung ini tidak memiliki <link="
+"\"LIQUIDCONDUIT\">Pipa Cairan</link> yang terhubung"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.NAME"
 msgid "No Liquid Output"
-msgstr "Tidak ada keluaran cairan"
+msgstr "Tidak Ada Keluaran Cairan"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.TOOLTIP"
@@ -1972,6 +1749,8 @@ msgid ""
 "This building's <style=\"KKeyword\">Liquid Output</style> does not have a "
 "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link> connected"
 msgstr ""
+"<style=\"KKeyword\">Keluaran Cairan</style> gedung ini tidak memiliki <link="
+"\"LIQUIDCONDUIT\">Pipa Cairan</link> yang terhubung"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDPLANT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDPLANT.NAME"
@@ -1989,13 +1768,12 @@ msgid "No Power"
 msgstr "Tidak Ada Listrik"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDPOWER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDPOWER.TOOLTIP"
-#| msgid "All connected power sources have lost charge"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDPOWER.TOOLTIP"
 msgid ""
 "All connected <style=\"KKeyword\">Power</style> sources have lost charge"
-msgstr "Semua sumber daya yang terhubung telah kehilangan muatan"
+msgstr ""
+"Semua <style=\"KKeyword\">Sumber Daya</style> yang terhubung telah "
+"kehilangan daya"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCE.NAME"
@@ -2010,7 +1788,7 @@ msgstr "Bangunan ini kekurangan material yang dibutuhkan"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.LINE_ITEM
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.LINE_ITEM"
 msgid "• <b>{0}</b>"
-msgstr ""
+msgstr "• <b>{0}</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.NAME"
@@ -2048,13 +1826,6 @@ msgid "No Conveyor Loader"
 msgstr "Tidak ada Pemuat Konveyor"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP"
-#| msgid ""
-#| "Material cannot be fed onto this Conveyor Rail system for transport\n"
-#| "------------------\n"
-#| "Enter the Shipping Tab <color=#F44A47>[7]</color> of the Build Menu to "
-#| "build and connect a Conveyor Loader"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP"
 msgid ""
 "Material cannot be fed onto this Conveyor system for transport\n"
@@ -2066,8 +1837,9 @@ msgstr ""
 "Material tidak dapat dimasukkan ke jalur sistem konveyor ini untuk "
 "transportasi\n"
 "------------------\n"
-"Masukkan Tab Pengiriman <color=#F44A47>[7]</color> di Menu Bangun untuk "
-"membangun dan menghubungkan Konveyor Pemuat"
+"Masukkan <b>Tab Pengiriman</b> <b><color=#F44A47>[7]</color></b> di Menu "
+"Bangun untuk membangun dan menghubungkan <link=\"SOLIDCONDUITINBOX"
+"\">Konveyor Pemuat</link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.NAME"
@@ -2075,14 +1847,6 @@ msgid "No Conveyor Receptacle"
 msgstr "Tidak Ada Wadah Konveyor"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP"
-#| msgid ""
-#| "Material cannot be offloaded from this Conveyor system and will backup "
-#| "the rails\n"
-#| "------------------\n"
-#| "Enter the Shipping Tab <color=#F44A47>[7]</color> of the Build Menu to "
-#| "build and connect a Conveyor Receptacle"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP"
 msgid ""
 "Material cannot be offloaded from this Conveyor system and will backup the "
@@ -2092,11 +1856,12 @@ msgid ""
 "Menu to build and connect a <link=\"SOLIDCONDUITOUTBOX\">Conveyor "
 "Receptacle</link>"
 msgstr ""
-"Bahan tidak dapat dikeluarkan dari Sistem Konveyor ini dan akan menjadi "
+"Material tidak dapat dikeluarkan dari Sistem Konveyor ini dan akan menjadi "
 "cadangan dari rel\n"
 "---\n"
-"Masuk ke Tab Pengiriman <color=#F44A47> [7]</color>dari Menu Bangun untuk "
-"membangun dan menghubungkan sebuah Wadah Konveyor"
+"Masuk ke <b>Tab Pengiriman</b> <b><color=#F44A47>[7]</color></b> dari Menu "
+"Bangun untuk membangun dan menghubungkan sebuah <link=\"SOLIDCONDUITOUTBOX"
+"\">Wadah Konveyor</link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.NAME"
@@ -2104,16 +1869,6 @@ msgid "Scan Network Quality: {TotalQuality}"
 msgstr "Pindai Kualitas Jaringan: {TotalQuality}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.TOOLTIP"
-#| msgid ""
-#| "Your scanner network is scanning at {TotalQuality} effectiveness\n"
-#| "\n"
-#| "It will detect incoming objects {WorstTime} to {BestTime} before they "
-#| "arrive\n"
-#| "\n"
-#| "Build multiple detectors and ensure they're each scanning effectively for "
-#| "the best detection results"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.TOOLTIP"
 msgid ""
 "This scanner network is scanning at <b>{TotalQuality}</b> effectiveness\n"
@@ -2124,13 +1879,13 @@ msgid ""
 "Build multiple <link=\"COMETDETECTOR\">Space Scanner</link>s and ensure "
 "they're each scanning effectively for the best detection results"
 msgstr ""
-"Jaringan pemindai Anda memindai dengan efektivitas {TotalQuality}\n"
+"Jaringan pemindai ini memindai dengan efektivitas <b>{TotalQuality}</b>\n"
 "\n"
-"Dan akan mendeteksi objek yang mendekat {WorstTime} hingga {BestTime} "
-"sebelum mereka tiba\n"
+"Ini akan mendeteksi objek yang mendekat <b>{WorstTime}</b> hingga "
+"<b>{BestTime}</b> sebelum mereka tiba\n"
 "\n"
-"Buat beberapa detektor dan pastikan bahwa setiap pemindainya efektif untuk "
-"hasil deteksi terbaik"
+"Buat beberapa <link=\"COMETDETECTOR\">Pemindai Ruang Angkasa</link> dan "
+"pastikan bahwa setiap pemindainya efektif untuk hasil deteksi terbaik"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME"
@@ -2143,30 +1898,17 @@ msgid "This resource cannot be mined by Duplicant tools"
 msgstr "Sumber daya ini tidak dapat ditambang oleh alat Duplikat"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NAME"
-#| msgid "New Duplicants Available"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NAME"
 msgid "Printables Available"
-msgstr "Tidak Ada Dupikat Yang Baru"
+msgstr "Cetakan Tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NOTIFICATION_NAME
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NOTIFICATION_NAME"
-#| msgid "New Duplicants are available"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NOTIFICATION_NAME"
 msgid "New Printables are available"
-msgstr "Duplikat Baru telah tersedia"
+msgstr "Cetakan Baru Tersedia"
 
+# mau paket perawatan atau pake care? XD
 #. STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NOTIFICATION_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NOTIFICATION_TOOLTIP"
-#| msgid ""
-#| "The Printing Pod <color=#F44A47>[H]</color> is ready to print a new "
-#| "Duplicant.\n"
-#| "I'll need to select a DNA blueprint:"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NOTIFICATION_TOOLTIP"
 msgid ""
@@ -2174,24 +1916,19 @@ msgid ""
 "Duplicant or care package.\n"
 "I'll need to select a blueprint:"
 msgstr ""
-"Kapsul Pencetak <color=#F44A47>[H]</color> siap mencetak Duplikat baru.\n"
-"Saya harus memilih cetak biru DNA-nya:"
+"Kapsul Pencetak <color=#F44A47>[H]</color> siap mencetak paket Duplikat baru "
+"atau paket perawatan baru.\n"
+"Saya harus memilih cetak biru:"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.TOOLTIP"
-#| msgid "I am ready to print a new colony member"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.TOOLTIP"
 msgid "I am ready to print a new colony member or care package"
-msgstr "Saya sudah siap untuk mencetak anggota koloni yang baru"
+msgstr "Saya siap untuk mencetak anggota koloni baru atau paket perawatan"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NAME"
-#| msgid "No Research Focus Selected"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.NAME"
 msgid "No Analysis Focus Selected"
-msgstr "Tidak Ada Fokus Penelitian Yang Dipilih"
+msgstr "Tidak Ada Fokus Analisis yang Dipilih"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.NOTIFICATION_NAME
 msgctxt ""
@@ -2212,6 +1949,8 @@ msgid ""
 "Select an unknown destination from the <b>Starmap</b> <b><color=#F44A4A>[R]</"
 "b></color> to begin analysis"
 msgstr ""
+"Pilih tujuan yang tidak dikenal dari <b>Starmap</b> <b><color=#F44A4A>[R]</"
+"b></color> untuk memulai analisis"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NAME"
@@ -2219,22 +1958,12 @@ msgid "Inapplicable Research"
 msgstr "Penelitian yang tidak dapat diterapkan"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME"
-#| msgid "<link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_NAME"
 msgid "<link=\"ADVANCEDRESEARCHCENTER\">Research Center</link> idle"
-msgstr "<link=\"ADVANCEDRESEARCHCENTER\"> Super Komputer</link>"
+msgstr "<link=\"ADVANCEDRESEARCHCENTER\">Pusat Penelitian</link> diam"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED."
-#| "NOTIFICATION_TOOLTIP"
-#| msgid ""
-#| "These buildings cannot produce the correct <b>Research Type</b> for the "
-#| "selected <link=\"TECH\">Research Focus</link>:"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED."
 "NOTIFICATION_TOOLTIP"
@@ -2242,24 +1971,17 @@ msgid ""
 "These buildings cannot produce the correct <style=\"KKeyword\">Research "
 "Type</style> for the selected <link=\"TECH\">Research Focus</link>:"
 msgstr ""
-"Bangunan ini tidak dapat menghasilkan <b>Jenis penelitian</b> yang benar "
-"untuk <link=\"TECH\">Fokus Penelitian</link> yang dipilih:"
+"Bangunan ini tidak dapat menghasilkan <style=\"KKeyword\">Jenis Penelitian</"
+"style> yang benar untuk <link=\"TECH\">Fokus Penelitian</link> yang dipilih:"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED."
-#| "NOTIFICATION_TOOLTIP"
-#| msgid ""
-#| "These buildings cannot produce the correct <b>Research Type</b> for the "
-#| "selected <link=\"TECH\">Research Focus</link>:"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.TOOLTIP"
 msgid ""
 "This building cannot produce the correct <style=\"KKeyword\">Research Type</"
 "style> for the current <link=\"TECH\">Research Focus</link>"
 msgstr ""
-"Bangunan ini tidak dapat menghasilkan <b>Jenis penelitian</b> yang benar "
-"untuk <link=\"TECH\">Fokus Penelitian</link> yang dipilih:"
+"Bangunan ini tidak dapat menghasilkan <style=\"KKeyword\">Jenis Penelitian</"
+"style> yang benar untuk <link=\"TECH\">Fokus Penelitian</link> saat ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAVAILABLEEGG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAVAILABLEEGG.NAME"
@@ -2267,12 +1989,9 @@ msgid "No Egg Available"
 msgstr "Tidak ada Telur yang Tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAVAILABLEEGG.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAVAILABLEEGG.TOOLTIP"
-#| msgid "The selected egg is not currently available"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAVAILABLEEGG.TOOLTIP"
 msgid "The selected <style=\"KKeyword\">Egg</style> is not currently available"
-msgstr "Telur yang dipilih saat ini tidak tersedia"
+msgstr "<style=\"KKeyword\">Telur</style> yang dipilih saat ini tidak tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAVAILABLESEED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAVAILABLESEED.NAME"
@@ -2280,12 +1999,9 @@ msgid "No Seed Available"
 msgstr "Bibit Tidak Tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAVAILABLESEED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAVAILABLESEED.TOOLTIP"
-#| msgid "The selected seed is not available"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAVAILABLESEED.TOOLTIP"
 msgid "The selected <style=\"KKeyword\">Seed</style> is not available"
-msgstr "Bibit yang dipilih tidak tersedia"
+msgstr "<style=\"KKeyword\">Benih</style> yang dipilih tidak tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.NAME"
@@ -2303,13 +2019,12 @@ msgid "No Fishable Water"
 msgstr "Tidak ada ikan di air"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOFISHABLEWATERBELOW.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOFISHABLEWATERBELOW.TOOLTIP"
-#| msgid "There are no edible fish beneath this structure"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOFISHABLEWATERBELOW.TOOLTIP"
 msgid ""
 "There are no edible <style=\"KKeyword\">Fish</style> beneath this structure"
-msgstr "Tidak ada ikan yang dapat dimakan di bawah struktur ini"
+msgstr ""
+"Tidak ada <style=\"KKeyword\">Ikan</style> yang dapat dimakan di bawah "
+"struktur ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.NAME"
@@ -2317,12 +2032,10 @@ msgid "Pump Not In Gas"
 msgstr "Pompa Tidak berada di dalam Gas"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.TOOLTIP"
-#| msgid "This pump must be submerged in gas to work"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.TOOLTIP"
 msgid "This pump must be submerged in <style=\"KKeyword\">Gas</style> to work"
-msgstr "Pompa ini harus tenggelam dalam gas untuk bekerja"
+msgstr ""
+"Pompa ini harus terendam dalam <style=\"KKeyword\">Gas</style> untuk bekerja"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLIQUIDELEMENTTOPUMP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLIQUIDELEMENTTOPUMP.NAME"
@@ -2330,13 +2043,12 @@ msgid "Pump Not In Liquid"
 msgstr "Pompa tidak dalam cairan"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLIQUIDELEMENTTOPUMP.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLIQUIDELEMENTTOPUMP.TOOLTIP"
-#| msgid "This pump must be submerged in liquid to work"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLIQUIDELEMENTTOPUMP.TOOLTIP"
 msgid ""
 "This pump must be submerged in <style=\"KKeyword\">Liquid</style> to work"
-msgstr "Pompa ini harus terendam dalam cairan untuk bekerja"
+msgstr ""
+"Pompa ini harus terendam dalam <style=\"KKeyword\">Cairan</style> untuk "
+"bekerja"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.NAME"
@@ -2344,14 +2056,13 @@ msgid "No Automation Wire Connected"
 msgstr "Tidak ada kawat otomatis yang terhubung"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.TOOLTIP"
-#| msgid "This building has not been connected to an automation grid"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.TOOLTIP"
 msgid ""
 "This building has not been connected to an <style=\"KKeyword\">Automation</"
 "style> grid"
-msgstr "Bangunan ini belum terhubung ke jaringan otomatisasi"
+msgstr ""
+"Bangunan ini belum terhubung ke jaringan <style=\"KKeyword\">Otomatisasi</"
+"style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLUREELEMENTSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLUREELEMENTSELECTED.NAME"
@@ -2369,13 +2080,12 @@ msgid "No Power Consumers"
 msgstr "Daya Tidak Ada Yang Mengkonsumsi"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOPOWERCONSUMERS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOPOWERCONSUMERS.TOOLTIP"
-#| msgid "No buildings are connected to this power source"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOPOWERCONSUMERS.TOOLTIP"
 msgid ""
 "No buildings are connected to this <style=\"KKeyword\">Power</style> source"
-msgstr "Tidak ada bangunan yang terhubung ke sumber listrik ini"
+msgstr ""
+"Tidak ada bangunan yang terhubung ke sumber <style=\"KKeyword\">Listrik</"
+"style> ini"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.NAME"
@@ -2392,14 +2102,6 @@ msgstr ""
 "dipilih"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.NOTIFICATION_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED."
-#| "NOTIFICATION_TOOLTIP"
-#| msgid ""
-#| "Select a Project in the <color=#833A5FFF>Research Tree</color> "
-#| "{RESEARCH_MENU_KEY} or a Destination in the <color=#833A5FFF>Starmap</"
-#| "color> {STARMAP_MENU_KEY}"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED."
 "NOTIFICATION_TOOLTIP"
@@ -2409,18 +2111,12 @@ msgid ""
 "or a Destination in the <style=\"KKeyword\">Starmap</style> "
 "<b><color=#F44A4A>{STARMAP_MENU_KEY}</b></color>"
 msgstr ""
-"Pilih projek di <color=#833A5FFF>Susunan Penelitian</color> "
-"{RESEARCH_MENU_KEY} atau Tujuan di <color=#833A5FFF>Peta bintang</color> "
-"{STARMAP_MENU_KEY}"
+"Pilih proyek <link=\"TECH\">Penelitian</link> di <style=\"KKeyword\">Susunan "
+"Penelitian</style> <b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> atau "
+"Tujuan di <style=\"KKeyword\">Peta Bintang</style> "
+"<b><color=#F44A4A>{STARMAP_MENU_KEY}</b></color>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.TOOLTIP"
-#| msgid ""
-#| "Select a Project in the <color=#833A5FFF>Research Tree</color> "
-#| "{RESEARCH_MENU_KEY} or a Destination in the <color=#833A5FFF>Starmap</"
-#| "color> {STARMAP_MENU_KEY}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.TOOLTIP"
 msgid ""
 "Select a <link=\"TECH\">Research</link> project in the <style=\"KKeyword"
@@ -2428,9 +2124,10 @@ msgid ""
 "or a Destination in the <style=\"KKeyword\">Starmap</style> "
 "<b><color=#F44A4A>{STARMAP_MENU_KEY}</b></color>"
 msgstr ""
-"Pilih projek di <color=#833A5FFF>Susunan Penelitian</color> "
-"{RESEARCH_MENU_KEY} atau Tujuan di <color=#833A5FFF>Peta bintang</color> "
-"{STARMAP_MENU_KEY}"
+"Pilih proyek <link=\"TECH\">Penelitian</link> di <style=\"KKeyword\">Susunan "
+"Penelitian</style> <b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> atau "
+"Tujuan di <style=\"KKeyword\">Peta Bintang</style> "
+"<b><color=#F44A4A>{STARMAP_MENU_KEY}</b></color>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NAME"
@@ -2443,33 +2140,25 @@ msgid "No <link=\"TECH\">Research Focus</link> selected"
 msgstr "Tidak Ada <link=\"TECH\">Fokus Penelitian</link> dipilih"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NOTIFICATION_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.TOOLTIP"
-#| msgid ""
-#| "Open the <color=#833A5FFF>Research Tree</color> {RESEARCH_MENU_KEY} to "
-#| "select a new <link=\"TECH\">Research</link> project"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NOTIFICATION_TOOLTIP"
 msgid ""
 "Open the <style=\"KKeyword\">Research Tree</style> "
 "<b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> to select a new <link="
 "\"TECH\">Research</link> project"
 msgstr ""
-"Buka <color=#833A5FFF>Susunan Penelitian</color> untuk memilih proyek <link="
+"Buka <style=\"KKeyword\">Susunan Penelitian</style> "
+"<b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> untuk memilih proyek <link="
 "\"TECH\">Penelitian</link> baru"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.TOOLTIP"
-#| msgid ""
-#| "Open the <color=#833A5FFF>Research Tree</color> {RESEARCH_MENU_KEY} to "
-#| "select a new <link=\"TECH\">Research</link> project"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.TOOLTIP"
 msgid ""
 "Open the <style=\"KKeyword\">Research Tree</style> "
 "<b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> to select a new <link="
 "\"TECH\">Research</link> project"
 msgstr ""
-"Buka <color=#833A5FFF>Susunan Penelitian</color> untuk memilih proyek <link="
+"Buka <style=\"KKeyword\">Susunan Penelitian</style> "
+"<b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> untuk memilih proyek <link="
 "\"TECH\">Penelitian</link> baru"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORMAL.NAME
@@ -2500,18 +2189,13 @@ msgid "No Checkpoint"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NOSUITMARKER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSUITMARKER.TOOLTIP"
-#| msgid ""
-#| "Docks must be placed beside an Exosuit Checkpoint, opposite the side its "
-#| "checkpoint faces"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSUITMARKER.TOOLTIP"
 msgid ""
 "Docks must be placed beside a <link=\"CHECKPOINT\">Duplicant Checkpoint</"
 "link>, opposite the side the checkpoint faces"
 msgstr ""
-"Dermaga harus ditempatkan di samping Cekpoin Exosuit , sisi berlawanan "
-"adalah wajah dari cekpoin"
+"Dermaga harus ditempatkan di samping <link=\"CHECKPOINT\">Pos Pemeriksaan "
+"Duplikat</link>, di seberang sisi pos pemeriksaan wajah"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME"
@@ -2519,31 +2203,20 @@ msgid "Insufficient Power"
 msgstr "Daya Tidak Cukup"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.TOOLTIP"
-#| msgid "This building does not have enough stored charge to run"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.TOOLTIP"
 msgid ""
 "This building does not have enough stored <style=\"KKeyword\">Power</style> "
 "to run"
-msgstr "Bangunan ini tidak memiliki cukup daya tersimpan untuk beroperasi"
+msgstr ""
+"Bangunan ini tidak memiliki cukup <style=\"KKeyword\">Daya</style> tersimpan "
+"untuk beroperasi"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINANYROOM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.NAME"
-#| msgid "Outside of {0}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINANYROOM.NAME"
 msgid "Outside of room"
-msgstr "Di luar dari {0}"
+msgstr "Di luar ruangan"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINANYROOM.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.TOOLTIP"
-#| msgid ""
-#| "This building must be built inside a {0} for full functionality\n"
-#| "\n"
-#| "Open the Room Overlay <color=#F44A47>[F11]</color> to view full room "
-#| "status"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINANYROOM.TOOLTIP"
 msgid ""
 "This building must be built inside a <style=\"KKeyword\">Room</style> for "
@@ -2552,10 +2225,11 @@ msgid ""
 "Open the <b>Room Overlay</b> <b><color=#F44A4A>[F11]</b></color> to view "
 "full <style=\"KKeyword\">Room</style> status"
 msgstr ""
-"Bangunan ini harus dibangun di dalam {0} untuk fungsionalitas penuh\n"
+"Bangunan ini harus dibangun di dalam <style=\"KKeyword\">Kamar</style> untuk "
+"fungsionalitas penuh\n"
 "\n"
-"Buka Ruang Overlay <color=#F44A47> [F11]</color> untuk melihat status penuh "
-"dari kamar"
+"Buka <b>Tampilan Kamar</b> <b><color=#F44A4A>[F11]</b></color> untuk melihat "
+"penuh status <style=\"KKeyword\">Kamar</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.NAME"
@@ -2563,13 +2237,6 @@ msgid "Outside of {0}"
 msgstr "Di luar dari {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.TOOLTIP"
-#| msgid ""
-#| "It is recommended to build this building inside a {0}\n"
-#| "\n"
-#| "Open the Room Overlay <color=#F44A47>[F11]</color> to view full room "
-#| "status"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.TOOLTIP"
 msgid ""
 "It is recommended to build this building inside a {0}\n"
@@ -2579,8 +2246,8 @@ msgid ""
 msgstr ""
 "Dianjurkan untuk membangun bangunan dari dalam {0}\n"
 "\n"
-"Buka Ruang Overlay <color=#F44A47> [F11]</color> untuk melihat status penuh "
-"dari kamar"
+"Buka <b>Tampilan Kamar</b> <b><color=#F44A4A>[F11]</b></color> untuk melihat "
+"penuh status dari <style=\"KKeyword\">Kamar</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.NAME"
@@ -2588,13 +2255,6 @@ msgid "Outside of {0}"
 msgstr "Di luar dari {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.TOOLTIP"
-#| msgid ""
-#| "This building must be built inside a {0} for full functionality\n"
-#| "\n"
-#| "Open the Room Overlay <color=#F44A47>[F11]</color> to view full room "
-#| "status"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.TOOLTIP"
 msgid ""
 "This building must be built inside a {0} for full functionality\n"
@@ -2604,8 +2264,8 @@ msgid ""
 msgstr ""
 "Bangunan ini harus dibangun di dalam {0} untuk fungsionalitas penuh\n"
 "\n"
-"Buka Ruang Overlay <color=#F44A47> [F11]</color> untuk melihat status penuh "
-"dari kamar"
+"Buka <b>Tampilan Kamar</b> <b><color=#F44A4A>[F11]</b></color> untuk melihat "
+"penuh status dari <style=\"KKeyword\">Kamar</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME"
@@ -2613,18 +2273,13 @@ msgid "No Tube Connected"
 msgstr "Tabung tidak terhubung"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.TOOLTIP"
-#| msgid ""
-#| "The first section of tube extending from an Access must connect directly "
-#| "upward"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.TOOLTIP"
 msgid ""
 "The first section of tube extending from a <link=\"TRAVELTUBEENTRANCE"
 "\">Transit Tube Access</link> must connect directly upward"
 msgstr ""
-"Bagian pertama dari tabung yang membentang dariAakses harus terhubung "
-"langsung ke atas"
+"Bagian pertama tabung yang memanjang dari <link=\"TRAVELTUBEENTRANCE\">Akses "
+"Tabung Transit</link> harus terhubung langsung ke atas"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.NAME"
@@ -2632,18 +2287,13 @@ msgid "No Landing Available"
 msgstr "Tidak ada pendaratan yang tersedia"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.TOOLTIP"
-#| msgid ""
-#| "Duplicants can only exit a tube when there is somewhere for them to land "
-#| "within two tiles"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.TOOLTIP"
 msgid ""
 "Duplicants can only exit a tube when there is somewhere for them to land "
 "within <b>two tiles</b>"
 msgstr ""
 "Duplikat hanya dapat keluar dari tabung ketika ada tempat bagi mereka untuk "
-"mendarat dalam kisaran dua ubin"
+"mendarat dalam kisaran <b>dua ubin</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME"
@@ -2651,35 +2301,24 @@ msgid "No Wire Connected"
 msgstr "Tidak ada kabel yang terhubung"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.TOOLTIP"
-#| msgid "This building has not been connected to a power grid"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.TOOLTIP"
 msgid ""
 "This building has not been connected to a <style=\"KKeyword\">Power</style> "
 "grid"
-msgstr "Bangunan ini tidak terhubung ke jaringan listrik"
+msgstr ""
+"Bangunan ini belum terhubung ke jaringan <style=\"KKeyword\">Listrik</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.OBJECTDISPENSER.AUTOMATION_CONTROL
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.GANTRY.AUTOMATION_CONTROL"
-#| msgid "Automation Control: {0}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OBJECTDISPENSER.AUTOMATION_CONTROL"
 msgid "Automation Control: {0}"
-msgstr "Kontrol Otomatis: {0}"
+msgstr "Kontrol Otomatisasi: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.OBJECTDISPENSER.CLOSED
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_PORT_DESC"
-#| msgid "Open/Close"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OBJECTDISPENSER.CLOSED"
 msgid "Closed"
-msgstr "Buka/Tutup"
+msgstr "Tutup"
 
 #. STRINGS.BUILDING.STATUSITEMS.OBJECTDISPENSER.MANUAL_CONTROL
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.GANTRY.MANUAL_CONTROL"
-#| msgid "Manual Control: {0}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OBJECTDISPENSER.MANUAL_CONTROL"
 msgid "Manual Control: {0}"
 msgstr "Kontrol Manual: {0}"
@@ -3199,16 +2838,13 @@ msgid "Storing: {Stored} / {Capacity} {Units}"
 msgstr "Menyimpan: {Stored}/{Capacity} {Units}"
 
 #. STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.TOOLTIP"
-#| msgid ""
-#| "This container is storing {Stored} {Units} of a maximum {Capacity} "
-#| "{Units}."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.TOOLTIP"
 msgid ""
 "This container is storing <b>{Stored}{Units}</b> of a maximum <b>{Capacity}"
 "{Units}</b>"
-msgstr "Wadah ini menyimpan {Stored} {Units} dari maksimal {Capacity} {Units}."
+msgstr ""
+"Wadah ini menyimpan <b>{Stored}{Units}</b> dari maksimal <b>{Capacity}{Units}"
+"</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.NAME"
@@ -3935,7 +3571,7 @@ msgstr "Watt Maksimum: {WireMaxWattage}"
 #. STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.TOOLTIP"
 msgid "The maximum wattage that this wire can safely sustain"
-msgstr "Daya maksimum dimana kabel ini dapat menopang dengan aman. "
+msgstr "Daya maksimum yang dapat dipertahankan oleh kabel ini dengan aman"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIRENOMINAL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRENOMINAL.NAME"
@@ -4045,10 +3681,12 @@ msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.CONDUIT_CONTENTS_FROZE"
 msgid "pipe contents becoming too cold"
 msgstr "isi pipa menjadi terlalu dingin"
 
+# arti neighboring uda benar kah?
 #. STRINGS.BUILDINGS.DAMAGESOURCES.LIQUID_PRESSURE
+#, fuzzy
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.LIQUID_PRESSURE"
 msgid "neighboring liquid pressure"
-msgstr "Mengalihkan tekanan cairan"
+msgstr "mengalihkan tekanan cairan"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.MICROMETEORITE
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.MICROMETEORITE"
@@ -4368,7 +4006,7 @@ msgstr ""
 "Melatih Duplikat untuk menjadi <link=\"ASTRONAUT\">Astronot</link>.\n"
 "\n"
 "Duplikat harus mempunyai ciri <link=\"ASTRONAUTTRAINEE\">Astronot-Dalam-"
-"Pelatihan</link> agar bisa menerima pelatihan"
+"Pelatihan</link> agar bisa menerima pelatihan."
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME"
@@ -5107,14 +4745,6 @@ msgstr ""
 "pilot roket."
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.EFFECT"
-#| msgid ""
-#| "Contains passenger seating for Duplicant <link=\"ASTRONAUT\">Astronauts</"
-#| "link>.\n"
-#| "\n"
-#| "A Command Capsule must be the last module installed at the top of a "
-#| "rocket."
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.EFFECT"
 msgid ""
 "Contains passenger seating for Duplicant <link=\"ASTRONAUT\">Astronauts</"
@@ -5125,7 +4755,8 @@ msgstr ""
 "Berisi tempat duduk penumpang untuk <link=\"ASTRONAUT\">Astronot</link> "
 "Duplikat.\n"
 "\n"
-"Sebuah kapsul perintah haruslah modul terakhir yang dipasang di atas roket."
+"Kapsul Perintah harus menjadi modul terakhir yang dipasang di bagian atas "
+"roket"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH
 #, fuzzy
@@ -5491,12 +5122,6 @@ msgid "Gets hot and steamy."
 msgstr "Semakin panas dan beruap."
 
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.EFFECT"
-#| msgid ""
-#| "Separates any <link=\"DIRTYWATER\">Polluted Water</link> piped through it "
-#| "into <link=\"STEAM\">Steam</link> and <link=\"TOXICSAND\">Polluted Dirt</"
-#| "link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.EFFECT"
 msgid ""
 "Separates any <link=\"DIRTYWATER\">Contaminated Water</link> piped through "
@@ -5505,7 +5130,7 @@ msgid ""
 msgstr ""
 "Memisahkan setiap <link=\"DIRTYWATER\"Air Terpolusi</link> yang disalurkan "
 "ke dalam <link=\"STEAM\">Uap</link> dan <link=\"TOXICSAND\"Kotoran "
-"Terpolusi</link>"
+"Terpolusi</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.NAME"
@@ -6561,18 +6186,13 @@ msgid "<link=\"GASCONDUITDISEASESENSOR\">Gas Pipe Germ Sensor</link>"
 msgstr "<link=\"GASCONDUITDISEASESENSOR\">Sensor Kuman Pipa Gas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC"
-#| msgid ""
-#| "Gas Pipe Element Sensors can be used to detect the presence of a specific "
-#| "gas in a pipe"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC"
 msgid ""
 "Element sensors can be used to detect the presence of a specific gas in a "
 "pipe."
 msgstr ""
 "Sensor Elemen PIap Gas bisa digunakan untuk mendeteksi kehadiran gas yang "
-"spesifik di pipa"
+"spesifik di pipa."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
@@ -6582,12 +6202,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.DESC"
-#| msgid "Stores <link=\"ELEMENTSGAS\">Gas</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT"
 msgid "Internal <link=\"ELEMENTSGAS\">Gas</link> Presence"
-msgstr "Menyimpan <link=\"ELEMENTSGAS\">Gas</link>."
+msgstr "Kehadiran <link=\"ELEMENTSGAS\">Gas</link> Internal"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE"
@@ -6707,17 +6324,10 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENT.EFFECT"
-#| msgid ""
-#| "Releases <link=\"ELEMENTSGAS\">Gas</link> from <link=\"GASPIPING\">Gas "
-#| "Pipes</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT"
 msgid ""
 "Internal <link=\"ELEMENTSGAS\">Gas</link> <link=\"HEAT\">Temperature</link>"
-msgstr ""
-"Melepaskan <link=\"ELEMENTSGAS\">Gas</link> dari <link=\"GASPIPING\">Pipa "
-"Pipa Gas</link>."
+msgstr "<link=\"HEAT\">Suhu</link> <link=\"ELEMENTSGAS\">Gas</link> Internal"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_ACTIVE
 msgctxt ""
@@ -7849,18 +7459,13 @@ msgid "<link=\"LIQUIDCONDUITDISEASESENSOR\">Liquid Pipe Germ Sensor</link>"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC"
-#| msgid ""
-#| "Gas Pipe Element Sensors can be used to detect the presence of a specific "
-#| "gas in a pipe"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.DESC"
 msgid ""
 "Element sensors can be used to detect the presence of a specific liquid in a "
 "pipe."
 msgstr ""
-"Sensor Elemen PIap Gas bisa digunakan untuk mendeteksi kehadiran gas yang "
-"spesifik di pipa"
+"Sensor elemen dapat digunakan untuk mendeteksi keberadaan cairan tertentu "
+"dalam pipa."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.EFFECT"
@@ -7870,15 +7475,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIER.EFFECT"
-#| msgid ""
-#| "Empties bottled <link=\"ELEMENTSLIQUID\">Liquids</link> back into the "
-#| "world."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT"
 msgid "Internal <link=\"ELEMENTSLIQUID\">Liquid</link> Presence"
-msgstr ""
-"Mengosongkan <link=\"ELEMENTSLIQUID\">cairan</link> botol kembali ke dunia."
+msgstr "Kehadiran <link=\"ELEMENTSLIQUID\">Cairan</link> Internal"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE
 msgctxt ""
@@ -7990,17 +7589,12 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIER.EFFECT"
-#| msgid ""
-#| "Empties bottled <link=\"ELEMENTSLIQUID\">Liquids</link> back into the "
-#| "world."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.LOGIC_PORT"
 msgid ""
 "Internal <link=\"ELEMENTSLIQUID\">Liquid</link> <link=\"HEAT\">Temperature</"
 "link>"
 msgstr ""
-"Mengosongkan <link=\"ELEMENTSLIQUID\">cairan</link> botol kembali ke dunia."
+"<link=\"HEAT\">Suhu</link> <link=\"ELEMENTSLIQUID\">Cairan</link> Internal"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.LOGIC_PORT_ACTIVE
 msgctxt ""
@@ -8454,12 +8048,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.DESC"
-#| msgid "Stores <link=\"ELEMENTSGAS\">Gas</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT"
 msgid "Specific <link=\"ELEMENTSGAS\">Gas</link> Presence"
-msgstr "Menyimpan <link=\"ELEMENTSGAS\">Gas</link>."
+msgstr "Kehadiran <link=\"ELEMENTSGAS\">Gas</link> Spesifik"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT_ACTIVE"
@@ -8499,15 +8090,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIER.EFFECT"
-#| msgid ""
-#| "Empties bottled <link=\"ELEMENTSLIQUID\">Liquids</link> back into the "
-#| "world."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT"
 msgid "Specific<link=\"ELEMENTSLIQUID\">Liquid</link> Presence"
-msgstr ""
-"Mengosongkan <link=\"ELEMENTSLIQUID\">cairan</link> botol kembali ke dunia."
+msgstr "Kehadiran <link=\"ELEMENTSLIQUID\">Cairan</link> Spesifik"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT_ACTIVE"
@@ -8940,12 +8525,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.DESC"
-#| msgid "Stores <link=\"ELEMENTSGAS\">Gas</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT"
 msgid "<link=\"ELEMENTSGAS\">Gas</link> Pressure"
-msgstr "Menyimpan <link=\"ELEMENTSGAS\">Gas</link>."
+msgstr "Tekanan <link=\"ELEMENTSGAS\">Gas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_ACTIVE"
@@ -8982,15 +8564,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIER.EFFECT"
-#| msgid ""
-#| "Empties bottled <link=\"ELEMENTSLIQUID\">Liquids</link> back into the "
-#| "world."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT"
 msgid "<link=\"ELEMENTSLIQUID\">Liquid</link> Pressure"
-msgstr ""
-"Mengosongkan <link=\"ELEMENTSLIQUID\">cairan</link> botol kembali ke dunia."
+msgstr "Tekanan <link=\"ELEMENTSLIQUID\">Cairan</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT_ACTIVE"
@@ -10127,14 +9703,9 @@ msgid "<link=\"POLYMERIZER\">Polymer Press</link>"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ASSIGNEDTOROOM.TOOLTIP"
-#| msgid "Any Duplicant assigned to this room can use this amenity"
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.DESC"
 msgid "Only one Duplicant may be assigned to a station at a time."
-msgstr ""
-"Setiap Duplicant yang ditugaskan ke ruangan ini dapat menggunakan kemudahan "
-"ini"
+msgstr "Hanya satu Duplicant dapat ditugaskan ke stasiun pada suatu waktu."
 
 #. STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.EFFECT
 #, fuzzy
@@ -15276,12 +14847,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.GASGRASS.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.PLANT"
-#| msgid "plant"
 msgctxt "STRINGS.CODEX.GASGRASS.SUBTITLE"
 msgid "Plant"
-msgstr "tanaman"
+msgstr "Tanaman"
 
 #. STRINGS.CODEX.GASGRASS.TITLE
 msgctxt "STRINGS.CODEX.GASGRASS.TITLE"
@@ -17451,12 +17019,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.WHEEZEWORT.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.PLANT"
-#| msgid "plant"
 msgctxt "STRINGS.CODEX.WHEEZEWORT.SUBTITLE"
 msgid "Plant?"
-msgstr "tanaman"
+msgstr "Tanaman?"
 
 #. STRINGS.CODEX.WHEEZEWORT.TITLE
 msgctxt "STRINGS.CODEX.WHEEZEWORT.TITLE"
@@ -18115,12 +17680,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.THRIVING.VIDEO_TEXT.THIRD
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.TOOLTIP"
-#| msgid "This bathroom is occupied"
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.VIDEO_TEXT.THIRD"
 msgid "This asteroid is our home."
-msgstr "Kamar mandi sedang dipakai"
+msgstr "Asteroid ini adalah rumah kita."
 
 #. STRINGS.CREATURES.BAGGED_DESC_FMT
 msgctxt "STRINGS.CREATURES.BAGGED_DESC_FMT"
@@ -22926,16 +22488,13 @@ msgid "{0} Tidying Speed"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.STRESSDELTA.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.COOKING.DESC"
-#| msgid ""
-#| "Determines how quickly a Duplicant prepares <link=\"FOOD\">Food</link>."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.STRESSDELTA.DESC"
 msgid ""
 "Determines how quickly a Duplicant gains or reduces <style=\"KKeyword"
 "\">Stress</style>"
 msgstr ""
-"Menentukan seberapa cepat Duplikat menyiapkan <link=\"FOOD\">Makanan</link>."
+"Menentukan seberapa cepat seorang Duplicant memperoleh atau mengurangi "
+"<style=\"KKeyword\">Stres</style>"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.STRESSDELTA.NAME
 #, fuzzy
@@ -23133,12 +22692,9 @@ msgid "Attacker"
 msgstr "Serang"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.COMBAT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.NAME"
-#| msgid "<link=\"CREATURETRAP\">Critter Trap</link>"
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.COMBAT.DESC"
 msgid "Fight wild <link=\"CREATURES\">Critters</link>."
-msgstr "<link=\"CREATURETRAP\">Perangkap Makhluk</link>"
+msgstr "Melawan <link=\"CREATURES\">Makhluk</link> liar."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.COMBAT.NAME
 #, fuzzy
@@ -23180,12 +22736,9 @@ msgid "Mine raw resources."
 msgstr ""
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.DIG.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT4"
-#| msgid "Digging holes..."
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.DIG.NAME"
 msgid "Digging"
-msgstr "Menggali lubang..."
+msgstr "Menggali"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.FARMING.ARCHETYPE_NAME
 #, fuzzy
@@ -23252,12 +22805,9 @@ msgid "Operating machinery for production, fabrication, and utility purposes."
 msgstr ""
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.MACHINEOPERATING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.BUILDING_OVERHEATED"
-#| msgid "overheating"
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.MACHINEOPERATING.NAME"
 msgid "Operating"
-msgstr "panas berlebih"
+msgstr "Pengoperasian"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.MASSAGE.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.MASSAGE.ARCHETYPE_NAME"
@@ -23295,12 +22845,9 @@ msgid "Rancher"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.NAME"
-#| msgid "<link=\"CREATURETRAP\">Critter Trap</link>"
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.DESC"
 msgid "Tend to domesticated <link=\"CREATURES\">Critters</link>."
-msgstr "<link=\"CREATURETRAP\">Perangkap Makhluk</link>"
+msgstr "Cenderung untuk menjinakkan <link=\"CREATURES\">Makhluk</link>."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.NAME"
@@ -25428,18 +24975,13 @@ msgid "Vomiting"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.CHORES.VOMIT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.EFFECT"
-#| msgid ""
-#| "Uses <link=\"DIRTYWATER\">Polluted Water</link> to produce <link="
-#| "\"FERTILIZER\">Fertilizer</link>."
 msgctxt "STRINGS.DUPLICANTS.CHORES.VOMIT.TOOLTIP"
 msgid ""
 "Vomiting produces <link=\"DIRTYWATER\">Polluted Water</link> and can spread "
 "<style=\"KKeyword\">Disease</style>"
 msgstr ""
-"Menggunakan <link=\"DIRTYWATER\">Air Terpolusi</link> untuk memproduksi "
-"<link=\"FERTILIZER\">Pupuk</link>."
+"Muntah menghasilkan <link=\"DIRTYWATER\">Air yang Tercemar</link> dan dapat "
+"menyebarkan <style=\"KKeyword\">Penyakit</style>"
 
 #. STRINGS.DUPLICANTS.CHORES.WARMUP.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.WARMUP.NAME"
@@ -26201,16 +25743,9 @@ msgid "Recuperating"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.DISEASES.RESISTANCES_PANEL_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.SYMPTOMS"
-#| msgid ""
-#| "\n"
-#| "{0}"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.RESISTANCES_PANEL_TOOLTIP"
 msgid "{0}"
-msgstr ""
-"\n"
-"{0}"
+msgstr "{0}"
 
 #. STRINGS.DUPLICANTS.DISEASES.SEVERITY.BENIGN
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SEVERITY.BENIGN"
@@ -26305,12 +25840,9 @@ msgid "Remedies taken: {0}\n"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.DESCRIPTOR
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.VALUE"
-#| msgid "{0}: {1}"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.DESCRIPTOR"
 msgid "<b>{0} {1}</b>\n"
-msgstr "{0}: {1}"
+msgstr "<b>{0} {1}</b>\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.DOCTOR_REQUIRED
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.DOCTOR_REQUIRED"
@@ -26333,12 +25865,9 @@ msgid "Fatal if untreated in: {0}\n"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.INFECTION_SOURCE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.RESULT_DESCRIPTION"
-#| msgid "Cracked {0}"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.INFECTION_SOURCE"
 msgid "Contracted by: {0}\n"
-msgstr "Terpecahkan {0}"
+msgstr "Dikontrak oleh: {0}\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.NOMEDICINETAKEN
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.NOMEDICINETAKEN"
@@ -28997,12 +28526,9 @@ msgstr ""
 "<link=\"ASTRONAUTTRAININGCENTER\">Mesin Pusingan Untuk Calon Astronot</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.BUILDER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.DESC"
-#| msgid "Determines a Duplicant's building speed."
 msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.DESCRIPTION"
 msgid "Further increases a Duplicant's construction speeds"
-msgstr "Menentukan kecepatan Duplikat dalam membangun."
+msgstr "Lebih lanjut meningkatkan kecepatan konstruksi Duplikat"
 
 #. STRINGS.DUPLICANTS.ROLES.BUILDER.NAME
 #, fuzzy
@@ -29013,12 +28539,9 @@ msgid "<link=\"BUILDER\">Improved Construction II</link>"
 msgstr "<link=\"BURNER\">Pembakar</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.COOK.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.DESC"
-#| msgid "Determines a Duplicant's building speed."
 msgctxt "STRINGS.DUPLICANTS.ROLES.COOK.DESCRIPTION"
 msgid "Improves a Duplicant's cooking speed"
-msgstr "Menentukan kecepatan Duplikat dalam membangun."
+msgstr "Meningkatkan kecepatan memasak Duplikat"
 
 #. STRINGS.DUPLICANTS.ROLES.COOK.NAME
 #, fuzzy
@@ -29104,12 +28627,9 @@ msgid "<link=\"JUNIORARTIST\">Art Fundamentals</link>"
 msgstr "<link=\"FARMTILE\">Ubin Pertanian</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.DESC"
-#| msgid "Determines a Duplicant's building speed."
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.DESCRIPTION"
 msgid "Marginally improves a Duplicant's construction speeds"
-msgstr "Menentukan kecepatan Duplikat dalam membangun."
+msgstr "Sedikit meningkatkan kecepatan konstruksi Duplikat"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.NAME
 #, fuzzy
@@ -29204,12 +28724,9 @@ msgid "<link=\"JUNIORRESEARCHER\">Advanced Research</link>"
 msgstr "<link=\"GASRESERVOIR\">Reservoir Gas</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.DESC"
-#| msgid "Determines a Duplicant's building speed."
 msgctxt "STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.DESCRIPTION"
 msgid "Marginally improves a Duplicant's tinkering speeds"
-msgstr "Menentukan kecepatan Duplikat dalam membangun."
+msgstr "Sedikit meningkatkan kecepatan mengutak-atik Duplikat"
 
 #. STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.NAME
 #, fuzzy
@@ -29375,12 +28892,9 @@ msgid "<link=\"RESEARCHER\">Field Research</link>"
 msgstr "<link=\"GASRESERVOIR\">Reservoir Gas</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.DESC"
-#| msgid "Determines a Duplicant's building speed."
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.DESCRIPTION"
 msgid "Further increases a Duplicant's construction speeds"
-msgstr "Menentukan kecepatan Duplikat dalam membangun."
+msgstr "Lebih lanjut meningkatkan kecepatan konstruksi Duplikat"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.NAME
 #, fuzzy
@@ -29391,12 +28905,9 @@ msgid "<link=\"SENIORBUILDER\">Improved Construction III</link>"
 msgstr "<link=\"AIRFILTER\">Pewangi</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_FARMER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.DESC"
-#| msgid "Determines a Duplicant's building speed."
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_FARMER.DESCRIPTION"
 msgid "Further increases a Duplicant's farming skills"
-msgstr "Menentukan kecepatan Duplikat dalam membangun."
+msgstr "Lebih lanjut meningkatkan keterampilan bertani seorang Duplikat"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_FARMER.NAME
 #, fuzzy
@@ -30129,16 +29640,9 @@ msgid "Exhaling {EmittingRate} CO<sub>2</sub>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EMITTINGCO2.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.EFFECT"
-#| msgid ""
-#| "Uses <link=\"WATER\">Water</link> to filter <link=\"CARBONDIOXIDE"
-#| "\">Carbon Dioxide</link> from the air."
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EMITTINGCO2.TOOLTIP"
 msgid "Duplicants breathe out <link=\"CARBONDIOXIDE\">Carbon Dioxide</link>"
-msgstr ""
-"Menggunakan <link=\"WATER\">Air</link> untuk menfilter <link=\"CARBONDIOXIDE"
-"\">Karbon Dioksida</link> dari udara."
+msgstr "Duplikat menghembuskan <link=\"CARBONDIOXIDE\">Karbon Dioksida</link>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EMPTYING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EMPTYING.NAME"
@@ -31107,12 +30611,9 @@ msgid "Rescuing {Target}"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.RESCUEWORKSTATUS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.TOOLTIP"
-#| msgid "This Duplicant is finding a safer place"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RESCUEWORKSTATUS.TOOLTIP"
 msgid "This Duplicant is saving <b>{Target}</b> from certain peril!"
-msgstr "Duplikat ini sedang mencari tempa lebih aman"
+msgstr "Duplikat ini mengamankan <b>{Target}</b> dari bahaya tertentu!"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.RESEARCHING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RESEARCHING.NAME"
@@ -32363,12 +31864,9 @@ msgid "Regenerative"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.ROCKCRUSHER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TINKERING.TOOLTIP"
-#| msgid "This Duplicant is creating {0} to use somewhere else"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.ROCKCRUSHER.DESC"
 msgid "This Duplicant's got muscles on their muscles!"
-msgstr "Duplikat ini menciptakan {0} untuk digunakan di tempat lain"
+msgstr "Duplikat ini punya kekuatan di otot mereka!"
 
 #. STRINGS.DUPLICANTS.TRAITS.ROCKCRUSHER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.ROCKCRUSHER.NAME"
@@ -32482,14 +31980,13 @@ msgid "Sunny Disposition"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.TRAIT_DESCRIPTION_LIST_ENTRY
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLE.LINE_ITEM_UNITS"
-#| msgid "• {0}"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.TRAIT_DESCRIPTION_LIST_ENTRY"
 msgid ""
 "\n"
 "• "
-msgstr "• {0}"
+msgstr ""
+"\n"
+"• "
 
 #. STRINGS.DUPLICANTS.TRAITS.TWINKLETOES.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.TWINKLETOES.DESC"
@@ -34971,13 +34468,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.DESC
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.DUPLICANTS.STATUSITEMS.NORATIONSAVAILABLE.NOTIFICATION_TOOLTIP"
-#| msgid "These Duplicants have nothing to eat:"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.DESC"
 msgid "Keeps my Duplicants cool in case things heat up."
-msgstr "Para Duplikat ini tidak mempunyai makanan apapun:"
+msgstr "Menjaga Duplikat saya tetap dingin apabila sesuatu memanas."
 
 #. STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.EFFECT"
@@ -37487,12 +36980,9 @@ msgid "Damage: Overheated"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.BUILDINGOVERHEATED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.TOOLTIP"
-#| msgid "A stressed Duplicant is damaging this building"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BUILDINGOVERHEATED.TOOLTIP"
 msgid "Extreme heat is damaging these buildings:"
-msgstr "Duplikat yang stress sedang merusak bangunan ini"
+msgstr "Panas ekstrem merusak bangunan-bangunan ini:"
 
 #. STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.NAME"
@@ -37560,13 +37050,9 @@ msgid "These Duplicants have been crushed:"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_DISEASE.NAME
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.DUPLICANTS.STATUSITEMS.NORATIONSAVAILABLE.NOTIFICATION_TOOLTIP"
-#| msgid "These Duplicants have nothing to eat:"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_DISEASE.NAME"
 msgid "Duplicants have succumbed to disease"
-msgstr "Para Duplikat ini tidak mempunyai makanan apapun:"
+msgstr "Duplikat meninggal karena penyakit"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_DISEASE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_DISEASE.TOOLTIP"
@@ -38129,12 +37615,9 @@ msgid "Invalid construction location"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.INVALIDCONSTRUCTIONLOCATION.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.TOOLTIP"
-#| msgid "This building has not been connected to a power grid"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INVALIDCONSTRUCTIONLOCATION.TOOLTIP"
 msgid "These buildings cannot be constructed in the planned areas:"
-msgstr "Bangunan ini tidak terhubung ke jaringan listrik"
+msgstr "Bangunan ini tidak dapat dibangun di area yang direncanakan:"
 
 #. STRINGS.MISC.NOTIFICATIONS.LEVELUP.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.NAME"
@@ -38437,14 +37920,13 @@ msgid "Output blocked"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.TOOLTIP"
-#| msgid "A blocked input has stopped this turbine from functioning"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.TOOLTIP"
 msgid ""
 "Blocked <style=\"KKeyword\">Pipes</style> have stopped these systems from "
 "functioning:"
-msgstr "Masukan yang terblokir telah menghentikan turbin ini dari berfungsi"
+msgstr ""
+"<style=\"KKeyword\">Pipa</style> yang Diblokir telah menghentikan sistem ini "
+"agar tidak berfungsi:"
 
 #. STRINGS.MISC.NOTIFICATIONS.PLUMBING.MESSAGEBODY
 #, fuzzy
@@ -38822,14 +38304,13 @@ msgid "Vent blocked"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.VENTBLOCKED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.TOOLTIP"
-#| msgid "A blocked input has stopped this turbine from functioning"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.VENTBLOCKED.TOOLTIP"
 msgid ""
 "Blocked <style=\"KKeyword\">Pipes</style> have stopped these systems from "
 "functioning:"
-msgstr "Masukan yang terblokir telah menghentikan turbin ini dari berfungsi"
+msgstr ""
+"<style=\"KKeyword\">Pipa</style> yang Diblokir telah menghentikan sistem ini "
+"agar tidak berfungsi:"
 
 #. STRINGS.MISC.NOTIFICATIONS.VENTOVERPRESSURE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.VENTOVERPRESSURE.NAME"
@@ -45812,14 +45293,13 @@ msgid "MAIN MENU"
 msgstr ""
 
 #. STRINGS.UI.COLONYLOSTSCREEN.RESTARTPROMPT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.TOOLTIP"
-#| msgid "Press <color=#F44A47>[ENTER]</color> to resume use"
 msgctxt "STRINGS.UI.COLONYLOSTSCREEN.RESTARTPROMPT"
 msgid ""
 "Press <color=#F44A47><b>[ESC]</b></color> to return to a previous colony, or "
 "begin a new one."
-msgstr "Tekan <color=#F44A47>[ENTER]</color> untuk melanjutkan penggunaan"
+msgstr ""
+"Tekan <color=#F44A47><b>[ESC]</b></color> untuk kembali ke koloni "
+"sebelumnya, atau memulai yang baru."
 
 #. STRINGS.UI.CONFIRMDIALOG.CANCEL
 msgctxt "STRINGS.UI.CONFIRMDIALOG.CANCEL"
@@ -47419,12 +46899,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.NAME"
-#| msgid "Work Errand"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NAME"
 msgid "Errands:"
-msgstr "Misi Bekerja"
+msgstr "Tugas:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NEGATIVE_TOOLTIP"
@@ -47462,12 +46939,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME"
-#| msgid "<link=\"FARMSTATION\">Farm Station</link>"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME"
 msgid "<link=\"CONTAMINATEDOXYGEN\">Sublimation</link>:"
-msgstr "<link=\"FARMSTATION\">Stasiun Pertanian</link>"
+msgstr "<link=\"CONTAMINATEDOXYGEN\">Sublimasi</link>:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP
 msgctxt ""
@@ -47548,12 +47022,9 @@ msgid "My Duplicants are covered in {0}"
 msgstr ""
 
 #. STRINGS.UI.ENDOFDAYREPORT.DUPLICANT_DETAILS_HEADER
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.DUPLICANT"
-#| msgid "Duplicant"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DUPLICANT_DETAILS_HEADER"
 msgid "Duplicant Details:"
-msgstr "Duplikat"
+msgstr "Rincian Duplikat:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NAME"
@@ -47685,16 +47156,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.PERSONAL_TIME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.SYMPTOMS"
-#| msgid ""
-#| "\n"
-#| "{0}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.PERSONAL_TIME"
 msgid "{0}"
-msgstr ""
-"\n"
-"{0}"
+msgstr "{0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.ROTTED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.ROTTED"
@@ -47712,16 +47176,9 @@ msgid "{0}"
 msgstr ""
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.WORK_TIME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.SYMPTOMS"
-#| msgid ""
-#| "\n"
-#| "{0}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.WORK_TIME"
 msgid "{0}"
-msgstr ""
-"\n"
-"{0}"
+msgstr "{0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTIFICATION_TITLE
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTIFICATION_TITLE"
@@ -49204,16 +48661,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_EVENTS.MESSAGE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.SYMPTOMS"
-#| msgid ""
-#| "\n"
-#| "{0}"
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_EVENTS.MESSAGE"
 msgid "{0}"
-msgstr ""
-"\n"
-"{0}"
+msgstr "{0}"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_EVENTS.TITLE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_EVENTS.TITLE"
@@ -49248,14 +48698,13 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.RESTART.MESSAGE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCE.NAME"
-#| msgid "Resource Required"
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.RESTART.MESSAGE"
 msgid ""
 "{0}\n"
 "Restart required."
-msgstr "Sumber Daya Diperlukan"
+msgstr ""
+"{0}\n"
+"Diperlukan memulai ulang."
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.RESTART.OK
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.RESTART.OK"
@@ -50726,17 +50175,9 @@ msgid "{0} x {1}"
 msgstr "{0} / {1}"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.CARE_PACKAGE_ELEMENT_COUNT_ONLY
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.CONVEYOR_CONTENTS.CONTENTS_WITH_DISEASE"
-#| msgid ""
-#| "\n"
-#| "  {0}"
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CARE_PACKAGE_ELEMENT_COUNT_ONLY"
 msgid "x {0}"
-msgstr ""
-"\n"
-"  {0}"
+msgstr "x {0}"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.CARE_PACKAGE_ELEMENT_QUANTITY
 #, fuzzy
@@ -51236,12 +50677,9 @@ msgid "Sort By"
 msgstr ""
 
 #. STRINGS.UI.MODIFIER_ITEM_TEMPLATE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.LINEITEM"
-#| msgid "    • {0}: {1}\n"
 msgctxt "STRINGS.UI.MODIFIER_ITEM_TEMPLATE"
 msgid "    • {0}: {1}"
-msgstr "    • {0}: {1}\n"
+msgstr "    • {0}: {1}"
 
 #. STRINGS.UI.NAME_WITH_UNITS
 msgctxt "STRINGS.UI.NAME_WITH_UNITS"
@@ -51493,12 +50931,9 @@ msgid "Hygiene"
 msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.HYGIENE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NAME"
-#| msgid "New Duplicants Available"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.HYGIENE.TOOLTIP"
 msgid "Keep my Duplicants clean."
-msgstr "Tidak Ada Dupikat Yang Baru"
+msgstr "Menjaga Duplikat saya bersih."
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.INDUSTRIAL.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.INDUSTRIAL.NAME"
@@ -56283,12 +55718,9 @@ msgid "Resources available {0}"
 msgstr "Pengisian Tersedia: (0)/{1}"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_DESTINATION
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.NAME"
-#| msgid "No studyable starmap destination selected"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_DESTINATION"
 msgid "No destination selected."
-msgstr "Tidak ada peta bintang yang dipilih untuk dipelajari"
+msgstr "Tidak ada tujuan yang dipilih."
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED"
@@ -57035,12 +56467,9 @@ msgid "Consumable Ore"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.DIG
-#, fuzzy
-#| msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT4"
-#| msgid "Digging holes..."
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.DIG"
 msgid "Digging"
-msgstr "Menggali lubang..."
+msgstr "Menggali"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.DIGPLACER
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.DIGPLACER"
@@ -57414,16 +56843,9 @@ msgid "{0} x {1}"
 msgstr "{0} / {1}"
 
 #. STRINGS.UI.TOOLS.TOOL_LENGTH_FMT
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.SYMPTOMS"
-#| msgid ""
-#| "\n"
-#| "{0}"
 msgctxt "STRINGS.UI.TOOLS.TOOL_LENGTH_FMT"
 msgid "{0}"
-msgstr ""
-"\n"
-"{0}"
+msgstr "{0}"
 
 #. STRINGS.UI.TOOLTIPS.ALERTSTOOLTIP
 msgctxt "STRINGS.UI.TOOLTIPS.ALERTSTOOLTIP"
@@ -60041,12 +59463,9 @@ msgid " kcal"
 msgstr ""
 
 #. STRINGS.UI.UNITSUFFIXES.CRITTERS
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.MODIFIERS.TAME.TOOLTIP"
-#| msgid "This critter is tame"
 msgctxt "STRINGS.UI.UNITSUFFIXES.CRITTERS"
 msgid " critters"
-msgstr "Makhluk in ijinak"
+msgstr " makhluk"
 
 #. STRINGS.UI.UNITSUFFIXES.DISEASE.UNITS
 msgctxt "STRINGS.UI.UNITSUFFIXES.DISEASE.UNITS"
@@ -61189,7 +60608,7 @@ msgstr "Atur Arah: Kiri"
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_LEFT.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_LEFT.TOOLTIP"
 msgid "Select to make Duplicants wash when passing by from right to left"
-msgstr "Pilih untuk membuat Duplikat "
+msgstr "Pilih untuk membuat Duplikat mencuci saat lewat dari kanan ke kiri"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.NAME"
@@ -61217,14 +60636,13 @@ msgid "SUCCESS: IMPERATIVE ACHIEVED!"
 msgstr ""
 
 #. STRINGS.UI.VICTORYSCREEN.RESTARTPROMPT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.TOOLTIP"
-#| msgid "Press <color=#F44A47>[ENTER]</color> to resume use"
 msgctxt "STRINGS.UI.VICTORYSCREEN.RESTARTPROMPT"
 msgid ""
 "Press <color=#F44A47><b>[ESC]</b></color> to retire the colony and begin "
 "anew."
-msgstr "Tekan <color=#F44A47>[ENTER]</color> untuk melanjutkan penggunaan"
+msgstr ""
+"Tekan <color=#F44A47><b>[ESC]</b></color> untuk menyerah dari koloni dan "
+"mulai yang baru."
 
 #. STRINGS.UI.VICTORYSCREEN.RETIREBUTTON
 msgctxt "STRINGS.UI.VICTORYSCREEN.RETIREBUTTON"
@@ -62027,12 +61445,9 @@ msgid "BANG!"
 msgstr ""
 
 #. STRINGS.UI.WORLDGEN.USING_PLAYER_SEED
-#, fuzzy
-#| msgctxt "STRINGS.UI.WORLDGEN.USING_PLAYER_SEED"
-#| msgid "Using selected world gen seed: "
 msgctxt "STRINGS.UI.WORLDGEN.USING_PLAYER_SEED"
 msgid "Using selected worldgen seed: {0}"
-msgstr "Menggunakan benih gen dunia yang dipilih: "
+msgstr "Menggunakan benih dunia yang dipilih: {0}"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT"
@@ -62553,16 +61968,9 @@ msgid "Moderate"
 msgstr ""
 
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.PLANETNAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BASE_VALUE"
-#| msgid ""
-#| "\n"
-#| "Base: {0}"
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.PLANETNAME"
 msgid "Name: {0}"
-msgstr ""
-"\n"
-"Dasar: {0}"
+msgstr "Nama: {0}"
 
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.TITLE
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.TITLE"
