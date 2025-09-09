@@ -1,0 +1,378 @@
+#!/usr/bin/env node
+/*
+  Translate a POT file to Indonesian PO using Azure OpenAI Responses API.
+
+  Env vars required:
+    - AZURE_OPENAI_ENDPOINT (e.g., https://jih-ai-resource.cognitiveservices.azure.com)
+    - AZURE_API_KEY
+    - AZURE_OPENAI_MODEL (default: gpt-5)
+    - AZURE_OPENAI_API_VERSION (default: 2025-04-01-preview)
+
+  Usage:
+    node scripts/ai_translate_po.js --pot strings_template.pot --po strings.po [--limit 100] [--sleep 0.1]
+*/
+
+import fs from 'fs';
+import fsp from 'fs/promises';
+import path from 'path';
+import { setTimeout as sleep } from 'timers/promises';
+import gettextParser from 'gettext-parser';
+import dotenv from 'dotenv';
+
+// Load environment from .env.local if present
+try {
+  dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
+} catch {}
+
+const PLACEHOLDER_PATTERNS = [
+  /<[^>]+>/g,         // HTML-like tags e.g., <link="...">, <i>, </i>
+  /\{\w+\}/g,        // {name}
+  /\{\d+\}/g,        // {0}
+  /%\d+\$\w/g,       // %1$s
+  /%[sdif]/g,         // %s, %d, etc.
+  /\$\{[^}]+\}/g,    // ${var}
+];
+
+function extractPlaceholders(text = '') {
+  const found = new Set();
+  for (const re of PLACEHOLDER_PATTERNS) {
+    const m = text.match(re);
+    if (m) m.forEach((x) => found.add(x));
+  }
+  return Array.from(found);
+}
+
+function buildUserPrompt(msgid, ctx, placeholders) {
+  const lines = [];
+  lines.push('Translate the English string into Indonesian.');
+  lines.push('Strictly preserve placeholders, tags, punctuation, and line breaks.');
+  lines.push('Do not add or remove tags or placeholders. Output only the translation.');
+  if (ctx) lines.push(`Context: ${ctx}`);
+  lines.push(`English: ${msgid}`);
+  if (placeholders.length) {
+    lines.push(`Placeholders to preserve: ${placeholders.join(', ')}`);
+  }
+  return lines.join('\n');
+}
+
+async function callAzureResponses({ endpoint, apiKey, model, input, maxOutputTokens = 1024, temperature, reasoningEffort }) {
+  const apiVersion = process.env.AZURE_OPENAI_API_VERSION || '2025-04-01-preview';
+  const url = `${endpoint.replace(/\/$/, '')}/openai/responses?api-version=${apiVersion}`;
+
+  // Build request body and post, with compatibility retries for unsupported params
+  const baseBody = { model, input, max_output_tokens: maxOutputTokens };
+  if (typeof temperature === 'number' && Number.isFinite(temperature)) {
+    baseBody.temperature = temperature;
+  }
+  if (reasoningEffort) {
+    baseBody.reasoning = { effort: reasoningEffort };
+  }
+
+  const post = async (bodyObj) => {
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${apiKey}`,
+      },
+      body: JSON.stringify(bodyObj),
+    });
+    if (!res.ok) {
+      const text = await res.text();
+      // Try to parse JSON error
+      try {
+        const errJson = JSON.parse(text);
+        const msg = errJson?.error?.message || text;
+        const param = errJson?.error?.param || '';
+        const unsupported = /Unsupported parameter/i.test(msg);
+        if (res.status === 400 && unsupported) {
+          const newBody = { ...bodyObj };
+          let changed = false;
+          if (param.includes('reasoning') || /reasoning\.effort/.test(msg)) {
+            if (newBody.reasoning) { delete newBody.reasoning; changed = true; }
+          }
+          if (param === 'temperature' || /temperature/.test(msg)) {
+            if (typeof newBody.temperature !== 'undefined') { delete newBody.temperature; changed = true; }
+          }
+          if (changed) {
+            const retryRes = await fetch(url, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${apiKey}`,
+              },
+              body: JSON.stringify(newBody),
+            });
+            if (!retryRes.ok) {
+              const retryText = await retryRes.text();
+              throw new Error(`Azure OpenAI error ${retryRes.status}: ${retryText.slice(0, 500)}`);
+            }
+            return retryRes.json();
+          }
+        }
+      } catch (_) {
+        // ignore parse issues and throw below
+      }
+      throw new Error(`Azure OpenAI error ${res.status}: ${text.slice(0, 500)}`);
+    }
+    return res.json();
+  };
+
+  const data = await post(baseBody);
+
+  // If response was cut off due to token limit, signal to caller for retry
+  if (data.status === 'incomplete' && data.incomplete_details?.reason === 'max_output_tokens') {
+    const err = new Error('incomplete_max_output_tokens');
+    err.code = 'incomplete_max_output_tokens';
+    err.payload = data;
+    throw err;
+  }
+  if (data.status === 'incomplete' && data.incomplete_details?.reason === 'max_output_tokens') {
+    const err = new Error('incomplete_max_output_tokens');
+    err.code = 'incomplete_max_output_tokens';
+    err.payload = data;
+    throw err;
+  }
+  // Prefer output_text if available (Responses API convenience field)
+  if (typeof data.output_text === 'string' && data.output_text.length > 0) {
+    return data.output_text.trim();
+  }
+
+  const extractFromContentArray = (arr) => {
+    if (!Array.isArray(arr)) return '';
+    const texts = [];
+    for (const part of arr) {
+      // Responses API may return {type: 'output_text'|'text', text: '...'}
+      if ((part?.type === 'output_text' || part?.type === 'text') && typeof part.text === 'string') {
+        texts.push(part.text);
+      } else if (typeof part === 'string') {
+        texts.push(part);
+      }
+    }
+    return texts.join('\n').trim();
+  };
+
+  // output -> array -> first item content
+  if (Array.isArray(data.output)) {
+    for (const item of data.output) {
+      const maybe = extractFromContentArray(item?.content);
+      if (maybe) return maybe;
+      const maybeMsg = extractFromContentArray(item?.message?.content);
+      if (maybeMsg) return maybeMsg;
+    }
+  }
+
+  // choices -> message -> content (string or array)
+  if (Array.isArray(data.choices) && data.choices[0]?.message) {
+    const mc = data.choices[0].message.content;
+    if (typeof mc === 'string') return mc.trim();
+    const maybeChoices = extractFromContentArray(mc);
+    if (maybeChoices) return maybeChoices;
+  }
+
+  // message -> content (non-standard but seen in some proxies)
+  if (data.message?.content) {
+    if (typeof data.message.content === 'string') return data.message.content.trim();
+    const maybeMsg = extractFromContentArray(data.message.content);
+    if (maybeMsg) return maybeMsg;
+  }
+
+  // As a last resort, expose payload snippet for debugging
+  console.error('[debug] Unexpected payload:', JSON.stringify(data).slice(0, 1200));
+  throw new Error('Unexpected Azure Responses payload shape');
+}
+
+function parseArgs(argv) {
+  const args = { limit: 0, sleep: 0 };
+  for (let i = 2; i < argv.length; i++) {
+    const a = argv[i];
+    if (a === '--pot') args.pot = argv[++i];
+    else if (a === '--po') args.po = argv[++i];
+    else if (a === '--limit') args.limit = parseInt(argv[++i], 10) || 0;
+    else if (a === '--sleep') args.sleep = parseFloat(argv[++i]) || 0;
+    else if (a === '--help' || a === '-h') args.help = true;
+  }
+  return args;
+}
+
+function usage() {
+  console.log('Usage: node scripts/ai_translate_po.js --pot strings_template.pot --po strings.po [--limit N] [--sleep S]');
+}
+
+async function main() {
+  const args = parseArgs(process.argv);
+  if (args.help || !args.pot || !args.po) {
+    usage();
+    process.exit(args.help ? 0 : 1);
+  }
+
+  const endpoint = process.env.AZURE_OPENAI_ENDPOINT;
+  const apiKey = process.env.AZURE_API_KEY;
+  const model = process.env.AZURE_OPENAI_MODEL || 'gpt-5';
+  const fallbackModel = process.env.AZURE_FALLBACK_MODEL || 'gpt-4.1';
+  if (!endpoint || !apiKey) {
+    console.error('Missing AZURE_OPENAI_ENDPOINT or AZURE_API_KEY');
+    process.exit(1);
+  }
+
+  const potBuf = await fsp.readFile(args.pot);
+  const pot = gettextParser.po.parse(potBuf);
+
+  const out = { charset: 'utf-8', translations: {} };
+  out.headers = {
+    'Project-Id-Version': pot.headers?.['Project-Id-Version'] || '',
+    'POT-Creation-Date': pot.headers?.['POT-Creation-Date'] || '',
+    'PO-Revision-Date': '',
+    'Last-Translator': '',
+    'Language-Team': '',
+    'Language': 'id',
+    'MIME-Version': '1.0',
+    'Content-Type': 'text/plain; charset=UTF-8',
+    'Content-Transfer-Encoding': '8bit',
+    'Plural-Forms': 'nplurals=1; plural=0;',
+    'Application': 'Oxygen Not Included',
+    'X-Generator': 'ai_translate_po.js',
+  };
+
+  const entries = [];
+  for (const [ctx, ctxBlock] of Object.entries(pot.translations || {})) {
+    for (const [msgid, item] of Object.entries(ctxBlock || {})) {
+      // Skip the header entry
+      if (ctx === '' && msgid === '') continue;
+      entries.push({ ctx, item });
+    }
+  }
+
+  let processed = 0;
+  for (const { ctx, item } of entries) {
+    const msgid = item.msgid || '';
+    const msgidPlural = item.msgid_plural || null;
+    const placeholders = extractPlaceholders(msgid);
+    const userContent = buildUserPrompt(msgid, ctx || '', placeholders);
+    let translation = '';
+    try {
+      // Build Responses API input payload (messages moved to 'input')
+      const input = [
+        {
+          role: 'user',
+          content: [
+            { type: 'input_text', text: userContent },
+          ],
+        },
+      ];
+      const envMax = parseInt(process.env.AZURE_MAX_OUTPUT_TOKENS || '512', 10);
+      const envEffort = process.env.AZURE_REASONING_EFFORT || 'low';
+      const envTemp = process.env.AZURE_TEMPERATURE !== undefined ? parseFloat(process.env.AZURE_TEMPERATURE) : undefined;
+
+      const doCall = async (maxTokens) => callAzureResponses({
+        endpoint,
+        apiKey,
+        model,
+        input,
+        maxOutputTokens: maxTokens,
+        temperature: envTemp,
+        reasoningEffort: envEffort,
+      });
+
+      try {
+        translation = await doCall(envMax);
+      } catch (e) {
+        if (e.code === 'incomplete_max_output_tokens') {
+          console.warn(`[warn] Incomplete due to max_output_tokens; retrying with higher limit for: ${msgid.slice(0, 80)}...`);
+          translation = await doCall(Math.max(envMax * 2, 1024));
+        } else {
+          throw e;
+        }
+      }
+    } catch (e) {
+      console.error(`[error] API call failed for: ${msgid.slice(0, 80)}... -> ${e.message}`);
+      // Fallback to alternate model (e.g., gpt-4.1)
+      try {
+        const envMax = parseInt(process.env.AZURE_MAX_OUTPUT_TOKENS || '512', 10);
+        const fallbackTemp = undefined; // avoid sending temperature if model rejects it
+        console.warn(`[warn] Falling back to model ${fallbackModel} for: ${msgid.slice(0, 80)}...`);
+        const input = [
+          {
+            role: 'user',
+            content: [
+              { type: 'input_text', text: userContent },
+            ],
+          },
+        ];
+        const tryFallback = async (maxTokens) => callAzureResponses({
+          endpoint,
+          apiKey,
+          model: fallbackModel,
+          input,
+          maxOutputTokens: maxTokens,
+          temperature: fallbackTemp,
+          reasoningEffort: undefined,
+        });
+        try {
+          translation = await tryFallback(envMax);
+        } catch (e2) {
+          if (e2.code === 'incomplete_max_output_tokens') {
+            console.warn(`[warn] Fallback incomplete due to max_output_tokens; retrying with higher limit for: ${msgid.slice(0, 80)}...`);
+            translation = await tryFallback(Math.max(envMax * 2, 1024));
+          } else {
+            throw e2;
+          }
+        }
+      } catch (e3) {
+        console.error(`[error] Fallback model failed for: ${msgid.slice(0, 80)}... -> ${e3.message}`);
+        translation = '';
+      }
+    }
+
+    // Validate placeholder preservation; mark fuzzy if any missing
+    const missing = placeholders.filter((ph) => !translation.includes(ph));
+    const flags = { ...(item.flags || {}) };
+    if (missing.length > 0) {
+      console.warn(`[warn] Missing placeholders for msgid: ${msgid.slice(0, 80)}... -> ${missing.join(', ')}`);
+      flags.fuzzy = true;
+    }
+
+    // Write entry
+    out.translations[ctx] = out.translations[ctx] || {};
+    const outItem = {
+      msgctxt: item.msgctxt,
+      msgid: item.msgid,
+      msgid_plural: item.msgid_plural,
+      comments: item.comments,
+      extractedComments: item.extractedComments,
+      references: item.references,
+      msgstr: [],
+      flags,
+    };
+
+    if (msgidPlural) {
+      outItem.msgstr = [];
+      outItem.msgstr[0] = translation || '';
+    } else {
+      outItem.msgstr = [translation || ''];
+    }
+
+    out.translations[ctx][item.msgid] = outItem;
+
+    // Echo translation to console for visibility
+    try {
+      if (translation) {
+        console.log(`EN: ${msgid}`);
+        console.log(`ID: ${translation}`);
+      }
+    } catch {}
+
+    processed += 1;
+    if (args.limit && processed >= args.limit) break;
+    if (args.sleep) await sleep(args.sleep * 1000);
+  }
+
+  const poBuf = gettextParser.po.compile(out);
+  await fsp.writeFile(args.po, poBuf);
+  console.log(`Wrote ${args.po} with ${processed} translated entries.`);
+}
+
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
