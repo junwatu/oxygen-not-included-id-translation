@@ -9,7 +9,7 @@
     - AZURE_OPENAI_API_VERSION (default: 2025-04-01-preview)
 
   Usage:
-    node scripts/ai_translate_po.js --pot strings_template.pot --po strings.po [--limit 100] [--sleep 0.1]
+    node scripts/ai_translate_po.js --pot strings_template.pot --po strings.po [--limit 100] [--sleep 0.1] [--stream] [--flush-every 50] [--resume|--no-resume] [--force]
 */
 
 import fs from 'fs';
@@ -183,20 +183,25 @@ async function callAzureResponses({ endpoint, apiKey, model, input, maxOutputTok
 }
 
 function parseArgs(argv) {
-  const args = { limit: 0, sleep: 0 };
+  const args = { limit: 0, sleep: 0, stream: false, flushEvery: 0, resume: true, force: false };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--pot') args.pot = argv[++i];
     else if (a === '--po') args.po = argv[++i];
     else if (a === '--limit') args.limit = parseInt(argv[++i], 10) || 0;
     else if (a === '--sleep') args.sleep = parseFloat(argv[++i]) || 0;
+    else if (a === '--stream') args.stream = true;
+    else if (a === '--flush-every') args.flushEvery = parseInt(argv[++i], 10) || 0;
+    else if (a === '--resume') args.resume = true;
+    else if (a === '--no-resume') args.resume = false;
+    else if (a === '--force') { args.force = true; args.resume = false; }
     else if (a === '--help' || a === '-h') args.help = true;
   }
   return args;
 }
 
 function usage() {
-  console.log('Usage: node scripts/ai_translate_po.js --pot strings_template.pot --po strings.po [--limit N] [--sleep S]');
+  console.log('Usage: node scripts/ai_translate_po.js --pot strings_template.pot --po strings.po [--limit N] [--sleep S] [--stream] [--flush-every N] [--resume|--no-resume] [--force]');
 }
 
 async function main() {
@@ -218,13 +223,32 @@ async function main() {
   const potBuf = await fsp.readFile(args.pot);
   const pot = gettextParser.po.parse(potBuf);
 
-  const out = { charset: 'utf-8', translations: {} };
+  // Try to load existing PO to resume
+  let existingPo = null;
+  if (args.resume) {
+    try {
+      if (fs.existsSync(args.po)) {
+        const poBuf = await fsp.readFile(args.po);
+        existingPo = gettextParser.po.parse(poBuf);
+        console.log(`Resuming from existing ${args.po}`);
+      }
+    } catch (e) {
+      console.warn(`[warn] Failed to load existing PO (${args.po}): ${e.message}`);
+      existingPo = null;
+    }
+  }
+
+  const out = existingPo && existingPo.translations
+    ? existingPo
+    : { charset: 'utf-8', translations: {} };
+  // Ensure/refresh headers
   out.headers = {
-    'Project-Id-Version': pot.headers?.['Project-Id-Version'] || '',
-    'POT-Creation-Date': pot.headers?.['POT-Creation-Date'] || '',
-    'PO-Revision-Date': '',
-    'Last-Translator': '',
-    'Language-Team': '',
+    ...(out.headers || {}),
+    'Project-Id-Version': pot.headers?.['Project-Id-Version'] || out.headers?.['Project-Id-Version'] || '',
+    'POT-Creation-Date': pot.headers?.['POT-Creation-Date'] || out.headers?.['POT-Creation-Date'] || '',
+    'PO-Revision-Date': out.headers?.['PO-Revision-Date'] || '',
+    'Last-Translator': out.headers?.['Last-Translator'] || '',
+    'Language-Team': out.headers?.['Language-Team'] || '',
     'Language': 'id',
     'MIME-Version': '1.0',
     'Content-Type': 'text/plain; charset=UTF-8',
@@ -244,12 +268,43 @@ async function main() {
   }
 
   let processed = 0;
+  const shouldFlush = () => args.stream || (args.flushEvery > 0 && processed > 0 && processed % args.flushEvery === 0);
+  const atomicWrite = async (filePath, buf) => {
+    const tmp = `${filePath}.partial`;
+    await fsp.writeFile(tmp, buf);
+    await fsp.rename(tmp, filePath);
+  };
   for (const { ctx, item } of entries) {
     const msgid = item.msgid || '';
     const msgidPlural = item.msgid_plural || null;
     const placeholders = extractPlaceholders(msgid);
     const userContent = buildUserPrompt(msgid, ctx || '', placeholders);
     let translation = '';
+
+    // Skip if resuming and existing translation is good
+    const prev = out.translations?.[ctx]?.[msgid];
+    const prevStr = Array.isArray(prev?.msgstr) ? (prev.msgstr[0] || '') : '';
+    const prevFuzzy = !!(prev?.flags && prev.flags.fuzzy);
+    const prevMissing = placeholders.filter((ph) => !prevStr.includes(ph));
+    const canSkip = !args.force && prev && !prevFuzzy && prevStr.trim().length > 0 && prevMissing.length === 0;
+    if (canSkip) {
+      // Ensure structure exists in out (resume keeps it), then maybe flush
+      out.translations[ctx] = out.translations[ctx] || {};
+      out.translations[ctx][msgid] = prev;
+      processed += 1;
+      if (shouldFlush()) {
+        try {
+          const partial = gettextParser.po.compile(out);
+          await atomicWrite(args.po, partial);
+          console.log(`Flushed partial ${args.po} at ${processed}/${entries.length}`);
+        } catch (e) {
+          console.warn(`[warn] Failed to flush partial PO: ${e.message}`);
+        }
+      }
+      if (args.limit && processed >= args.limit) break;
+      if (args.sleep) await sleep(args.sleep * 1000);
+      continue;
+    }
     try {
       // Build Responses API input payload (messages moved to 'input')
       const input = [
@@ -363,12 +418,22 @@ async function main() {
     } catch {}
 
     processed += 1;
+    // Stream/flush partial PO to disk if requested
+    if (shouldFlush()) {
+      try {
+        const partial = gettextParser.po.compile(out);
+        await atomicWrite(args.po, partial);
+        console.log(`Flushed partial ${args.po} at ${processed}/${entries.length}`);
+      } catch (e) {
+        console.warn(`[warn] Failed to flush partial PO: ${e.message}`);
+      }
+    }
     if (args.limit && processed >= args.limit) break;
     if (args.sleep) await sleep(args.sleep * 1000);
   }
 
   const poBuf = gettextParser.po.compile(out);
-  await fsp.writeFile(args.po, poBuf);
+  await atomicWrite(args.po, poBuf);
   console.log(`Wrote ${args.po} with ${processed} translated entries.`);
 }
 
