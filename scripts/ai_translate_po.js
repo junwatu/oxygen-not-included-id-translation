@@ -46,6 +46,7 @@ function buildUserPrompt(msgid, ctx, placeholders) {
   const lines = [];
   lines.push('Translate the English string into Indonesian.');
   lines.push('Strictly preserve placeholders, tags, punctuation, and line breaks.');
+  lines.push('Match the exact number of leading and trailing line breaks as the English.');
   lines.push('Do not add or remove tags or placeholders. Output only the translation.');
   if (ctx) lines.push(`Context: ${ctx}`);
   lines.push(`English: ${msgid}`);
@@ -135,7 +136,7 @@ async function callAzureResponses({ endpoint, apiKey, model, input, maxOutputTok
   }
   // Prefer output_text if available (Responses API convenience field)
   if (typeof data.output_text === 'string' && data.output_text.length > 0) {
-    return data.output_text.trim();
+    return data.output_text; // do not trim to preserve edge newlines
   }
 
   const extractFromContentArray = (arr) => {
@@ -149,7 +150,7 @@ async function callAzureResponses({ endpoint, apiKey, model, input, maxOutputTok
         texts.push(part);
       }
     }
-    return texts.join('\n').trim();
+    return texts.join('\n'); // preserve edge newlines
   };
 
   // output -> array -> first item content
@@ -165,14 +166,14 @@ async function callAzureResponses({ endpoint, apiKey, model, input, maxOutputTok
   // choices -> message -> content (string or array)
   if (Array.isArray(data.choices) && data.choices[0]?.message) {
     const mc = data.choices[0].message.content;
-    if (typeof mc === 'string') return mc.trim();
+    if (typeof mc === 'string') return mc; // preserve edge newlines
     const maybeChoices = extractFromContentArray(mc);
     if (maybeChoices) return maybeChoices;
   }
 
   // message -> content (non-standard but seen in some proxies)
   if (data.message?.content) {
-    if (typeof data.message.content === 'string') return data.message.content.trim();
+    if (typeof data.message.content === 'string') return data.message.content; // preserve edge newlines
     const maybeMsg = extractFromContentArray(data.message.content);
     if (maybeMsg) return maybeMsg;
   }
@@ -183,7 +184,7 @@ async function callAzureResponses({ endpoint, apiKey, model, input, maxOutputTok
 }
 
 function parseArgs(argv) {
-  const args = { limit: 0, sleep: 0, stream: false, flushEvery: 0, resume: true, force: false };
+  const args = { limit: 0, sleep: 0, stream: false, flushEvery: 0, resume: true, force: false, onlyUntranslated: false };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--pot') args.pot = argv[++i];
@@ -195,13 +196,14 @@ function parseArgs(argv) {
     else if (a === '--resume') args.resume = true;
     else if (a === '--no-resume') args.resume = false;
     else if (a === '--force') { args.force = true; args.resume = false; }
+    else if (a === '--only-untranslated') args.onlyUntranslated = true;
     else if (a === '--help' || a === '-h') args.help = true;
   }
   return args;
 }
 
 function usage() {
-  console.log('Usage: node scripts/ai_translate_po.js --pot strings_template.pot --po strings.po [--limit N] [--sleep S] [--stream] [--flush-every N] [--resume|--no-resume] [--force]');
+  console.log('Usage: node scripts/ai_translate_po.js --pot strings_template.pot --po strings.po [--limit N] [--sleep S] [--stream] [--flush-every N] [--resume|--no-resume] [--force] [--only-untranslated]');
 }
 
 async function main() {
@@ -210,6 +212,20 @@ async function main() {
     usage();
     process.exit(args.help ? 0 : 1);
   }
+
+  // Helpers to enforce matching leading/trailing newlines between msgid and translation
+  const countLeadingNewlines = (s = '') => {
+    let i = 0; while (i < s.length && s[i] === '\n') i += 1; return i;
+  };
+  const countTrailingNewlines = (s = '') => {
+    let i = 0; while (i < s.length && s[s.length - 1 - i] === '\n') i += 1; return i;
+  };
+  const adjustEdgeNewlines = (s = '', ref = '') => {
+    const leadRef = countLeadingNewlines(ref);
+    const trailRef = countTrailingNewlines(ref);
+    const core = s.replace(/^\n+/, '').replace(/\n+$/, '');
+    return ('\n'.repeat(leadRef)) + core + ('\n'.repeat(trailRef));
+  };
 
   const endpoint = process.env.AZURE_OPENAI_ENDPOINT;
   const apiKey = process.env.AZURE_API_KEY;
@@ -258,6 +274,19 @@ async function main() {
     'X-Generator': 'ai_translate_po.js',
   };
 
+  // Simple translation memory to reuse identical English across contexts within and across runs
+  const tm = new Map();
+  for (const [ctx, ctxBlock] of Object.entries(out.translations || {})) {
+    for (const [msgid, item] of Object.entries(ctxBlock || {})) {
+      if (ctx === '' && msgid === '') continue;
+      const candidate = Array.isArray(item?.msgstr) ? (item.msgstr[0] || '') : '';
+      const isFuzzy = !!(item?.flags && item.flags.fuzzy);
+      if (!isFuzzy && candidate && !tm.has(msgid)) {
+        tm.set(msgid, candidate);
+      }
+    }
+  }
+
   const entries = [];
   for (const [ctx, ctxBlock] of Object.entries(pot.translations || {})) {
     for (const [msgid, item] of Object.entries(ctxBlock || {})) {
@@ -286,11 +315,23 @@ async function main() {
     const prevStr = Array.isArray(prev?.msgstr) ? (prev.msgstr[0] || '') : '';
     const prevFuzzy = !!(prev?.flags && prev.flags.fuzzy);
     const prevMissing = placeholders.filter((ph) => !prevStr.includes(ph));
-    const canSkip = !args.force && prev && !prevFuzzy && prevStr.trim().length > 0 && prevMissing.length === 0;
+    const canSkip = !args.force && prev && (
+      args.onlyUntranslated ? (prevStr.trim().length > 0) : (!prevFuzzy && prevStr.trim().length > 0 && prevMissing.length === 0)
+    );
     if (canSkip) {
-      // Ensure structure exists in out (resume keeps it), then maybe flush
+      // Ensure structure exists in out (resume keeps it), normalize edge newlines, then maybe flush
+      const normalizePrev = (p) => {
+        try {
+          if (Array.isArray(p?.msgstr) && p.msgstr.length > 0) {
+            // Adjust msgstr[0] newlines to match msgid
+            p.msgstr[0] = adjustEdgeNewlines(String(p.msgstr[0] || ''), msgid);
+          }
+          return p;
+        } catch { return p; }
+      };
+      const normalized = normalizePrev(prev);
       out.translations[ctx] = out.translations[ctx] || {};
-      out.translations[ctx][msgid] = prev;
+      out.translations[ctx][msgid] = normalized;
       processed += 1;
       if (shouldFlush()) {
         try {
@@ -305,6 +346,15 @@ async function main() {
       if (args.sleep) await sleep(args.sleep * 1000);
       continue;
     }
+    // Try translation memory before API call
+    const tmCandidate = tm.get(msgid);
+    if (tmCandidate) {
+      const missingFromTM = placeholders.filter((ph) => !tmCandidate.includes(ph));
+      if (missingFromTM.length === 0) {
+        translation = tmCandidate;
+      }
+    }
+    // If no TM hit, call API
     try {
       // Build Responses API input payload (messages moved to 'input')
       const input = [
@@ -379,6 +429,11 @@ async function main() {
       }
     }
 
+    // Normalize edge newlines to match msgid to avoid msgfmt '\n' mismatch warnings
+    if (translation != null) {
+      translation = adjustEdgeNewlines(String(translation), msgid);
+    }
+
     // Validate placeholder preservation; mark fuzzy if any missing
     const missing = placeholders.filter((ph) => !translation.includes(ph));
     const flags = { ...(item.flags || {}) };
@@ -408,6 +463,9 @@ async function main() {
     }
 
     out.translations[ctx][item.msgid] = outItem;
+    if (translation) {
+      tm.set(msgid, translation);
+    }
 
     // Echo translation to console for visibility
     try {
