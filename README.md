@@ -34,19 +34,9 @@ Untuk memudahkan proses kompilasi (`.po -> .mo`), pengecekan kualitas, dan stati
 - `make sync`: Salin `strings.po` ke `public/strings.po`.
 
 
-## Kolaborasi
-Translasi ini sifatnya kolaboratif dan jika anda ingin ikut mentranslasi game ini langkahnya adalah:
-
-### Bagi yang biasa memakai Git
-- Instal [Poedit](https://poedit.net/)
-- Kemudian fork repositori ini
-- Terjemahkan melalui poedit
-- Kemudian Pull Request
-
-
 ## Pengetesan
-Untuk pengetesan taruh berkas `string.po` dan `string.mo` di folder `public` repositori ini ke dalam folder `[Folder_Steam_Kamu]\OxygenNotIncluded\OxygenNotIncluded_Data\StreamingAssets\Mods` kemudian jalankan ONI dan pilih Bahasa Indonesia di menu `Options -> Choose a Different Language -> Steam Workshop`.
 
+https://youtube.com/live/R7-TR6SBuEM
 
 ## Lisensi 
 
